@@ -1,0 +1,34 @@
+Use the uploaded vehicle photo as the main reference for both the car and the personified human character.
+
+Create a wide 16:9 ultra-realistic editorial fashion photo in the same composition as the reference concept: a retro American diner exterior in the background, warm sunny afternoon light, pastel vintage atmosphere, palm trees, a large diner sign, outdoor chairs, umbrellas, glass windows, nostalgic drive-in mood, and clean cinematic lifestyle photography. The overall background color palette should not remain fixed. Instead, the diner building, signage, outdoor furniture, umbrellas, trims, and decorative elements should use a coordinated retro pastel color scheme that harmonizes with the uploaded vehicle’s main body color and accent colors.
+
+Place the uploaded user’s vehicle in front of the retro diner, parked at a slight front three-quarter angle. The vehicle must accurately reflect the uploaded car’s real design, body shape, proportions, color, headlights, grille, wheels, and distinctive details. Do not replace it with a different car model. Keep the vehicle recognizable as the exact uploaded car.
+
+Transform the uploaded vehicle into a young adult Korean woman character sitting naturally on the front hood of the same vehicle. The woman is the human personification of the uploaded car. Her overall visual identity must be directly derived from the uploaded vehicle’s body shape, proportions, design language, trim, color palette, silhouette, mood, and distinctive styling cues.
+
+Her physical appearance, facial impression, hairstyle, and outfit style must change depending on the uploaded vehicle. Do not keep the same generic character design for every car. Instead, interpret the car’s personality as a human. If the car feels sporty, make her look sharper, more sleek, chic, and dynamic. If the car feels elegant or premium, make her look refined, poised, sophisticated, and graceful. If the car feels cute, compact, or friendly, give her a softer, more youthful, approachable, and delicate charm. If the car feels bold, strong, or rugged, make her feel more confident, stylish, and powerful.
+
+Her face should reflect the vehicle’s identity. The facial impression, eye shape, makeup mood, expression, and overall aura should be inspired by the uploaded vehicle’s styling language. Keep her attractive, natural, and photorealistic, but make her identity feel meaningfully tied to the uploaded vehicle.
+
+Her hairstyle must also be influenced by the uploaded vehicle. Adjust the hair length, silhouette, volume, texture, and styling according to the car’s personality and shape. Hair color should remain realistic, but it may subtly reflect the vehicle’s palette, undertones, or overall visual mood.
+
+Her outfit style must also change depending on the uploaded vehicle, while still fitting the retro diner fashion editorial setting. The outfit should be a fashion interpretation of the car’s identity. It may be a fitted sleeveless mini dress, a sleek tailored set, a chic modern one-piece, or a sporty fitted look depending on what best matches the uploaded vehicle. Use the vehicle’s main body color and accent colors as the base palette, and incorporate subtle design details inspired by the grille, headlights, wheel design, trim lines, emblem shape, or other distinctive features. She wears matching high heels in the same main color family as the outfit, unless a different elegant shoe style better suits the car-inspired fashion concept.
+
+The woman should sit properly on the hood, positioned near the front-center area of the car, with one hand resting lightly on the hood and the other hand placed naturally beside her body. Her legs are crossed gracefully and angled downward toward the front bumper. Her posture should look stable, natural, and editorial, like a fashion magazine car photoshoot.
+
+Keep the camera pulled back with generous empty space around the subject. The full car, full body of the woman, diner building, signage, outdoor furniture, and surrounding retro street atmosphere should all be visible. Use a balanced wide composition with the woman and car placed slightly right of center, leaving spacious background and foreground.
+
+The representative colors used in the building and surrounding visual elements must also adapt to the uploaded vehicle. Use the car’s main body color, secondary tones, and accent details as inspiration for the diner’s facade, sign accents, chair colors, parasols, window trims, and other environmental design elements. The result should feel color-coordinated and intentional, as if the entire scene was art-directed around the uploaded vehicle. Keep the palette tasteful, retro, pastel-toned, and visually harmonious, while still preserving the nostalgic American diner atmosphere.
+
+The car may be subtly decorated or custom-painted to harmonize with the retro diner atmosphere, but it must still remain recognizable as the uploaded vehicle. Add tasteful pastel accents, thin side stripes, matching wheel details, or small retro-inspired trim elements that complement the scene’s vehicle-inspired color palette and the personified character’s outfit.
+
+The vehicle’s license plate must be obscured, covered, blurred, or blocked so that no plate number is visible.
+
+Add a small watermark text "@tting_ssam" in the bottom-right corner. The watermark should be clean, subtle, low-opacity, and naturally placed so it does not distract from the image.
+
+Lighting: warm golden-hour sunlight, soft shadows, natural reflections on the car body, glossy highlights, realistic skin texture, natural hair shine, gentle cinematic color grading, shallow but not overly blurred depth of field. The image should feel like a high-end magazine photoshoot with a nostalgic retro summer mood.
+
+Style: ultra-realistic photography, high-detail photorealism, editorial fashion photo, cinematic composition, natural body proportions, realistic car scale, realistic anatomy, clean details, soft film grain, premium lifestyle advertising mood.
+
+Negative prompt:
+different car, wrong vehicle model, inaccurate car design, distorted car, fake grille, wrong headlights, wrong wheels, low-quality car details, deformed vehicle, unrealistic car scale, floating person, unstable sitting pose, bad anatomy, extra fingers, extra limbs, distorted hands, warped face, doll-like face, generic repeated character design, same face for every car, same hairstyle for every car, same outfit for every car, same background colors for every car, anime, illustration, cartoon, CGI, 3D render, overly plastic skin, over-smoothed skin, excessive beauty filter, overly sexualized pose, explicit nudity, lingerie, transparent clothing, messy background, unreadable signs, wrong text, visible license plate number, misspelled watermark, large watermark, distracting logo, cropped body, cropped car, too close-up, no empty space, studio background.

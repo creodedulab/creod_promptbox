@@ -59,8 +59,17 @@ textarea {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-size: 19px;
   font-weight: 900;
+}
+
+.brand-logo {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
 }
 
 .submit-link,
@@ -84,7 +93,7 @@ textarea {
 }
 
 .hero {
-  padding-top: 54px;
+  padding-top: 20px;
   padding-bottom: 48px;
 }
 
@@ -109,6 +118,50 @@ h1 {
   margin-bottom: 0;
   font-size: clamp(42px, 6vw, 76px);
   line-height: 1.02;
+}
+
+.hero-title {
+  position: relative;
+  display: inline-block;
+  isolation: isolate;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0) 38%),
+    linear-gradient(112deg, #0b4eea 0%, #3157f6 32%, #6842e7 64%, #a12ce0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: -0.02em;
+  -webkit-text-stroke: 0.7px rgba(22, 32, 92, 0.12);
+  filter: drop-shadow(0 1px 0 rgba(255, 255, 255, 0.9));
+  text-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9),
+    0 12px 24px rgba(37, 99, 235, 0.22),
+    0 24px 48px rgba(124, 58, 237, 0.2);
+}
+
+.hero-title::after {
+  content: "Creod Prompt Box";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  transform: translate(3px, 4px);
+  background: linear-gradient(112deg, rgba(30, 64, 175, 0.5), rgba(88, 28, 135, 0.42));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 0.8px rgba(36, 40, 120, 0.14);
+}
+
+.hero-title::before {
+  content: "";
+  position: absolute;
+  inset: -18px -26px;
+  z-index: -2;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 28% 30%, rgba(96, 165, 250, 0.2), transparent 40%),
+    radial-gradient(circle at 72% 60%, rgba(168, 85, 247, 0.18), transparent 44%);
+  filter: blur(4px);
 }
 
 h2 {
@@ -415,6 +468,17 @@ h2 {
   white-space: pre-wrap;
 }
 
+.source-notice {
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  border-radius: 8px;
+  background: var(--accent-soft);
+  color: #1d4ed8;
+  margin: 16px 0 0;
+  padding: 11px 13px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
 .variable-panel,
 .final-panel {
   border-top: 1px solid var(--line);
@@ -547,7 +611,7 @@ body.modal-open {
   }
 
   .hero {
-    padding-top: 52px;
+    padding-top: 20px;
     padding-bottom: 48px;
   }
 

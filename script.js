@@ -13,18 +13,18 @@ const categoryMap = {
       ["daily", "일상"],
       ["wallpaper", "배경화면"],
       ["season", "시즌"],
-      ["thumbnail", "섬네일"],
+      ["thumbnail", "썸네일"],
     ],
   },
-  vab: {
-    label: "VAB",
+  vba: {
+    label: "VBA",
     subcategories: [
       ["excel", "엑셀"],
       ["powerpoint", "파워포인트"],
     ],
   },
   appscript: {
-    label: "앱스크립트",
+    label: "앱스스크립트",
     subcategories: [
       ["google-sheets", "구글시트"],
       ["google-forms", "구글폼"],
@@ -40,62 +40,7 @@ const categoryMap = {
   },
 };
 
-const fallbackGalleryItems = [
-  {
-    title: "스킨케어 광고포스터",
-    mainCategory: "image",
-    mainCategoryLabel: "이미지",
-    subCategory: "ad-poster",
-    subCategoryLabel: "광고포스터",
-    tool: "Image AI",
-    size: "tall",
-    image: "",
-    description: "화장품 브랜드의 깨끗한 광고 포스터 예시",
-    prompt:
-      "미니멀한 [제품명] 광고포스터를 만들어줘. {촬영장소}, {{조명}}, 물방울 질감, [메인컬러] 톤, 고급 브랜드 광고 사진 스타일.",
-  },
-  {
-    title: "엑셀 보고서 자동화",
-    mainCategory: "vab",
-    mainCategoryLabel: "VAB",
-    subCategory: "excel",
-    subCategoryLabel: "엑셀",
-    tool: "VAB",
-    size: "wide",
-    image: "",
-    description: "월별 데이터를 정리하고 요약표를 만드는 자동화 프롬프트",
-    prompt:
-      "엑셀에서 [시트명]의 데이터를 기준으로 {집계기준}별 요약표를 만들고, {{차트종류}} 차트를 생성하는 VAB 코드를 작성해줘.",
-  },
-  {
-    title: "구글시트 정리 자동화",
-    mainCategory: "appscript",
-    mainCategoryLabel: "앱스크립트",
-    subCategory: "google-sheets",
-    subCategoryLabel: "구글시트",
-    tool: "Apps Script",
-    size: "",
-    image: "",
-    description: "구글시트 데이터를 정리하고 메뉴를 추가하는 앱스크립트 프롬프트",
-    prompt:
-      "구글시트 [시트명]에서 {처리할열}을 기준으로 중복을 제거하고, {{메뉴명}} 커스텀 메뉴를 추가하는 Apps Script를 작성해줘.",
-  },
-  {
-    title: "노트북LM 슬라이드 프롬프트",
-    mainCategory: "notebooklm",
-    mainCategoryLabel: "노트북LM",
-    subCategory: "slides",
-    subCategoryLabel: "슬라이드",
-    tool: "NotebookLM",
-    size: "wide",
-    image: "",
-    link: "https://creodedulab.github.io/ntlm_design_prmpt/",
-    description: "노트북LM 기반 슬라이드 디자인 프롬프트 페이지로 연결",
-    prompt: "노트북LM 슬라이드 프롬프트는 연결된 페이지에서 확인하세요.",
-  },
-];
-
-let galleryItems = [...fallbackGalleryItems];
+let galleryItems = [];
 let activeMainCategory = "all";
 let activeSubCategory = "all";
 let selectedPrompt = "";
@@ -171,7 +116,7 @@ async function loadGalleryItems() {
       galleryItems = items.map(normalizeItem);
     }
   } catch {
-    galleryItems = [...fallbackGalleryItems];
+    galleryItems = [];
   }
 
   renderSubcategoryTabs();

@@ -1,57 +1,109 @@
+const categoryMap = {
+  image: {
+    label: "이미지",
+    subcategories: [
+      ["ad-poster", "광고포스터"],
+      ["person", "인물"],
+      ["animal", "동물"],
+      ["avatar", "아바타"],
+      ["cosplay", "코스프레"],
+      ["illustration", "일러스트"],
+      ["infographic", "인포그래픽"],
+      ["mockup", "목업"],
+      ["daily", "일상"],
+      ["wallpaper", "배경화면"],
+      ["season", "시즌"],
+      ["thumbnail", "섬네일"],
+    ],
+  },
+  vab: {
+    label: "VAB",
+    subcategories: [
+      ["excel", "엑셀"],
+      ["powerpoint", "파워포인트"],
+    ],
+  },
+  appscript: {
+    label: "앱스크립트",
+    subcategories: [
+      ["google-sheets", "구글시트"],
+      ["google-forms", "구글폼"],
+      ["google-docs", "구글독스"],
+    ],
+  },
+  notebooklm: {
+    label: "노트북LM",
+    subcategories: [["slides", "슬라이드"]],
+    links: {
+      slides: "https://creodedulab.github.io/ntlm_design_prmpt/",
+    },
+  },
+};
+
 const fallbackGalleryItems = [
   {
-    title: "스킨케어 제품 화보",
-    category: "product",
-    categoryLabel: "제품",
+    title: "스킨케어 광고포스터",
+    mainCategory: "image",
+    mainCategoryLabel: "이미지",
+    subCategory: "ad-poster",
+    subCategoryLabel: "광고포스터",
     tool: "Image AI",
     size: "tall",
     image: "",
-    description: "깨끗한 욕실 조명과 투명한 물방울 질감의 제품 컷",
+    description: "화장품 브랜드의 깨끗한 광고 포스터 예시",
     prompt:
-      "미니멀한 [제품명] 제품 화보를 만들어줘. {촬영장소}, {{조명}}, 물방울 질감, [메인컬러] 톤, 고급 브랜드 광고 사진 스타일.",
+      "미니멀한 [제품명] 광고포스터를 만들어줘. {촬영장소}, {{조명}}, 물방울 질감, [메인컬러] 톤, 고급 브랜드 광고 사진 스타일.",
   },
   {
-    title: "카페 신메뉴 포스터",
-    category: "brand",
-    categoryLabel: "브랜딩",
-    tool: "Image AI",
+    title: "엑셀 보고서 자동화",
+    mainCategory: "vab",
+    mainCategoryLabel: "VAB",
+    subCategory: "excel",
+    subCategoryLabel: "엑셀",
+    tool: "VAB",
     size: "wide",
     image: "",
-    description: "계절 음료 출시를 알리는 따뜻한 무드의 포스터",
+    description: "월별 데이터를 정리하고 요약표를 만드는 자동화 프롬프트",
     prompt:
-      "[시즌] 시즌 카페 [메뉴명] 포스터 이미지를 만들어줘. 크림 질감, {조명}, [포인트컬러] 포인트, 인쇄 광고에 어울리는 구성.",
+      "엑셀에서 [시트명]의 데이터를 기준으로 {집계기준}별 요약표를 만들고, {{차트종류}} 차트를 생성하는 VAB 코드를 작성해줘.",
   },
   {
-    title: "프로필용 인물 사진",
-    category: "portrait",
-    categoryLabel: "인물",
-    tool: "Image AI",
+    title: "구글시트 정리 자동화",
+    mainCategory: "appscript",
+    mainCategoryLabel: "앱스크립트",
+    subCategory: "google-sheets",
+    subCategoryLabel: "구글시트",
+    tool: "Apps Script",
     size: "",
     image: "",
-    description: "링크드인과 포트폴리오에 사용할 수 있는 자연스러운 프로필",
+    description: "구글시트 데이터를 정리하고 메뉴를 추가하는 앱스크립트 프롬프트",
     prompt:
-      "[사용처]에 사용할 전문적이지만 딱딱하지 않은 프로필 사진을 만들어줘. {표정}, [조명], [의상], 얕은 심도, 고해상도 인물 사진.",
+      "구글시트 [시트명]에서 {처리할열}을 기준으로 중복을 제거하고, {{메뉴명}} 커스텀 메뉴를 추가하는 Apps Script를 작성해줘.",
   },
   {
-    title: "소형 서재 인테리어",
-    category: "space",
-    categoryLabel: "공간",
-    tool: "Image AI",
-    size: "tall",
+    title: "노트북LM 슬라이드 프롬프트",
+    mainCategory: "notebooklm",
+    mainCategoryLabel: "노트북LM",
+    subCategory: "slides",
+    subCategoryLabel: "슬라이드",
+    tool: "NotebookLM",
+    size: "wide",
     image: "",
-    description: "작은 방을 업무와 독서에 맞게 꾸민 공간 예시",
-    prompt:
-      "작은 [공간종류] 인테리어 이미지를 만들어줘. [가구소재] 책상, {조명}, 벽 선반, [주요용도]에 맞는 세팅, 좁지만 아늑한 공간, 현실적인 사진.",
+    link: "https://creodedulab.github.io/ntlm_design_prmpt/",
+    description: "노트북LM 기반 슬라이드 디자인 프롬프트 페이지로 연결",
+    prompt: "노트북LM 슬라이드 프롬프트는 연결된 페이지에서 확인하세요.",
   },
 ];
 
 let galleryItems = [...fallbackGalleryItems];
-let activeCategory = "all";
+let activeMainCategory = "all";
+let activeSubCategory = "all";
 let selectedPrompt = "";
 let selectedVariables = [];
 let variableValues = {};
 
-const categoryTabs = document.querySelectorAll(".tab");
+const mainCategoryTabs = document.querySelectorAll("[data-main-category]");
+const subcategoryTabs = document.querySelector("#subcategoryTabs");
 const galleryGrid = document.querySelector("#galleryGrid");
 const searchInput = document.querySelector("#searchInput");
 const emptyState = document.querySelector("#emptyState");
@@ -81,14 +133,29 @@ function escapeHTML(value) {
   });
 }
 
+function getCategoryLabel(mainCategory) {
+  return categoryMap[mainCategory]?.label || "이미지";
+}
+
+function getSubCategoryLabel(mainCategory, subCategory) {
+  const subcategories = categoryMap[mainCategory]?.subcategories || [];
+  return subcategories.find(([key]) => key === subCategory)?.[1] || "기타";
+}
+
 function normalizeItem(item) {
+  const mainCategory = item.mainCategory || item.category || "image";
+  const subCategory = item.subCategory || item.category || "ad-poster";
+
   return {
     title: item.title || "제목 없음",
-    category: item.category || "product",
-    categoryLabel: item.categoryLabel || "제품",
-    tool: item.tool || "Image AI",
+    mainCategory,
+    mainCategoryLabel: item.mainCategoryLabel || getCategoryLabel(mainCategory),
+    subCategory,
+    subCategoryLabel: item.subCategoryLabel || getSubCategoryLabel(mainCategory, subCategory),
+    tool: item.tool || "Prompt",
     size: item.size || "",
     image: item.image || "",
+    link: item.link || "",
     description: item.description || "",
     prompt: item.prompt || "",
   };
@@ -107,6 +174,7 @@ async function loadGalleryItems() {
     galleryItems = [...fallbackGalleryItems];
   }
 
+  renderSubcategoryTabs();
   renderGallery();
 }
 
@@ -127,12 +195,39 @@ function replaceVariables(prompt, values) {
   });
 }
 
+function renderSubcategoryTabs() {
+  if (activeMainCategory === "all") {
+    subcategoryTabs.innerHTML = "";
+    return;
+  }
+
+  const category = categoryMap[activeMainCategory];
+  const link = category?.links?.[activeSubCategory];
+
+  subcategoryTabs.innerHTML = `
+    <button class="subtab ${activeSubCategory === "all" ? "active" : ""}" type="button" data-sub-category="all">전체</button>
+    ${(category?.subcategories || [])
+      .map(
+        ([key, label]) => `
+          <button class="subtab ${activeSubCategory === key ? "active" : ""}" type="button" data-sub-category="${key}">
+            ${label}
+          </button>
+        `,
+      )
+      .join("")}
+    ${link ? `<a class="subtab-link" href="${link}" target="_blank" rel="noreferrer">슬라이드 페이지 열기</a>` : ""}
+  `;
+}
+
 function renderGallery() {
   const keyword = searchInput.value.trim().toLowerCase();
   const filtered = galleryItems.filter((item) => {
-    const matchesCategory = activeCategory === "all" || item.category === activeCategory;
-    const targetText = `${item.title} ${item.categoryLabel} ${item.description} ${item.prompt}`.toLowerCase();
-    return matchesCategory && targetText.includes(keyword);
+    const matchesMain =
+      activeMainCategory === "all" || item.mainCategory === activeMainCategory;
+    const matchesSub =
+      activeSubCategory === "all" || item.subCategory === activeSubCategory;
+    const targetText = `${item.title} ${item.mainCategoryLabel} ${item.subCategoryLabel} ${item.description} ${item.prompt}`.toLowerCase();
+    return matchesMain && matchesSub && targetText.includes(keyword);
   });
 
   galleryGrid.innerHTML = filtered
@@ -143,7 +238,7 @@ function renderGallery() {
             ${
               item.image
                 ? `<img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.title)} 결과물" loading="lazy" />`
-                : '<span class="placeholder">결과물 이미지 예정</span>'
+                : `<span class="placeholder">${escapeHTML(item.subCategoryLabel)}</span>`
             }
           </div>
         </article>
@@ -159,13 +254,13 @@ function openPromptModal(item) {
   selectedPrompt = item.prompt;
   selectedVariables = extractVariables(item.prompt);
   variableValues = {};
-  modalCategory.textContent = item.categoryLabel;
+  modalCategory.textContent = `${item.mainCategoryLabel} / ${item.subCategoryLabel}`;
   modalTitle.textContent = item.title;
   modalDescription.textContent = item.description;
   modalPrompt.textContent = item.prompt;
   modalImage.innerHTML = item.image
     ? `<img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.title)} 결과물" />`
-    : '<span class="placeholder">결과물 이미지 예정</span>';
+    : `<span class="placeholder">${escapeHTML(item.subCategoryLabel)}</span>`;
   renderVariableInputs();
   updateFinalPrompt();
 
@@ -227,13 +322,24 @@ async function copyPrompt(text) {
   textarea.remove();
 }
 
-categoryTabs.forEach((tab) => {
+mainCategoryTabs.forEach((tab) => {
   tab.addEventListener("click", () => {
-    categoryTabs.forEach((item) => item.classList.remove("active"));
+    mainCategoryTabs.forEach((item) => item.classList.remove("active"));
     tab.classList.add("active");
-    activeCategory = tab.dataset.category;
+    activeMainCategory = tab.dataset.mainCategory;
+    activeSubCategory = "all";
+    renderSubcategoryTabs();
     renderGallery();
   });
+});
+
+subcategoryTabs.addEventListener("click", (event) => {
+  const tab = event.target.closest("[data-sub-category]");
+  if (!tab) return;
+
+  activeSubCategory = tab.dataset.subCategory;
+  renderSubcategoryTabs();
+  renderGallery();
 });
 
 searchInput.addEventListener("input", renderGallery);
@@ -281,5 +387,6 @@ copyModalPrompt.addEventListener("click", async () => {
   showToast();
 });
 
+renderSubcategoryTabs();
 renderGallery();
 loadGalleryItems();

@@ -24,18 +24,20 @@
           <input
             id="searchInput"
             type="search"
-            placeholder="예: 제품사진, 인물, 상세페이지, 포스터"
+            placeholder="예: 광고포스터, 엑셀, 구글시트, 슬라이드"
             autocomplete="off"
           />
         </form>
 
-        <div class="category-tabs" aria-label="카테고리">
-          <button class="tab active" type="button" data-category="all">전체</button>
-          <button class="tab" type="button" data-category="product">제품</button>
-          <button class="tab" type="button" data-category="portrait">인물</button>
-          <button class="tab" type="button" data-category="brand">브랜딩</button>
-          <button class="tab" type="button" data-category="space">공간</button>
+        <div class="category-tabs" aria-label="메인 카테고리">
+          <button class="tab active" type="button" data-main-category="all">전체</button>
+          <button class="tab" type="button" data-main-category="image">이미지</button>
+          <button class="tab" type="button" data-main-category="vab">VAB</button>
+          <button class="tab" type="button" data-main-category="appscript">앱스크립트</button>
+          <button class="tab" type="button" data-main-category="notebooklm">노트북LM</button>
         </div>
+
+        <div class="subcategory-tabs" id="subcategoryTabs" aria-label="세부 카테고리"></div>
       </section>
 
       <section class="gallery-section" aria-labelledby="galleryTitle">

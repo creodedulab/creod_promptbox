@@ -1,42 +1,87 @@
 [
   {
-    "title": "스킨케어 제품 화보",
-    "category": "product",
-    "categoryLabel": "제품",
+    "title": "스킨케어 광고포스터",
+    "mainCategory": "image",
+    "mainCategoryLabel": "이미지",
+    "subCategory": "ad-poster",
+    "subCategoryLabel": "광고포스터",
     "tool": "Image AI",
     "size": "tall",
     "image": "",
-    "description": "깨끗한 욕실 조명과 투명한 물방울 질감의 제품 컷",
-    "prompt": "미니멀한 [제품명] 제품 화보를 만들어줘. {촬영장소}, {{조명}}, 물방울 질감, [메인컬러] 톤, 고급 브랜드 광고 사진 스타일."
+    "description": "화장품 브랜드의 깨끗한 광고 포스터 예시",
+    "prompt": "미니멀한 [제품명] 광고포스터를 만들어줘. {촬영장소}, {{조명}}, 물방울 질감, [메인컬러] 톤, 고급 브랜드 광고 사진 스타일."
   },
   {
-    "title": "카페 신메뉴 포스터",
-    "category": "brand",
-    "categoryLabel": "브랜딩",
-    "tool": "Image AI",
-    "size": "wide",
-    "image": "",
-    "description": "계절 음료 출시를 알리는 따뜻한 무드의 포스터",
-    "prompt": "[시즌] 시즌 카페 [메뉴명] 포스터 이미지를 만들어줘. 크림 질감, {조명}, [포인트컬러] 포인트, 인쇄 광고에 어울리는 구성."
-  },
-  {
-    "title": "프로필용 인물 사진",
-    "category": "portrait",
-    "categoryLabel": "인물",
+    "title": "인물 프로필 사진",
+    "mainCategory": "image",
+    "mainCategoryLabel": "이미지",
+    "subCategory": "person",
+    "subCategoryLabel": "인물",
     "tool": "Image AI",
     "size": "",
     "image": "",
-    "description": "링크드인과 포트폴리오에 사용할 수 있는 자연스러운 프로필",
-    "prompt": "[사용처]에 사용할 전문적이지만 딱딱하지 않은 프로필 사진을 만들어줘. {표정}, [조명], [의상], 얕은 심도, 고해상도 인물 사진."
+    "description": "프로필과 포트폴리오에 사용할 수 있는 인물 사진 프롬프트",
+    "prompt": "[사용처]에 사용할 전문적이지만 딱딱하지 않은 인물 사진을 만들어줘. {표정}, [조명], [의상], 얕은 심도, 고해상도 사진."
   },
   {
-    "title": "소형 서재 인테리어",
-    "category": "space",
-    "categoryLabel": "공간",
-    "tool": "Image AI",
-    "size": "tall",
+    "title": "엑셀 보고서 자동화",
+    "mainCategory": "vab",
+    "mainCategoryLabel": "VAB",
+    "subCategory": "excel",
+    "subCategoryLabel": "엑셀",
+    "tool": "VAB",
+    "size": "wide",
     "image": "",
-    "description": "작은 방을 업무와 독서에 맞게 꾸민 공간 예시",
-    "prompt": "작은 [공간종류] 인테리어 이미지를 만들어줘. [가구소재] 책상, {조명}, 벽 선반, [주요용도]에 맞는 세팅, 좁지만 아늑한 공간, 현실적인 사진."
+    "description": "월별 데이터를 정리하고 요약표를 만드는 자동화 프롬프트",
+    "prompt": "엑셀에서 [시트명]의 데이터를 기준으로 {집계기준}별 요약표를 만들고, {{차트종류}} 차트를 생성하는 VAB 코드를 작성해줘."
+  },
+  {
+    "title": "파워포인트 발표자료 정리",
+    "mainCategory": "vab",
+    "mainCategoryLabel": "VAB",
+    "subCategory": "powerpoint",
+    "subCategoryLabel": "파워포인트",
+    "tool": "VAB",
+    "size": "wide",
+    "image": "",
+    "description": "슬라이드 제목과 본문 스타일을 일괄 정리하는 프롬프트",
+    "prompt": "파워포인트에서 [프레젠테이션명]의 모든 슬라이드를 확인하고, {제목스타일}과 {{본문스타일}}을 적용하는 VAB 코드를 작성해줘."
+  },
+  {
+    "title": "구글시트 정리 자동화",
+    "mainCategory": "appscript",
+    "mainCategoryLabel": "앱스크립트",
+    "subCategory": "google-sheets",
+    "subCategoryLabel": "구글시트",
+    "tool": "Apps Script",
+    "size": "",
+    "image": "",
+    "description": "구글시트 데이터를 정리하고 메뉴를 추가하는 앱스크립트 프롬프트",
+    "prompt": "구글시트 [시트명]에서 {처리할열}을 기준으로 중복을 제거하고, {{메뉴명}} 커스텀 메뉴를 추가하는 Apps Script를 작성해줘."
+  },
+  {
+    "title": "구글폼 응답 알림",
+    "mainCategory": "appscript",
+    "mainCategoryLabel": "앱스크립트",
+    "subCategory": "google-forms",
+    "subCategoryLabel": "구글폼",
+    "tool": "Apps Script",
+    "size": "",
+    "image": "",
+    "description": "구글폼 응답이 들어오면 이메일로 알림을 보내는 프롬프트",
+    "prompt": "구글폼 [폼이름]에 새 응답이 들어오면 {수신자이메일}로 응답 요약을 보내는 Apps Script를 작성해줘."
+  },
+  {
+    "title": "노트북LM 슬라이드 프롬프트",
+    "mainCategory": "notebooklm",
+    "mainCategoryLabel": "노트북LM",
+    "subCategory": "slides",
+    "subCategoryLabel": "슬라이드",
+    "tool": "NotebookLM",
+    "size": "wide",
+    "image": "",
+    "link": "https://creodedulab.github.io/ntlm_design_prmpt/",
+    "description": "노트북LM 기반 슬라이드 디자인 프롬프트 페이지로 연결",
+    "prompt": "노트북LM 슬라이드 프롬프트는 연결된 페이지에서 확인하세요."
   }
 ]

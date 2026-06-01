@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creod Prompt Box</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260602-2" />
   </head>
   <body>
     <header class="site-header">
@@ -65,7 +65,17 @@
         aria-labelledby="modalTitle"
       >
         <button class="modal-close" type="button" aria-label="닫기" data-close-modal>×</button>
-        <div class="modal-image" id="modalImage"></div>
+        <div class="modal-preview">
+          <div class="modal-image" id="modalImage"></div>
+          <button class="expand-image-button" type="button" id="expandImage">
+            이미지 크게 보기
+          </button>
+          <div class="zoom-control">
+            <label for="imageZoom">돋보기</label>
+            <input id="imageZoom" type="range" min="100" max="260" value="100" step="10" />
+            <span id="imageZoomValue">100%</span>
+          </div>
+        </div>
         <div class="modal-content">
           <span class="badge" id="modalCategory"></span>
           <h2 id="modalTitle"></h2>
@@ -75,6 +85,14 @@
             <h3>변수 입력</h3>
             <p>프롬프트에서 자동으로 찾은 값을 입력하면 최종 프롬프트가 완성됩니다.</p>
             <div class="variable-list" id="variableList"></div>
+            <div class="variable-actions" id="variableActions">
+              <button class="secondary-button" type="button" id="generatePrompt">
+                변경된 프롬프트 생성
+              </button>
+              <button class="secondary-button subtle" type="button" id="resetPrompt">
+                원래 프롬프트로 되돌리기
+              </button>
+            </div>
           </div>
           <div class="final-panel">
             <h3>최종 프롬프트</h3>
@@ -83,13 +101,24 @@
           <p class="source-notice">
             프롬프트 사용 시 출처를 남겨주세요. 출처: Creod Prompt Box
           </p>
-          <button class="copy-button" type="button" id="copyModalPrompt">최종 프롬프트 복사</button>
+          <div class="prompt-actions">
+            <button class="copy-button" type="button" id="copyModalPrompt">최종 프롬프트 복사</button>
+            <a class="ai-link" href="https://chat.openai.com/" target="_blank" rel="noreferrer">GPT</a>
+            <a class="ai-link" href="https://gemini.google.com/" target="_blank" rel="noreferrer">GEMINI</a>
+            <a class="ai-link" href="https://grok.com/" target="_blank" rel="noreferrer">GROK</a>
+          </div>
         </div>
       </section>
     </div>
 
+    <div class="image-lightbox" id="imageLightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" id="closeLightbox" aria-label="닫기">×</button>
+      <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+      <div class="lightbox-image" id="lightboxImage"></div>
+    </div>
+
     <div class="toast" id="toast" role="status" aria-live="polite">프롬프트가 복사되었습니다.</div>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20260602-2"></script>
   </body>
 </html>

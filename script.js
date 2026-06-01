@@ -46,6 +46,9 @@ let activeSubCategory = "all";
 let selectedPrompt = "";
 let selectedVariables = [];
 let variableValues = {};
+let selectedImage = "";
+let selectedTitle = "";
+let selectedSubCategoryLabel = "";
 
 const mainCategoryTabs = document.querySelectorAll("[data-main-category]");
 const subcategoryTabs = document.querySelector("#subcategoryTabs");
@@ -56,14 +59,25 @@ const resultCount = document.querySelector("#resultCount");
 const toast = document.querySelector("#toast");
 const promptModal = document.querySelector("#promptModal");
 const modalImage = document.querySelector("#modalImage");
+const expandImage = document.querySelector("#expandImage");
+const imageZoom = document.querySelector("#imageZoom");
+const imageZoomValue = document.querySelector("#imageZoomValue");
+const imageLightbox = document.querySelector("#imageLightbox");
+const lightboxImage = document.querySelector("#lightboxImage");
+const closeLightbox = document.querySelector("#closeLightbox");
+const lightboxBackdrop = document.querySelector("#lightboxBackdrop");
 const modalCategory = document.querySelector("#modalCategory");
 const modalTitle = document.querySelector("#modalTitle");
 const modalDescription = document.querySelector("#modalDescription");
+const modalContent = document.querySelector(".modal-content");
 const modalPrompt = document.querySelector("#modalPrompt");
 const variablePanel = document.querySelector("#variablePanel");
 const variableList = document.querySelector("#variableList");
+const variableActions = document.querySelector("#variableActions");
 const finalPrompt = document.querySelector("#finalPrompt");
 const copyModalPrompt = document.querySelector("#copyModalPrompt");
+const generatePrompt = document.querySelector("#generatePrompt");
+const resetPrompt = document.querySelector("#resetPrompt");
 
 function escapeHTML(value) {
   return String(value).replace(/[&<>"']/g, (char) => {
@@ -185,6 +199,10 @@ function renderGallery() {
                 ? `<img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.title)} 결과물" loading="lazy" />`
                 : `<span class="placeholder">${escapeHTML(item.subCategoryLabel)}</span>`
             }
+            <div class="card-overlay">
+              <strong>${escapeHTML(item.title)}</strong>
+              <span>${escapeHTML(item.mainCategoryLabel)} / ${escapeHTML(item.subCategoryLabel)}</span>
+            </div>
           </div>
         </article>
       `,
@@ -199,20 +217,54 @@ function openPromptModal(item) {
   selectedPrompt = item.prompt;
   selectedVariables = extractVariables(item.prompt);
   variableValues = {};
+  selectedImage = item.image;
+  selectedTitle = item.title;
+  selectedSubCategoryLabel = item.subCategoryLabel;
   modalCategory.textContent = `${item.mainCategoryLabel} / ${item.subCategoryLabel}`;
   modalTitle.textContent = item.title;
   modalDescription.textContent = item.description;
   modalPrompt.textContent = item.prompt;
+  modalPrompt.hidden = selectedVariables.length === 0;
   modalImage.innerHTML = item.image
     ? `<img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.title)} 결과물" />`
     : `<span class="placeholder">${escapeHTML(item.subCategoryLabel)}</span>`;
   renderVariableInputs();
-  updateFinalPrompt();
+  resetFinalPrompt();
+  resetImageZoom();
 
   promptModal.classList.add("open");
   promptModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("modal-open");
-  copyModalPrompt.focus();
+  modalImage.scrollTop = 0;
+  modalContent.scrollTop = 0;
+  promptModal.scrollTop = 0;
+  requestAnimationFrame(() => {
+    modalContent.scrollTop = 0;
+  });
+}
+
+function resetImageZoom() {
+  imageZoom.value = "100";
+  updateImageZoom();
+}
+
+function updateImageZoom() {
+  const zoomValue = Number(imageZoom.value);
+  modalImage.style.setProperty("--zoom-scale", zoomValue / 100);
+  imageZoomValue.textContent = `${zoomValue}%`;
+}
+
+function openImageLightbox() {
+  lightboxImage.innerHTML = selectedImage
+    ? `<img src="${escapeHTML(selectedImage)}" alt="${escapeHTML(selectedTitle)} 결과물 크게 보기" />`
+    : `<span class="placeholder">${escapeHTML(selectedSubCategoryLabel)}</span>`;
+  imageLightbox.classList.add("open");
+  imageLightbox.setAttribute("aria-hidden", "false");
+}
+
+function closeImageLightbox() {
+  imageLightbox.classList.remove("open");
+  imageLightbox.setAttribute("aria-hidden", "true");
 }
 
 function closePromptModal() {
@@ -223,6 +275,7 @@ function closePromptModal() {
 
 function renderVariableInputs() {
   variablePanel.hidden = selectedVariables.length === 0;
+  variableActions.hidden = selectedVariables.length === 0;
 
   if (selectedVariables.length === 0) {
     variableList.innerHTML = "";
@@ -243,6 +296,14 @@ function renderVariableInputs() {
 
 function updateFinalPrompt() {
   finalPrompt.textContent = replaceVariables(selectedPrompt, variableValues);
+}
+
+function resetFinalPrompt() {
+  variableValues = {};
+  finalPrompt.textContent = selectedPrompt;
+  variableList.querySelectorAll("[data-variable]").forEach((input) => {
+    input.value = "";
+  });
 }
 
 function showToast() {
@@ -288,6 +349,10 @@ subcategoryTabs.addEventListener("click", (event) => {
 });
 
 searchInput.addEventListener("input", renderGallery);
+imageZoom.addEventListener("input", updateImageZoom);
+expandImage.addEventListener("click", openImageLightbox);
+closeLightbox.addEventListener("click", closeImageLightbox);
+lightboxBackdrop.addEventListener("click", closeImageLightbox);
 
 galleryGrid.addEventListener("click", (event) => {
   const card = event.target.closest(".gallery-card");
@@ -318,10 +383,18 @@ variableList.addEventListener("input", (event) => {
   if (!event.target.matches("[data-variable]")) return;
 
   variableValues[event.target.dataset.variable] = event.target.value.trim();
-  updateFinalPrompt();
 });
 
+generatePrompt.addEventListener("click", updateFinalPrompt);
+
+resetPrompt.addEventListener("click", resetFinalPrompt);
+
 document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && imageLightbox.classList.contains("open")) {
+    closeImageLightbox();
+    return;
+  }
+
   if (event.key === "Escape" && promptModal.classList.contains("open")) {
     closePromptModal();
   }

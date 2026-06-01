@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creod Prompt Box</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="topbar" aria-label="주요 메뉴">
+        <a class="brand" href="#">Creod Prompt Box</a>
+        <div class="top-actions">
+          <button class="ghost-button" type="button" id="openGithubSettings">GitHub 설정</button>
+          <button class="submit-link" type="button" id="openSavePrompt">프롬프트 저장</button>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <h1>Creod Prompt Box</h1>
+      </section>
+    </header>
+
+    <main class="gallery-page">
+      <section class="toolbar" aria-label="갤러리 필터">
+        <form class="search-form" role="search">
+          <label class="sr-only" for="searchInput">갤러리 검색</label>
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="예: 제품사진, 인물, 상세페이지, 포스터"
+            autocomplete="off"
+          />
+        </form>
+
+        <div class="category-tabs" aria-label="카테고리">
+          <button class="tab active" type="button" data-category="all">전체</button>
+          <button class="tab" type="button" data-category="product">제품</button>
+          <button class="tab" type="button" data-category="portrait">인물</button>
+          <button class="tab" type="button" data-category="brand">브랜딩</button>
+          <button class="tab" type="button" data-category="space">공간</button>
+        </div>
+      </section>
+
+      <section class="gallery-section" aria-labelledby="galleryTitle">
+        <div class="section-head">
+          <div>
+            <h2 id="galleryTitle">결과물 예시</h2>
+          </div>
+          <p id="resultCount"></p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid"></div>
+        <p class="empty-state" id="emptyState" hidden>조건에 맞는 결과물이 없습니다.</p>
+      </section>
+    </main>
+
+    <div class="modal" id="promptModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <section
+        class="modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+      >
+        <button class="modal-close" type="button" aria-label="닫기" data-close-modal>×</button>
+        <div class="modal-image" id="modalImage"></div>
+        <div class="modal-content">
+          <span class="badge" id="modalCategory"></span>
+          <h2 id="modalTitle"></h2>
+          <p id="modalDescription"></p>
+          <div class="prompt-detail" id="modalPrompt"></div>
+          <div class="variable-panel" id="variablePanel">
+            <h3>변수 입력</h3>
+            <p>프롬프트에서 자동으로 찾은 값을 입력하면 최종 프롬프트가 완성됩니다.</p>
+            <div class="variable-list" id="variableList"></div>
+          </div>
+          <div class="final-panel">
+            <h3>최종 프롬프트</h3>
+            <div class="prompt-detail" id="finalPrompt"></div>
+          </div>
+          <button class="copy-button" type="button" id="copyModalPrompt">최종 프롬프트 복사</button>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal" id="savePromptModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-save-modal></div>
+      <section
+        class="save-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="savePromptTitle"
+      >
+        <button class="modal-close" type="button" aria-label="닫기" data-close-save-modal>×</button>
+        <h2 id="savePromptTitle">프롬프트 저장</h2>
+        <p>
+          프롬프트 안의 [제품명], {톤앤매너}, {{배경}} 같은 값을 자동으로 변수로 인식합니다.
+        </p>
+        <form class="save-form" id="savePromptForm">
+          <label for="templateTitle">제목</label>
+          <input id="templateTitle" type="text" placeholder="예: 신제품 상세페이지 이미지" required />
+
+          <label for="templateCategory">카테고리</label>
+          <select id="templateCategory">
+            <option value="product">제품</option>
+            <option value="portrait">인물</option>
+            <option value="brand">브랜딩</option>
+            <option value="space">공간</option>
+          </select>
+
+          <label for="templateDescription">설명</label>
+          <input
+            id="templateDescription"
+            type="text"
+            placeholder="갤러리 모달에 표시될 짧은 설명"
+          />
+
+          <label for="templateImage">결과물 이미지</label>
+          <input id="templateImage" type="file" accept="image/*" />
+          <div class="image-upload-preview" id="imageUploadPreview">
+            <span>이미지를 선택하면 WebP로 압축되어 미리보기가 표시됩니다.</span>
+          </div>
+          <p class="upload-note" id="imageUploadStatus">
+            권장: 가로 1200px 이하, WebP 품질 78로 자동 압축
+          </p>
+
+          <label for="templatePrompt">프롬프트</label>
+          <textarea
+            id="templatePrompt"
+            rows="7"
+            placeholder="예: [제품명]의 상세페이지 히어로 이미지를 만들어줘. {톤앤매너} 분위기, {{배경}} 배경, 고해상도."
+            required
+          ></textarea>
+
+          <div class="detected-box">
+            <strong>자동 감지된 변수</strong>
+            <div id="detectedVariables">프롬프트를 입력하면 변수가 표시됩니다.</div>
+          </div>
+
+          <button class="copy-button" type="submit">저장하기</button>
+        </form>
+      </section>
+    </div>
+
+    <div class="modal" id="githubSettingsModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-github-modal></div>
+      <section
+        class="save-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="githubSettingsTitle"
+      >
+        <button class="modal-close" type="button" aria-label="닫기" data-close-github-modal>×</button>
+        <h2 id="githubSettingsTitle">GitHub 저장 설정</h2>
+        <p>
+          저장소의 Contents 권한이 있는 fine-grained token을 입력하면, 등록한
+          프롬프트와 WebP 이미지가 GitHub 저장소에 저장됩니다.
+        </p>
+        <form class="save-form" id="githubSettingsForm">
+          <label for="githubOwner">Owner</label>
+          <input id="githubOwner" type="text" value="creodedulab" required />
+
+          <label for="githubRepo">Repository</label>
+          <input id="githubRepo" type="text" value="creod_promptbox" required />
+
+          <label for="githubBranch">Branch</label>
+          <input id="githubBranch" type="text" value="main" required />
+
+          <label for="githubToken">GitHub Token</label>
+          <input
+            id="githubToken"
+            type="password"
+            placeholder="github_pat_..."
+            autocomplete="off"
+            required
+          />
+
+          <div class="detected-box">
+            <strong>필요 권한</strong>
+            <div class="settings-note">
+              Fine-grained token 기준: Repository access는 creod_promptbox,
+              Contents 권한은 Read and write.
+            </div>
+          </div>
+
+          <button class="copy-button" type="submit">설정 저장</button>
+        </form>
+      </section>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">프롬프트가 복사되었습니다.</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

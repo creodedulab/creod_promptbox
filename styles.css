@@ -975,6 +975,50 @@ body.modal-open {
     font-size: 17px;
   }
 
+  .gallery-page {
+    padding-top: 22px;
+  }
+
+  .gallery-section {
+    padding-top: 28px;
+  }
+
+  .section-head {
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    columns: auto;
+  }
+
+  .gallery-card {
+    display: block;
+    margin: 0;
+  }
+
+  .image-frame,
+  .image-frame.tall,
+  .image-frame.wide {
+    aspect-ratio: 1 / 1;
+    min-height: 0;
+  }
+
+  .card-overlay {
+    padding: 28px 10px 10px;
+  }
+
+  .card-overlay strong {
+    font-size: 12px;
+  }
+
+  .card-overlay span {
+    font-size: 11px;
+  }
+
   .modal-content h2 {
     font-size: 23px;
   }

@@ -49,6 +49,7 @@ let variableValues = {};
 let selectedImage = "";
 let selectedTitle = "";
 let selectedSubCategoryLabel = "";
+let selectedRoute = "";
 let imagePanX = 0;
 let imagePanY = 0;
 let isImagePanning = false;
@@ -87,6 +88,7 @@ const variableActions = document.querySelector("#variableActions");
 const finalPrompt = document.querySelector("#finalPrompt");
 const viewFullPrompt = document.querySelector("#viewFullPrompt");
 const copyModalPrompt = document.querySelector("#copyModalPrompt");
+const copyPromptLink = document.querySelector("#copyPromptLink");
 const generatePrompt = document.querySelector("#generatePrompt");
 const resetPrompt = document.querySelector("#resetPrompt");
 
@@ -112,6 +114,44 @@ function getSubCategoryLabel(mainCategory, subCategory) {
   return subcategories.find(([key]) => key === subCategory)?.[1] || "기타";
 }
 
+function toRouteSlug(value) {
+  return String(value)
+    .trim()
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
+
+function getItemRoute(item) {
+  return item.route || `${item.mainCategory}/${item.subCategory}/${toRouteSlug(item.title)}`;
+}
+
+function getPromptUrl(item) {
+  const route = typeof item === "string" ? item : getItemRoute(item);
+  const baseUrl = `${window.location.origin}${window.location.pathname}`;
+  return `${baseUrl}#/${route}`;
+}
+
+function getRouteFromHash() {
+  const hash = decodeURIComponent(window.location.hash || "");
+  if (!hash.startsWith("#/")) return "";
+  return hash.slice(2);
+}
+
+function findItemByRoute(route) {
+  return galleryItems.find((item) => getItemRoute(item) === route);
+}
+
+function openRouteFromHash() {
+  const route = getRouteFromHash();
+  if (!route) {
+    if (promptModal.classList.contains("open")) closePromptModal(false);
+    return;
+  }
+
+  const item = findItemByRoute(route);
+  if (item) openPromptModal(item, false);
+}
+
 function normalizeItem(item) {
   const mainCategory = item.mainCategory || item.category || "image";
   const subCategory = item.subCategory || item.category || "ad-poster";
@@ -124,6 +164,7 @@ function normalizeItem(item) {
     subCategoryLabel: item.subCategoryLabel || getSubCategoryLabel(mainCategory, subCategory),
     tool: item.tool || "Prompt",
     size: item.size || "",
+    route: item.route || `${mainCategory}/${subCategory}/${toRouteSlug(item.title || "제목 없음")}`,
     image: item.image || "",
     link: item.link || "",
     description: item.description || "",
@@ -146,6 +187,7 @@ async function loadGalleryItems() {
 
   renderSubcategoryTabs();
   renderGallery();
+  openRouteFromHash();
 }
 
 function extractVariables(prompt) {
@@ -203,7 +245,7 @@ function renderGallery() {
   galleryGrid.innerHTML = filtered
     .map(
       (item) => `
-        <article class="gallery-card" tabindex="0" role="button" aria-label="${escapeHTML(item.title)} 프롬프트 보기" data-title="${escapeHTML(item.title)}">
+        <article class="gallery-card" tabindex="0" role="button" aria-label="${escapeHTML(item.title)} 프롬프트 보기" data-route="${escapeHTML(getItemRoute(item))}">
           <div class="image-frame ${escapeHTML(item.size)}">
             ${
               item.image
@@ -224,13 +266,17 @@ function renderGallery() {
   emptyState.hidden = filtered.length > 0;
 }
 
-function openPromptModal(item) {
+function openPromptModal(item, updateHash = true) {
   selectedPrompt = item.prompt;
   selectedVariables = extractVariables(item.prompt);
   variableValues = {};
   selectedImage = item.image;
   selectedTitle = item.title;
   selectedSubCategoryLabel = item.subCategoryLabel;
+  selectedRoute = getItemRoute(item);
+  if (updateHash && getRouteFromHash() !== selectedRoute) {
+    history.pushState(null, "", `#/${selectedRoute}`);
+  }
   modalCategory.textContent = `${item.mainCategoryLabel} / ${item.subCategoryLabel}`;
   modalTitle.textContent = item.title;
   modalDescription.textContent = item.description;
@@ -350,11 +396,14 @@ function resetFinalPromptScroll() {
   fullPromptText.scrollTop = 0;
 }
 
-function closePromptModal() {
+function closePromptModal(clearHash = true) {
   closePromptLightbox();
   promptModal.classList.remove("open");
   promptModal.setAttribute("aria-hidden", "true");
   document.body.classList.remove("modal-open");
+  if (clearHash && getRouteFromHash() === selectedRoute) {
+    history.pushState(null, "", `${window.location.pathname}${window.location.search}`);
+  }
 }
 
 function renderVariableInputs() {
@@ -409,7 +458,8 @@ function resetFinalPrompt() {
   });
 }
 
-function showToast() {
+function showToast(message = "프롬프트가 복사되었습니다.") {
+  toast.textContent = message;
   toast.classList.add("show");
   window.setTimeout(() => toast.classList.remove("show"), 1600);
 }
@@ -474,7 +524,7 @@ galleryGrid.addEventListener("click", (event) => {
   const card = event.target.closest(".gallery-card");
   if (!card) return;
 
-  const item = galleryItems.find((galleryItem) => galleryItem.title === card.dataset.title);
+  const item = findItemByRoute(card.dataset.route);
   if (item) openPromptModal(item);
 });
 
@@ -485,7 +535,7 @@ galleryGrid.addEventListener("keydown", (event) => {
   if (!card) return;
 
   event.preventDefault();
-  const item = galleryItems.find((galleryItem) => galleryItem.title === card.dataset.title);
+  const item = findItemByRoute(card.dataset.route);
   if (item) openPromptModal(item);
 });
 
@@ -525,6 +575,13 @@ copyModalPrompt.addEventListener("click", async () => {
   await copyPrompt(finalPrompt.textContent);
   showToast();
 });
+
+copyPromptLink.addEventListener("click", async () => {
+  await copyPrompt(getPromptUrl(selectedRoute));
+  showToast("프롬프트 링크가 복사되었습니다.");
+});
+
+window.addEventListener("hashchange", openRouteFromHash);
 
 renderSubcategoryTabs();
 renderGallery();

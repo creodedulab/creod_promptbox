@@ -52,6 +52,13 @@ function toSitePath(filePath) {
   return path.relative(rootDir, filePath).replace(/\\/g, "/");
 }
 
+function toRouteSlug(value) {
+  return String(value)
+    .trim()
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
+
 function readTextFile(filePath) {
   return fs.readFileSync(filePath, "utf8").trim();
 }
@@ -127,6 +134,7 @@ function buildItems() {
           mainCategoryLabel: mainConfig.label,
           subCategory,
           subCategoryLabel,
+          route: `${mainCategory}/${subCategory}/${toRouteSlug(title)}`,
           tool:
             mainCategory === "vba"
               ? "VBA"

@@ -49,6 +49,13 @@ let variableValues = {};
 let selectedImage = "";
 let selectedTitle = "";
 let selectedSubCategoryLabel = "";
+let imagePanX = 0;
+let imagePanY = 0;
+let isImagePanning = false;
+let imagePanStartX = 0;
+let imagePanStartY = 0;
+let imagePanOriginX = 0;
+let imagePanOriginY = 0;
 
 const mainCategoryTabs = document.querySelectorAll("[data-main-category]");
 const subcategoryTabs = document.querySelector("#subcategoryTabs");
@@ -66,15 +73,19 @@ const imageLightbox = document.querySelector("#imageLightbox");
 const lightboxImage = document.querySelector("#lightboxImage");
 const closeLightbox = document.querySelector("#closeLightbox");
 const lightboxBackdrop = document.querySelector("#lightboxBackdrop");
+const promptLightbox = document.querySelector("#promptLightbox");
+const fullPromptText = document.querySelector("#fullPromptText");
+const closePromptLightboxButton = document.querySelector("#closePromptLightbox");
+const promptLightboxBackdrop = document.querySelector("#promptLightboxBackdrop");
 const modalCategory = document.querySelector("#modalCategory");
 const modalTitle = document.querySelector("#modalTitle");
 const modalDescription = document.querySelector("#modalDescription");
 const modalContent = document.querySelector(".modal-content");
-const modalPrompt = document.querySelector("#modalPrompt");
 const variablePanel = document.querySelector("#variablePanel");
 const variableList = document.querySelector("#variableList");
 const variableActions = document.querySelector("#variableActions");
 const finalPrompt = document.querySelector("#finalPrompt");
+const viewFullPrompt = document.querySelector("#viewFullPrompt");
 const copyModalPrompt = document.querySelector("#copyModalPrompt");
 const generatePrompt = document.querySelector("#generatePrompt");
 const resetPrompt = document.querySelector("#resetPrompt");
@@ -138,9 +149,9 @@ async function loadGalleryItems() {
 }
 
 function extractVariables(prompt) {
-  const matches = [...prompt.matchAll(/\{\{([^{}]+)\}\}|\[([^\[\]]+)\]|\{([^{}]+)\}/g)];
+  const matches = [...prompt.matchAll(/\{\{([^{}]+)\}\}/g)];
   const names = matches
-    .map((match) => match[1] || match[2] || match[3])
+    .map((match) => match[1])
     .map((name) => name.trim())
     .filter(Boolean);
 
@@ -148,8 +159,8 @@ function extractVariables(prompt) {
 }
 
 function replaceVariables(prompt, values) {
-  return prompt.replace(/\{\{([^{}]+)\}\}|\[([^\[\]]+)\]|\{([^{}]+)\}/g, (match, doubleBrace, square, brace) => {
-    const name = (doubleBrace || square || brace).trim();
+  return prompt.replace(/\{\{([^{}]+)\}\}/g, (match, variableName) => {
+    const name = variableName.trim();
     return values[name] || match;
   });
 }
@@ -223,8 +234,6 @@ function openPromptModal(item) {
   modalCategory.textContent = `${item.mainCategoryLabel} / ${item.subCategoryLabel}`;
   modalTitle.textContent = item.title;
   modalDescription.textContent = item.description;
-  modalPrompt.textContent = item.prompt;
-  modalPrompt.hidden = selectedVariables.length === 0;
   modalImage.innerHTML = item.image
     ? `<img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.title)} 결과물" />`
     : `<span class="placeholder">${escapeHTML(item.subCategoryLabel)}</span>`;
@@ -240,18 +249,75 @@ function openPromptModal(item) {
   promptModal.scrollTop = 0;
   requestAnimationFrame(() => {
     modalContent.scrollTop = 0;
+    resetFinalPromptScroll();
   });
 }
 
 function resetImageZoom() {
   imageZoom.value = "100";
+  resetImagePan();
   updateImageZoom();
 }
 
 function updateImageZoom() {
   const zoomValue = Number(imageZoom.value);
+  if (zoomValue <= 100) resetImagePan();
   modalImage.style.setProperty("--zoom-scale", zoomValue / 100);
   imageZoomValue.textContent = `${zoomValue}%`;
+  modalImage.classList.toggle("zoomed", zoomValue > 100 && Boolean(selectedImage));
+}
+
+function resetImagePan() {
+  imagePanX = 0;
+  imagePanY = 0;
+  applyImagePan();
+}
+
+function applyImagePan() {
+  modalImage.style.setProperty("--pan-x", `${imagePanX}px`);
+  modalImage.style.setProperty("--pan-y", `${imagePanY}px`);
+}
+
+function zoomImageBy(delta) {
+  const min = Number(imageZoom.min);
+  const max = Number(imageZoom.max);
+  const step = Number(imageZoom.step) || 10;
+  const current = Number(imageZoom.value);
+  const next = Math.min(max, Math.max(min, current + delta * step));
+
+  if (next === current) return;
+  imageZoom.value = String(next);
+  updateImageZoom();
+}
+
+function startImagePan(event) {
+  if (!selectedImage || Number(imageZoom.value) <= 100) return;
+
+  isImagePanning = true;
+  imagePanStartX = event.clientX;
+  imagePanStartY = event.clientY;
+  imagePanOriginX = imagePanX;
+  imagePanOriginY = imagePanY;
+  modalImage.classList.add("dragging");
+  modalImage.setPointerCapture(event.pointerId);
+}
+
+function moveImagePan(event) {
+  if (!isImagePanning) return;
+
+  imagePanX = imagePanOriginX + event.clientX - imagePanStartX;
+  imagePanY = imagePanOriginY + event.clientY - imagePanStartY;
+  applyImagePan();
+}
+
+function stopImagePan(event) {
+  if (!isImagePanning) return;
+
+  isImagePanning = false;
+  modalImage.classList.remove("dragging");
+  if (modalImage.hasPointerCapture(event.pointerId)) {
+    modalImage.releasePointerCapture(event.pointerId);
+  }
 }
 
 function openImageLightbox() {
@@ -267,7 +333,25 @@ function closeImageLightbox() {
   imageLightbox.setAttribute("aria-hidden", "true");
 }
 
+function openPromptLightbox() {
+  fullPromptText.textContent = finalPrompt.textContent;
+  promptLightbox.classList.add("open");
+  promptLightbox.setAttribute("aria-hidden", "false");
+  fullPromptText.scrollTop = 0;
+}
+
+function closePromptLightbox() {
+  promptLightbox.classList.remove("open");
+  promptLightbox.setAttribute("aria-hidden", "true");
+}
+
+function resetFinalPromptScroll() {
+  finalPrompt.scrollTop = 0;
+  fullPromptText.scrollTop = 0;
+}
+
 function closePromptModal() {
+  closePromptLightbox();
   promptModal.classList.remove("open");
   promptModal.setAttribute("aria-hidden", "true");
   document.body.classList.remove("modal-open");
@@ -286,7 +370,13 @@ function renderVariableInputs() {
     .map(
       (name) => `
         <div class="variable-field">
-          <label for="variable-${escapeHTML(name)}">${escapeHTML(name)}</label>
+          <div class="variable-field-head">
+            <label for="variable-${escapeHTML(name)}">${escapeHTML(name)}</label>
+            <label class="variable-toggle">
+              <input type="checkbox" data-variable-enabled="${escapeHTML(name)}" checked />
+              적용
+            </label>
+          </div>
           <input id="variable-${escapeHTML(name)}" type="text" data-variable="${escapeHTML(name)}" placeholder="${escapeHTML(name)} 입력" />
         </div>
       `,
@@ -295,14 +385,27 @@ function renderVariableInputs() {
 }
 
 function updateFinalPrompt() {
-  finalPrompt.textContent = replaceVariables(selectedPrompt, variableValues);
+  const enabledValues = {};
+  variableList.querySelectorAll("[data-variable-enabled]:checked").forEach((checkbox) => {
+    const name = checkbox.dataset.variableEnabled;
+    if (variableValues[name]) enabledValues[name] = variableValues[name];
+  });
+
+  finalPrompt.textContent = replaceVariables(selectedPrompt, enabledValues);
+  fullPromptText.textContent = finalPrompt.textContent;
+  resetFinalPromptScroll();
 }
 
 function resetFinalPrompt() {
   variableValues = {};
   finalPrompt.textContent = selectedPrompt;
+  fullPromptText.textContent = finalPrompt.textContent;
+  resetFinalPromptScroll();
   variableList.querySelectorAll("[data-variable]").forEach((input) => {
     input.value = "";
+  });
+  variableList.querySelectorAll("[data-variable-enabled]").forEach((checkbox) => {
+    checkbox.checked = true;
   });
 }
 
@@ -350,9 +453,22 @@ subcategoryTabs.addEventListener("click", (event) => {
 
 searchInput.addEventListener("input", renderGallery);
 imageZoom.addEventListener("input", updateImageZoom);
+modalImage.addEventListener("wheel", (event) => {
+  if (!selectedImage) return;
+
+  event.preventDefault();
+  zoomImageBy(event.deltaY < 0 ? 1 : -1);
+}, { passive: false });
+modalImage.addEventListener("pointerdown", startImagePan);
+modalImage.addEventListener("pointermove", moveImagePan);
+modalImage.addEventListener("pointerup", stopImagePan);
+modalImage.addEventListener("pointercancel", stopImagePan);
 expandImage.addEventListener("click", openImageLightbox);
 closeLightbox.addEventListener("click", closeImageLightbox);
 lightboxBackdrop.addEventListener("click", closeImageLightbox);
+viewFullPrompt.addEventListener("click", openPromptLightbox);
+closePromptLightboxButton.addEventListener("click", closePromptLightbox);
+promptLightboxBackdrop.addEventListener("click", closePromptLightbox);
 
 galleryGrid.addEventListener("click", (event) => {
   const card = event.target.closest(".gallery-card");
@@ -390,6 +506,11 @@ generatePrompt.addEventListener("click", updateFinalPrompt);
 resetPrompt.addEventListener("click", resetFinalPrompt);
 
 document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && promptLightbox.classList.contains("open")) {
+    closePromptLightbox();
+    return;
+  }
+
   if (event.key === "Escape" && imageLightbox.classList.contains("open")) {
     closeImageLightbox();
     return;

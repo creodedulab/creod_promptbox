@@ -72,18 +72,26 @@
           </button>
           <div class="zoom-control">
             <label for="imageZoom">돋보기</label>
-            <input id="imageZoom" type="range" min="100" max="260" value="100" step="10" />
+            <input id="imageZoom" type="range" min="100" max="500" value="100" step="10" />
             <span id="imageZoomValue">100%</span>
           </div>
         </div>
         <div class="modal-content">
           <span class="badge" id="modalCategory"></span>
           <h2 id="modalTitle"></h2>
+          <p class="source-notice">
+            프롬프트 사용 시 출처를 남겨주세요. 출처: Creod Prompt Box
+          </p>
+          <div class="prompt-actions">
+            <button class="copy-button" type="button" id="copyModalPrompt">최종 프롬프트 복사</button>
+            <a class="ai-link" href="https://chat.openai.com/" target="_blank" rel="noreferrer">GPT</a>
+            <a class="ai-link" href="https://gemini.google.com/" target="_blank" rel="noreferrer">GEMINI</a>
+            <a class="ai-link" href="https://grok.com/" target="_blank" rel="noreferrer">GROK</a>
+          </div>
           <p id="modalDescription"></p>
-          <div class="prompt-detail" id="modalPrompt"></div>
           <div class="variable-panel" id="variablePanel">
             <h3>변수 입력</h3>
-            <p>프롬프트에서 자동으로 찾은 값을 입력하면 최종 프롬프트가 완성됩니다.</p>
+            <p>적용할 변수만 선택한 뒤 최종 프롬프트에 반영하세요.</p>
             <div class="variable-list" id="variableList"></div>
             <div class="variable-actions" id="variableActions">
               <button class="secondary-button" type="button" id="generatePrompt">
@@ -95,17 +103,13 @@
             </div>
           </div>
           <div class="final-panel">
-            <h3>최종 프롬프트</h3>
+            <div class="final-panel-head">
+              <h3>최종 프롬프트</h3>
+              <button class="view-full-prompt" type="button" id="viewFullPrompt">
+                전체보기
+              </button>
+            </div>
             <div class="prompt-detail" id="finalPrompt"></div>
-          </div>
-          <p class="source-notice">
-            프롬프트 사용 시 출처를 남겨주세요. 출처: Creod Prompt Box
-          </p>
-          <div class="prompt-actions">
-            <button class="copy-button" type="button" id="copyModalPrompt">최종 프롬프트 복사</button>
-            <a class="ai-link" href="https://chat.openai.com/" target="_blank" rel="noreferrer">GPT</a>
-            <a class="ai-link" href="https://gemini.google.com/" target="_blank" rel="noreferrer">GEMINI</a>
-            <a class="ai-link" href="https://grok.com/" target="_blank" rel="noreferrer">GROK</a>
           </div>
         </div>
       </section>
@@ -115,6 +119,20 @@
       <button class="lightbox-close" type="button" id="closeLightbox" aria-label="닫기">×</button>
       <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
       <div class="lightbox-image" id="lightboxImage"></div>
+    </div>
+
+    <div class="prompt-lightbox" id="promptLightbox" aria-hidden="true">
+      <div class="prompt-lightbox-backdrop" id="promptLightboxBackdrop"></div>
+      <section
+        class="prompt-lightbox-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="promptLightboxTitle"
+      >
+        <button class="lightbox-close" type="button" id="closePromptLightbox" aria-label="닫기">×</button>
+        <h2 id="promptLightboxTitle">최종 프롬프트</h2>
+        <div class="full-prompt-text" id="fullPromptText"></div>
+      </section>
     </div>
 
     <div class="toast" id="toast" role="status" aria-live="polite">프롬프트가 복사되었습니다.</div>

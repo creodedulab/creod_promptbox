@@ -1,0 +1,195 @@
+Use the uploaded car image as the only vehicle reference.
+
+Analyze the car’s real design, body color, front impression, headlights, grille, body lines, wheels, windows, sunroof presence, and overall mood. Based on that analysis, create a young adult female character who feels like the human personification of the car.
+
+Create the final image as a premium automotive personification character sheet.
+
+---
+
+[Core Goal]
+
+- The character must feel as if the uploaded car has transformed into a woman.
+- Her face, hairstyle, outfit, accessories, color palette, personality, and overall mood must be derived from the car’s design and atmosphere.
+- Do not create a generic beautiful girl. The character must clearly reflect the identity of the uploaded car.
+- The final image should combine the feeling of a luxury car catalog, character design sheet, fashion illustration, and premium design board.
+
+---
+
+[Automatic Analysis Rules]
+
+1. Car Mood Analysis
+- Analyze the uploaded car’s color, shape, front design, headlights, grille, body lines, wheels, and overall emotional impression.
+- Automatically decide the image mood based on the car.
+- Possible moods include refined, calm, sporty, cute, luxurious, futuristic, powerful, elegant, urban, clean, dynamic, or premium.
+
+2. Character Name
+- Automatically create a Korean character name that matches the mood of the car.
+- The name must be between 1 and 4 Korean characters.
+- Display the name prominently in the top title area.
+
+3. Vehicle Information Restrictions
+- Do not display the vehicle year.
+- Do not display the vehicle grade, trim, or model rank.
+- Instead, describe the car through its key features, visual impression, atmosphere, and design personality.
+
+---
+
+[Layout]
+
+- Vertical character setting sheet format.
+- Clean white background.
+- Use thin line boxes, metallic accents, and accent colors that match the car’s mood.
+- Place a large full-body illustration of the character in the center.
+- Place character information boxes on the left side.
+- Place expression cuts, side view, back view, and design detail cuts on the right side.
+- Place a vehicle illustration or vehicle cut based on the uploaded car at the bottom.
+- Add subtle automotive graphic elements such as headlight line graphics, wheel graphics, glass or sunroof-like panels, and futuristic UI-style lines.
+- The entire layout must look organized, premium, and similar to a professional character profile board.
+
+---
+
+[Character Design]
+
+- Young adult female character.
+- Elegant Korean semi-realistic anime style.
+- Clear, expressive eyes.
+- Clean and smooth skin rendering.
+- Natural and beautiful face shape.
+- Hairstyle and hair color should match the atmosphere of the uploaded car.
+- Slim, balanced fashion-model body proportions.
+- Use the car’s main body color as the character’s main design color.
+- Use the car’s secondary colors, black trim, chrome, silver wheels, and light colors as outfit accents.
+- Reflect the headlight impression in the character’s eyes and eye makeup.
+- Reflect the grille and body lines in the outfit seams, jacket structure, belt, and decorative lines.
+- Subtly reflect the wheel design in earrings, brooches, shoe details, belt ornaments, or metallic accessories.
+- Do not directly copy the vehicle logo or emblem. Use abstract symbols or decorative elements instead.
+
+---
+
+[Outfit Direction]
+
+- Design a high-end fashion outfit inspired by the uploaded car’s design language.
+- Use jackets, coats, skirts, pants, boots, heels, gloves, belts, chains, or metallic details depending on the car’s mood.
+- Reflect the car’s sharp edges, curves, speed, stability, elegance, or premium feeling in the outfit silhouette.
+- The outfit alone should visually communicate the personality of the car.
+
+---
+
+[Left Information Boxes]
+
+Place the following sections on the left side.
+All visible text in the image must be written in Korean.
+
+1. PROFILE
+- Name
+- Motif
+- Key Features
+- Core Point
+- Gender
+- Image
+
+2. Appearance Points
+- Hair
+- Eyes
+- Skin Tone
+- Body Shape
+- Outfit Colors
+- Vehicle Design Point
+
+3. Personality Keywords
+- 4 to 5 keywords that match the car’s mood.
+
+4. Design Concept
+- Briefly explain how the car’s color, front design, lights, body lines, wheels, and overall atmosphere are reflected in the character.
+
+5. Color Palette
+- Four circular color chips.
+- Main color
+- Sub color
+- Dark point color
+- Metallic or light accent color
+
+6. One-line Introduction
+- A short and stylish sentence that expresses the charm of the uploaded car as a character.
+
+---
+
+[Right Setting Cuts]
+
+Place the following elements on the right side.
+
+1. Three Expression Cuts
+- Soft smile
+- Calm expression
+- Confident or slightly chic expression
+
+2. Side Full-body View
+- Show the hairstyle flow and outfit silhouette clearly.
+
+3. Back Full-body View
+- Show the back details of the outfit, hair, and decorative elements inspired by the car.
+
+4. Design Point Box
+- Hair
+- Eyes
+- Outfit Details
+- Mood
+
+Each explanation must be connected to the visual features of the uploaded car.
+
+---
+
+[Vehicle Representation]
+
+- Place an illustration or image-style rendering of the uploaded car at the bottom.
+- Preserve the car’s real color, body proportions, front design, headlights, grille, wheels, and key details as accurately as possible.
+- Do not change it into a different car model.
+- Add subtle light, reflection, and catalog-style floor reflections around the vehicle.
+
+---
+
+[Art Style and Quality]
+
+- Premium semi-realistic anime illustration.
+- Korean-style beautiful female character design.
+- Professional character setting sheet.
+- Luxury automotive design board.
+- Delicate hair rendering.
+- Clear and glossy eyes.
+- Soft skin highlights.
+- Refined fashion rendering.
+- Clean studio-like lighting.
+- Organized information layout.
+- Ultra-high resolution.
+- 4K quality.
+- Clean line art.
+- Premium character sheet.
+- Luxury automotive design board.
+
+---
+
+[Watermark]
+
+- Add the watermark text "@tting_ssam" in the bottom-right corner of the image.
+- Make it clearly readable even on a white background.
+- Keep it small, clean, and stylish so it does not disturb the overall design.
+- The watermark must be visible and identifiable.
+
+---
+
+[Important Conditions]
+
+- Keep the identity of the uploaded car.
+- Do not change the car into a different model.
+- The character must be derived from the car’s design and mood.
+- Do not display the vehicle year, grade, trim, or rank anywhere in the image.
+- The character name must be automatically created based on the car’s atmosphere and must be 1 to 4 Korean characters.
+- All visible text in the image should be mainly in Korean.
+- The final result must look like one complete premium character setting sheet.
+- Keep the design clean and organized, not overly crowded.
+
+---
+
+[Negative Prompt]
+
+low quality, blurry, distorted car, wrong car model, random vehicle, inaccurate vehicle details, different car color, poorly drawn wheels, deformed headlights, messy layout, unreadable text, cluttered background, bad anatomy, extra fingers, broken hands, bad proportions, inconsistent character, duplicated character, cropped body, random logo, excessive decoration

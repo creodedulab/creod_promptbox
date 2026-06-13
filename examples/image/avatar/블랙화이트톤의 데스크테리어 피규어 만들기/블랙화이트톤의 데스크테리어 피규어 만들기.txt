@@ -1,0 +1,25 @@
+Use the uploaded photo as the only identity reference for the person. Transform the person from the uploaded image into a soft, cute mini SD figure with a small, adorable collectible toy feeling. Preserve the person’s facial impression, hairstyle, and overall vibe, while reinterpreting them as a tiny, squishy-looking chibi figure with rounded proportions, charming toy-like form, and polished figure details.
+
+The scene takes place on top of a stylish black-and-white gaming desk setup. Show the figure sitting on the gaming table, captured in a close-up composition. The sitting pose should clearly show the soles of the shoes, with the legs naturally extended forward or slightly lifted toward the camera.
+
+The outfit should be redesigned with a gaming-inspired fashion concept, while still matching the uploaded person’s vibe. Use a cute and trendy look with black-and-white tones, such as a hoodie, short skirt or shorts, stylish sneakers, and subtle gaming-themed accessories like a headset or small gamer details.
+
+Give the figure a playful, mischievous expression. The face should feel lively, cute, and cheeky, with bright eyes and a fun smile.
+
+Add subtle gaming desk elements around the figure, such as a black-and-white keyboard, mouse, mousepad, part of a monitor, and clean LED lighting accents. The overall atmosphere should combine a cute mini SD collectible figure aesthetic with a clean and modern gaming desk mood.
+
+Use a highly realistic desk photography lighting setup. The main light should be a soft diffused key light coming from the upper front-left of the camera, illuminating the figure’s face and upper body clearly and naturally. Add a subtle cool monitor glow as a secondary fill light, creating gentle highlights on the face, shoes, and desk surface. In the background, use soft white or cool white LED ambient lighting to create a believable gaming desk atmosphere. Keep the overall color temperature in a neutral to slightly cool range, around 4300K to 5000K. Avoid overly saturated RGB neon lighting. The lighting should feel natural and photographic, with soft realistic contact shadows under the figure and on the desk surface.
+
+The mood should be clean, premium, modern, indoor nighttime desk photography, with a calm and stylish atmosphere that still lets the cute playful figure stand out. Keep the figure as the clear main subject, sharply in focus, while the background is slightly blurred for depth. High detail, premium toy-like texture, soft lighting, charming collectible figure photography style.
+
+[Watermark]
+
+- Add the watermark text "@tting_ssam" in the bottom-right corner of the image.
+- The watermark position must be fixed at the bottom-right corner of the image.
+- Set the font color to hex code "#FFFFFF".
+- Set the watermark transparency to 20, where 100 means fully transparent.
+- This means the watermark should appear as white text with about 80% opacity.
+- Keep the watermark small, clean, and stylish.
+- The watermark must be clearly readable but should not disturb the overall design.
+
+Aspect ratio: 4:5 vertical.

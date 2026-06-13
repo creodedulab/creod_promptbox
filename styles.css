@@ -598,6 +598,7 @@ h2 {
   width: min(860px, 96vw);
   max-height: min(820px, 90vh);
   min-height: 0;
+  overflow: hidden;
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42);
@@ -612,6 +613,8 @@ h2 {
 .full-prompt-text {
   min-height: 0;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
   border-left: 3px solid var(--accent);
   border-radius: 0 8px 8px 0;
   background: #f8faff;
@@ -688,6 +691,8 @@ h2 {
   height: min(760px, calc(100vh - 48px));
   max-height: calc(100vh - 48px);
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
   padding: 28px;
 }
 
@@ -900,12 +905,16 @@ body.modal-open {
   }
 
   .modal-panel {
+    grid-template-rows: auto minmax(0, 1fr);
     grid-template-columns: 1fr;
+    height: calc(100dvh - 28px);
     max-height: calc(100vh - 28px);
+    max-height: calc(100dvh - 28px);
+    min-height: 0;
   }
 
   .modal-preview {
-    max-height: 360px;
+    max-height: min(360px, 42dvh);
   }
 
   .modal-preview,
@@ -919,9 +928,12 @@ body.modal-open {
   }
 
   .modal-content {
-    height: calc(100vh - 28px);
-    max-height: calc(100vh - 28px);
+    height: auto;
+    max-height: none;
+    min-height: 0;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
   }
 
   .modal-content {
@@ -933,8 +945,12 @@ body.modal-open {
   }
 
   .prompt-lightbox-panel {
+    height: calc(100dvh - 28px);
     max-height: calc(100vh - 28px);
+    max-height: calc(100dvh - 28px);
+    min-height: 0;
     padding: 22px;
+    overflow: hidden;
   }
 }
 

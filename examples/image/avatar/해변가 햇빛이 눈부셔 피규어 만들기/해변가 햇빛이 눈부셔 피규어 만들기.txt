@@ -1,0 +1,57 @@
+Use the uploaded user photo as the only identity reference for the face.
+
+Create a cute SD-style 3D figure of the person from the uploaded photo. Transform the real person into a small, adorable collectible-style chibi figure while preserving the person’s facial impression, hairstyle, and overall vibe. The result should clearly feel like the uploaded person reinterpreted as a cute SD figure, not a different character.
+
+Render the character as a high-quality 3D figurine with a polished toy-like finish, soft rounded proportions, and charming collectible details. Keep the overall style cute, clean, premium, and visually appealing.
+
+Outfit rules:
+- If the person in the uploaded photo is male, dress the figure in a white T-shirt, an unbuttoned sky-blue shirt, and blue Hawaiian shorts.
+- If the person in the uploaded photo is female, dress the figure in a white oversized shirt with a subtle sheer look, paired with denim shorts.
+
+Expression:
+- Give the figure an excited, fluttering, thrilled expression, as if enjoying the bright seaside atmosphere with a sense of anticipation and delight.
+
+Composition and framing:
+- 4:5 vertical image
+- top-down view from a slightly elevated angle
+- the figure should occupy about 60% of the frame
+- place the figure on a beach setting
+- include clear beach sand and seaside surroundings
+- the figure is looking up toward the sky
+- the figure is making a pose where one hand is raised to shade the sunlight
+- the pose should feel natural, lively, and cute
+
+Background and environment:
+- bright, refreshing beach atmosphere
+- clear seaside mood
+- clean sand texture visible
+- fresh, cool ocean colors
+- vivid but natural blue tones
+- overall image should feel bright, clear, breezy, and summery
+
+Mood and color:
+- refreshing
+- cool seaside palette
+- bright and clean lighting
+- clear sky feeling
+- cheerful and crisp summer atmosphere
+
+Important requirements:
+- preserve the identity and vibe of the uploaded person
+- keep the result in a cute SD character style
+- make it clearly a 3D figure, not a flat illustration
+- include the beach and sand as essential visual elements
+- no excessive retouching
+- no unnecessary text
+- no text except an optional watermark if needed
+- avoid finger errors and malformed hands
+- maintain clean anatomy within the SD figure style
+
+Watermark 
+- Add the watermark text "@tting_ssam" in the bottom-right corner of the image. 
+- The watermark position must be fixed at the bottom-right corner of the image. 
+- Set the font color to hex code "#FFFFFF". 
+- Set the watermark transparency to 20, where 100 means fully transparent. 
+- This means the watermark should appear as white text with about 80% opacity. 
+- Keep the watermark small, clean, and stylish. 
+- The watermark must be clearly readable but should not disturb the overall design.

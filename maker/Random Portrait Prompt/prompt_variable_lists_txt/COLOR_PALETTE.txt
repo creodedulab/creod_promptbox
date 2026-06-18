@@ -1,0 +1,33 @@
+COLOR_PALETTE
+=============
+
+1. soft pastel palette
+2. warm golden-hour palette
+3. cool desaturated palette
+4. cream ivory palette
+5. rose-gold color palette
+6. muted beige palette
+7. clean white and blue palette
+8. soft pink and ivory palette
+9. deep cinematic blue palette
+10. warm brown and cream palette
+11. fresh spring green palette
+12. sunlit summer palette
+13. soft lavender palette
+14. peach and coral palette
+15. monochrome black and white palette
+16. minimal neutral palette
+17. clear sky-blue palette
+18. misty gray palette
+19. warm vintage film palette
+20. soft earth-tone palette
+21. romantic blush palette
+22. cool urban night palette
+23. high-key bright palette
+24. low-saturation natural palette
+25. elegant champagne palette
+26. deep emerald accent palette
+27. autumn amber palette
+28. winter silver-blue palette
+29. clean modern pastel palette
+30. cinematic teal-orange palette

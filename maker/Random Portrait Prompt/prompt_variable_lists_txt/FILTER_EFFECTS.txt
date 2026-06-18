@@ -1,0 +1,33 @@
+FILTER_EFFECTS
+==============
+
+1. soft focus effect
+2. dreamy glow effect
+3. diffusion filter
+4. mist filter effect
+5. soft bloom effect
+6. subtle skin softening
+7. gentle Gaussian blur
+8. creamy soft rendering
+9. hazy atmospheric filter
+10. cinematic glow
+11. dreamlike bloom lighting
+12. subtle lens diffusion
+13. ethereal soft-focus filter
+14. romantic glow filter
+15. soft portrait retouching
+16. pastel haze effect
+17. slight motion blur
+18. delicate airbrush effect
+19. beauty filter effect
+20. velvet skin effect
+21. filmic grain effect
+22. vintage diffusion effect
+23. subtle vignette effect
+24. light leak effect
+25. soft highlight bloom
+26. warm haze effect
+27. creamy bokeh enhancement
+28. soft matte effect
+29. cinematic depth haze
+30. premium beauty retouch effect

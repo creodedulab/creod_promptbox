@@ -1,0 +1,33 @@
+SHOT_TYPE
+=========
+
+1. close-up
+2. extreme close-up
+3. headshot
+4. beauty close-up
+5. medium close-up
+6. waist-up
+7. half-body
+8. three-quarter body
+9. full-body
+10. profile
+11. three-quarter profile
+12. over-the-shoulder
+13. low-angle
+14. high-angle
+15. top-down
+16. candid
+17. studio
+18. editorial
+19. fashion
+20. environmental
+21. lifestyle
+22. cinematic
+23. soft-focus
+24. dramatic
+25. minimal
+26. romantic
+27. dreamy
+28. urban
+29. natural light
+30. magazine cover

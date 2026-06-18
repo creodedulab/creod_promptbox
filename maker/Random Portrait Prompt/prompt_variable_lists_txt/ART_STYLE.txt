@@ -1,0 +1,33 @@
+ART_STYLE
+=========
+
+1. photorealistic photography
+2. cinematic portrait photography
+3. high-fashion editorial photography
+4. soft film photography
+5. dreamy analog film style
+6. luxury magazine portrait style
+7. natural lifestyle photography
+8. romantic portrait photography
+9. minimal studio photography
+10. Korean beauty editorial style
+11. Japanese magazine photography
+12. soft glamour photography
+13. urban cinematic photography
+14. ethereal fantasy realism
+15. semi-realistic digital painting
+16. premium beauty campaign style
+17. fine art portrait photography
+18. moody cinematic realism
+19. clean commercial photography
+20. warm nostalgic film style
+21. modern fashion lookbook style
+22. elegant bridal editorial style
+23. soft pastel portrait style
+24. realistic beauty photography
+25. documentary-style portrait photography
+26. bright summer editorial style
+27. vintage film portrait style
+28. dreamlike fashion photography
+29. natural outdoor portrait style
+30. ultra-realistic portrait rendering

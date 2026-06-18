@@ -1,0 +1,33 @@
+CAMERA_DESCRIPTION
+==================
+
+1. 85mm portrait lens, f/1.8
+2. 50mm lens, shallow depth of field
+3. 35mm cinematic lens
+4. medium-format camera look
+5. soft focus lens
+6. telephoto portrait lens
+7. natural smartphone camera look
+8. vintage film camera look
+9. high-resolution DSLR portrait setup
+10. mirrorless camera portrait setup
+11. low-angle camera perspective
+12. slightly high-angle camera perspective
+13. eye-level camera angle
+14. close portrait lens compression
+15. cinematic handheld camera feel
+16. studio camera setup
+17. beauty campaign camera setup
+18. wide-aperture lens
+19. subtle lens flare effect
+20. soft bokeh lens rendering
+21. editorial fashion camera angle
+22. documentary-style camera angle
+23. clean commercial portrait setup
+24. dreamy analog lens effect
+25. sharp focus on the eyes
+26. slightly tilted camera angle
+27. front-facing portrait camera
+28. side-profile camera angle
+29. over-the-shoulder camera angle
+30. macro beauty portrait lens

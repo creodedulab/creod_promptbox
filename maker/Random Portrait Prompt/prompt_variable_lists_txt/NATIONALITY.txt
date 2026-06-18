@@ -1,0 +1,33 @@
+NATIONALITY
+===========
+
+1. Korean
+2. Japanese
+3. Chinese
+4. Taiwanese
+5. Vietnamese
+6. Thai
+7. Filipina
+8. Singaporean
+9. Malaysian
+10. Indonesian
+11. French
+12. Italian
+13. Spanish
+14. British
+15. German
+16. Swedish
+17. Norwegian
+18. American
+19. Canadian
+20. Australian
+21. Brazilian
+22. Mexican
+23. Indian
+24. Turkish
+25. Moroccan
+26. Egyptian
+27. Greek
+28. Russian
+29. Ukrainian
+30. Polish

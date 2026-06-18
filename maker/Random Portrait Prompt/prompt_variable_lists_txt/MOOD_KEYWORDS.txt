@@ -1,0 +1,33 @@
+MOOD_KEYWORDS
+=============
+
+1. dreamy, elegant, serene
+2. romantic, soft, feminine
+3. cinematic, emotional, refined
+4. fresh, youthful, bright
+5. mysterious, calm, graceful
+6. cute, playful, charming
+7. luxurious, polished, sophisticated
+8. warm, nostalgic, gentle
+9. clean, minimal, modern
+10. ethereal, delicate, poetic
+11. natural, candid, relaxed
+12. high-fashion, confident, stylish
+13. innocent, soft, pure
+14. melancholic, quiet, emotional
+15. refreshing, airy, light
+16. cozy, intimate, warm
+17. urban, chic, cinematic
+18. calm, elegant, timeless
+19. glamorous, soft, refined
+20. lovely, romantic, bright
+21. dreamlike, pastel, peaceful
+22. classic, graceful, mature
+23. sensual, elegant, subtle
+24. sweet, delicate, charming
+25. moody, atmospheric, stylish
+26. clear, gentle, refreshing
+27. soft, premium, editorial
+28. peaceful, poetic, beautiful
+29. modern, clean, fashionable
+30. cinematic, dreamy, luxurious

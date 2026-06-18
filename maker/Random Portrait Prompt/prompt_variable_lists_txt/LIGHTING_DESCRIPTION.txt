@@ -1,0 +1,33 @@
+LIGHTING_DESCRIPTION
+====================
+
+1. soft diffused lighting
+2. warm golden-hour sunlight
+3. gentle window light
+4. cinematic rim lighting
+5. soft backlighting
+6. natural daylight
+7. low-key dramatic lighting
+8. high-key beauty lighting
+9. moody neon lighting
+10. soft studio lighting
+11. cloudy outdoor light
+12. warm sunset light
+13. cool moonlight
+14. soft morning light
+15. romantic candlelight
+16. bright summer sunlight
+17. subtle side lighting
+18. ethereal glowing light
+19. clean commercial lighting
+20. soft indoor ambient light
+21. delicate reflected light
+22. gentle overhead light
+23. dreamy hazy lighting
+24. cinematic blue-hour light
+25. golden rim light
+26. soft beauty dish lighting
+27. pastel-toned lighting
+28. misty diffused light
+29. warm cafe lighting
+30. natural backlit glow

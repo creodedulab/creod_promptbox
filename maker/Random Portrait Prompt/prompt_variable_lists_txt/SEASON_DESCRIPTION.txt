@@ -1,0 +1,33 @@
+SEASON_DESCRIPTION
+==================
+
+1. early spring morning
+2. spring afternoon
+3. cherry blossom season
+4. late spring evening
+5. rainy spring day
+6. bright summer morning
+7. summer afternoon
+8. golden summer sunset
+9. humid summer evening
+10. late summer night
+11. early autumn morning
+12. autumn afternoon
+13. golden autumn sunset
+14. late autumn evening
+15. rainy autumn day
+16. early winter morning
+17. snowy winter afternoon
+18. cold winter evening
+19. Christmas season
+20. misty winter morning
+21. warm indoor winter day
+22. fresh morning after rain
+23. blue-hour evening
+24. golden-hour moment
+25. soft cloudy afternoon
+26. clear sunny day
+27. quiet night
+28. windy afternoon
+29. foggy morning
+30. romantic twilight

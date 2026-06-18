@@ -92,7 +92,6 @@ const copyModalPrompt = document.querySelector("#copyModalPrompt");
 const copyPromptLink = document.querySelector("#copyPromptLink");
 const generatePrompt = document.querySelector("#generatePrompt");
 const resetPrompt = document.querySelector("#resetPrompt");
-
 function escapeHTML(value) {
   return String(value).replace(/[&<>"']/g, (char) => {
     const entities = {

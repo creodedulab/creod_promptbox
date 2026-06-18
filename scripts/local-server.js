@@ -29,7 +29,8 @@ function send(response, statusCode, content, contentType = "text/plain; charset=
 
 function resolveRequestPath(urlPath) {
   const decodedPath = decodeURIComponent(urlPath.split("?")[0]);
-  const safePath = decodedPath === "/" ? "/index.html" : decodedPath;
+  const safePath =
+    decodedPath === "/" ? "/index.html" : decodedPath.endsWith("/") ? `${decodedPath}index.html` : decodedPath;
   const filePath = path.normalize(path.join(root, safePath));
 
   if (!filePath.startsWith(root)) return null;

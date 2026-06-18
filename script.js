@@ -68,6 +68,7 @@ const toast = document.querySelector("#toast");
 const promptModal = document.querySelector("#promptModal");
 const modalImage = document.querySelector("#modalImage");
 const expandImage = document.querySelector("#expandImage");
+const downloadPreviewImage = document.querySelector("#downloadPreviewImage");
 const imageZoom = document.querySelector("#imageZoom");
 const imageZoomValue = document.querySelector("#imageZoomValue");
 const imageLightbox = document.querySelector("#imageLightbox");
@@ -173,6 +174,19 @@ function normalizeItem(item) {
 }
 
 async function loadGalleryItems() {
+  const fallbackItems = window.__PROMPT_FALLBACK_ITEMS__;
+
+  if (Array.isArray(fallbackItems) && fallbackItems.length > 0) {
+    galleryItems = fallbackItems.map(normalizeItem);
+    emptyState.textContent = "조건에 맞는 결과물이 없습니다.";
+    renderSubcategoryTabs();
+    renderGallery();
+    openRouteFromHash();
+  } else {
+    resultCount.textContent = "불러오는 중...";
+    emptyState.hidden = true;
+  }
+
   try {
     const response = await fetch("data/prompts.json", { cache: "no-store" });
     if (!response.ok) throw new Error("data/prompts.json을 불러오지 못했습니다.");
@@ -180,9 +194,17 @@ async function loadGalleryItems() {
     const items = await response.json();
     if (Array.isArray(items) && items.length > 0) {
       galleryItems = items.map(normalizeItem);
+      emptyState.textContent = "조건에 맞는 결과물이 없습니다.";
     }
   } catch {
-    galleryItems = [];
+    if (galleryItems.length > 0) return;
+  }
+
+  if (galleryItems.length === 0) {
+    emptyState.textContent =
+      "예시 데이터를 불러오지 못했습니다. 로컬 테스트 서버로 접속했는지 확인해주세요.";
+  } else {
+    emptyState.textContent = "조건에 맞는 결과물이 없습니다.";
   }
 
   renderSubcategoryTabs();
@@ -253,7 +275,7 @@ function renderGallery() {
                 : `<span class="placeholder">${escapeHTML(item.subCategoryLabel)}</span>`
             }
             <div class="card-overlay">
-              <strong>${escapeHTML(item.title)}</strong>
+              <span class="card-title">${escapeHTML(item.title)}</span>
               <span>${escapeHTML(item.mainCategoryLabel)} / ${escapeHTML(item.subCategoryLabel)}</span>
             </div>
           </div>
@@ -283,6 +305,9 @@ function openPromptModal(item, updateHash = true) {
   modalImage.innerHTML = item.image
     ? `<img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.title)} 결과물" />`
     : `<span class="placeholder">${escapeHTML(item.subCategoryLabel)}</span>`;
+  if (downloadPreviewImage) {
+    downloadPreviewImage.disabled = !item.image;
+  }
   renderVariableInputs();
   resetFinalPrompt();
   resetImageZoom();
@@ -372,6 +397,51 @@ function openImageLightbox() {
     : `<span class="placeholder">${escapeHTML(selectedSubCategoryLabel)}</span>`;
   imageLightbox.classList.add("open");
   imageLightbox.setAttribute("aria-hidden", "false");
+}
+
+function getImageExtension(imageUrl, fallback = "png") {
+  try {
+    const pathname = new URL(imageUrl, window.location.href).pathname;
+    const extension = pathname.split(".").pop()?.toLowerCase();
+    return extension && extension.length <= 5 ? extension : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function getDownloadFileName() {
+  const safeTitle = selectedTitle
+    .trim()
+    .replace(/[\\/:*?"<>|]+/g, "")
+    .replace(/\s+/g, "-")
+    .slice(0, 80);
+  return `${safeTitle || "prompt-preview"}.${getImageExtension(selectedImage)}`;
+}
+
+function triggerImageDownload(href) {
+  const link = document.createElement("a");
+  link.href = href;
+  link.download = getDownloadFileName();
+  link.rel = "noreferrer";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+}
+
+async function downloadSelectedImage() {
+  if (!selectedImage) return;
+
+  try {
+    const response = await fetch(selectedImage);
+    if (!response.ok) throw new Error("Image download failed");
+
+    const blob = await response.blob();
+    const objectUrl = URL.createObjectURL(blob);
+    triggerImageDownload(objectUrl);
+    window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+  } catch {
+    triggerImageDownload(selectedImage);
+  }
 }
 
 function closeImageLightbox() {
@@ -481,6 +551,8 @@ async function copyPrompt(text) {
   textarea.remove();
 }
 
+loadGalleryItems();
+
 mainCategoryTabs.forEach((tab) => {
   tab.addEventListener("click", () => {
     mainCategoryTabs.forEach((item) => item.classList.remove("active"));
@@ -501,24 +573,25 @@ subcategoryTabs.addEventListener("click", (event) => {
   renderGallery();
 });
 
-searchInput.addEventListener("input", renderGallery);
-imageZoom.addEventListener("input", updateImageZoom);
-modalImage.addEventListener("wheel", (event) => {
+searchInput?.addEventListener("input", renderGallery);
+imageZoom?.addEventListener("input", updateImageZoom);
+modalImage?.addEventListener("wheel", (event) => {
   if (!selectedImage) return;
 
   event.preventDefault();
   zoomImageBy(event.deltaY < 0 ? 1 : -1);
 }, { passive: false });
-modalImage.addEventListener("pointerdown", startImagePan);
-modalImage.addEventListener("pointermove", moveImagePan);
-modalImage.addEventListener("pointerup", stopImagePan);
-modalImage.addEventListener("pointercancel", stopImagePan);
-expandImage.addEventListener("click", openImageLightbox);
-closeLightbox.addEventListener("click", closeImageLightbox);
-lightboxBackdrop.addEventListener("click", closeImageLightbox);
-viewFullPrompt.addEventListener("click", openPromptLightbox);
-closePromptLightboxButton.addEventListener("click", closePromptLightbox);
-promptLightboxBackdrop.addEventListener("click", closePromptLightbox);
+modalImage?.addEventListener("pointerdown", startImagePan);
+modalImage?.addEventListener("pointermove", moveImagePan);
+modalImage?.addEventListener("pointerup", stopImagePan);
+modalImage?.addEventListener("pointercancel", stopImagePan);
+expandImage?.addEventListener("click", openImageLightbox);
+downloadPreviewImage?.addEventListener("click", downloadSelectedImage);
+closeLightbox?.addEventListener("click", closeImageLightbox);
+lightboxBackdrop?.addEventListener("click", closeImageLightbox);
+viewFullPrompt?.addEventListener("click", openPromptLightbox);
+closePromptLightboxButton?.addEventListener("click", closePromptLightbox);
+promptLightboxBackdrop?.addEventListener("click", closePromptLightbox);
 
 galleryGrid.addEventListener("click", (event) => {
   const card = event.target.closest(".gallery-card");
@@ -539,21 +612,21 @@ galleryGrid.addEventListener("keydown", (event) => {
   if (item) openPromptModal(item);
 });
 
-promptModal.addEventListener("click", (event) => {
+promptModal?.addEventListener("click", (event) => {
   if (event.target.matches("[data-close-modal]")) {
     closePromptModal();
   }
 });
 
-variableList.addEventListener("input", (event) => {
+variableList?.addEventListener("input", (event) => {
   if (!event.target.matches("[data-variable]")) return;
 
   variableValues[event.target.dataset.variable] = event.target.value.trim();
 });
 
-generatePrompt.addEventListener("click", updateFinalPrompt);
+generatePrompt?.addEventListener("click", updateFinalPrompt);
 
-resetPrompt.addEventListener("click", resetFinalPrompt);
+resetPrompt?.addEventListener("click", resetFinalPrompt);
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && promptLightbox.classList.contains("open")) {
@@ -571,18 +644,14 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-copyModalPrompt.addEventListener("click", async () => {
+copyModalPrompt?.addEventListener("click", async () => {
   await copyPrompt(finalPrompt.textContent);
   showToast();
 });
 
-copyPromptLink.addEventListener("click", async () => {
+copyPromptLink?.addEventListener("click", async () => {
   await copyPrompt(getPromptUrl(selectedRoute));
   showToast("프롬프트 링크가 복사되었습니다.");
 });
 
 window.addEventListener("hashchange", openRouteFromHash);
-
-renderSubcategoryTabs();
-renderGallery();
-loadGalleryItems();

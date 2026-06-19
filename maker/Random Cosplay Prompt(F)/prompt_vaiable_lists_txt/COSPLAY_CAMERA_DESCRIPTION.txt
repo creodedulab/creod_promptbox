@@ -1,0 +1,53 @@
+﻿COSPLAY_CAMERA_DESCRIPTION
+==========================
+
+01. portrait lens
+02. front-facing editorial camera
+03. telephoto portrait lens
+04. low-angle cosplay photography
+05. high-angle portrait camera
+06. 85mm portrait lens
+07. 50mm studio lens
+08. cinematic portrait camera
+09. close-up beauty lens
+10. wide environmental cosplay lens
+11. full-body fashion camera
+12. studio flash photography camera
+13. soft-focus portrait camera
+14. handheld event photography camera
+15. magazine editorial camera
+16. dynamic action camera angle
+17. slightly elevated camera angle
+18. eye-level portrait camera
+19. three-quarter view camera
+20. side-profile portrait camera
+21. character reference camera
+22. fashion catalog camera
+23. cinematic shallow-depth lens
+24. cosplay event snapshot camera
+25. premium studio portrait camera
+26. dramatic low perspective lens
+27. clean commercial portrait camera
+28. soft beauty dish camera setup
+29. long lens compression portrait
+30. front-cover beauty camera
+31. selfie-inspired cosplay camera
+32. stage performance camera
+33. glamour portrait lens
+34. high-resolution digital camera
+35. cinema lens portrait setup
+36. natural light portrait camera
+37. LED-lit studio camera setup
+38. spotlight stage camera
+39. sharp focus cosplay camera
+40. macro detail portrait lens
+41. dynamic diagonal camera angle
+42. center-framed portrait camera
+43. close portrait lens with bokeh
+44. fantasy editorial lens setup
+45. ultra-clean studio camera
+46. vertical social media camera
+47. runway-style camera angle
+48. game character poster camera
+49. soft pastel studio camera
+50. high-end cosplay editorial camera

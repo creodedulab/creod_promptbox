@@ -1,0 +1,53 @@
+﻿COSPLAY_LIGHTING_DESCRIPTION
+============================
+
+01. colorful convention lighting
+02. cinematic rim light
+03. soft studio lighting
+04. dramatic spotlight
+05. pastel-toned lighting
+06. neon cyberpunk lighting
+07. warm golden hour lighting
+08. cool moonlight lighting
+09. soft beauty dish lighting
+10. diffused white studio lighting
+11. pink and purple stage lighting
+12. blue cinematic backlight
+13. gentle fairy-tale glow
+14. high-contrast gothic lighting
+15. soft candlelit lighting
+16. clean commercial lighting
+17. glowing magical light
+18. holographic neon lighting
+19. angelic high-key lighting
+20. dark fantasy low-key lighting
+21. romantic softbox lighting
+22. crystal-reflection lighting
+23. rainy city reflection lighting
+24. warm festival lantern lighting
+25. winter snow-reflection lighting
+26. sakura spring daylight
+27. dramatic side lighting
+28. front-facing beauty lighting
+29. soft bloom lighting
+30. luxury fashion studio lighting
+31. subtle lens haze lighting
+32. spotlight with stage fog
+33. gentle rim light on hair
+34. colored LED accent lighting
+35. natural window lighting
+36. cinematic sunset lighting
+37. cool desaturated studio lighting
+38. glittering idol stage lighting
+39. soft overhead studio lighting
+40. ethereal backlit glow
+41. magic-circle underlighting
+42. clean white background lighting
+43. low-angle dramatic lighting
+44. golden royal palace lighting
+45. arcade neon lighting
+46. warm cream lighting
+47. soft lavender lighting
+48. icy blue winter lighting
+49. high-end editorial flash lighting
+50. dreamy diffused cosplay lighting

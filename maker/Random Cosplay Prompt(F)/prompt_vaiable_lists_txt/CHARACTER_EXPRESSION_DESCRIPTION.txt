@@ -1,0 +1,53 @@
+﻿CHARACTER_EXPRESSION_DESCRIPTION
+================================
+
+01. confident playful smile
+02. mysterious gaze
+03. cute cheerful expression
+04. dramatic serious look
+05. soft innocent look
+06. elegant calm expression
+07. bright idol smile
+08. gentle dreamy gaze
+09. charismatic villainess stare
+10. shy blushing smile
+11. cool detached expression
+12. excited festival smile
+13. serene princess expression
+14. bold heroic expression
+15. slightly mischievous grin
+16. romantic soft smile
+17. wide sparkling smile
+18. subtle confident smirk
+19. calm melancholic gaze
+20. intense battle-ready stare
+21. magical surprised expression
+22. soft sleepy expression
+23. delicate wistful gaze
+24. playful wink
+25. gentle closed-mouth smile
+26. serious warrior expression
+27. cute pout
+28. innocent curious look
+29. high-fashion neutral expression
+30. dreamy upward gaze
+31. confident direct eye contact
+32. noble elegant smile
+33. dark gothic expression
+34. angelic peaceful smile
+35. demon-like mischievous smile
+36. focused spellcasting expression
+37. energetic stage expression
+38. soft romantic gaze
+39. slightly embarrassed smile
+40. cool anime heroine expression
+41. warm friendly smile
+42. cold queen-like gaze
+43. determined heroic stare
+44. delicate tearful gaze
+45. joyful convention smile
+46. gentle shy gaze
+47. luxurious editorial expression
+48. calm refined smile
+49. cute heart-fluttering expression
+50. dramatic fantasy character expression

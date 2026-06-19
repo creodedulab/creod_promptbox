@@ -1,0 +1,53 @@
+﻿COSPLAY_COSTUME_DESCRIPTION
+===========================
+
+01. magical girl costume
+02. cyberpunk warrior outfit
+03. gothic princess dress
+04. fantasy knight armor
+05. maid cafe uniform
+06. school idol costume
+07. royal queen gown
+08. angel costume
+09. demon queen costume
+10. witch academy uniform
+11. vampire noble dress
+12. steampunk adventurer outfit
+13. sci-fi pilot suit
+14. battle mage robe
+15. fairy princess dress
+16. ninja-inspired costume
+17. samurai fantasy outfit
+18. cat-ear idol costume
+19. rabbit-themed performer outfit
+20. luxury villainess dress
+21. anime school uniform
+22. sailor-style magical uniform
+23. fantasy archer costume
+24. princess warrior costume
+25. white goddess dress
+26. black lace gothic dress
+27. red riding hood fantasy outfit
+28. mermaid-inspired stage costume
+29. cyber idol outfit
+30. pastel idol costume
+31. combat heroine outfit
+32. elegant lolita dress
+33. military-inspired anime costume
+34. racing queen cosplay outfit
+35. space princess outfit
+36. game healer costume
+37. dark sorceress robe
+38. ice queen dress
+39. fire mage costume
+40. flower fairy dress
+41. royal academy uniform
+42. detective character outfit
+43. pirate captain costume
+44. mechanic girl cosplay outfit
+45. traditional hanbok-inspired fantasy costume
+46. kimono-inspired fantasy dress
+47. nurse-themed anime costume
+48. butler-inspired female costume
+49. dreamy pajama cosplay outfit
+50. high-fashion original character costume

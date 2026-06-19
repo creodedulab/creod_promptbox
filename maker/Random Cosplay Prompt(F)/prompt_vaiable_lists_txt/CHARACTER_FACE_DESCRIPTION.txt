@@ -1,0 +1,53 @@
+﻿CHARACTER_FACE_DESCRIPTION
+==========================
+
+01. doll-like eyes
+02. large sparkling anime-inspired eyes
+03. sharp elegant facial features
+04. soft cute face
+05. small delicate face
+06. refined fantasy makeup
+07. heart-shaped face
+08. oval face with gentle features
+09. clear porcelain skin
+10. glossy lips and soft blush
+11. dramatic eyeliner
+12. innocent round eyes
+13. cat-like eyes
+14. fox-like eyes
+15. calm almond-shaped eyes
+16. mysterious deep gaze
+17. bright idol-like face
+18. luxurious beauty makeup
+19. soft pink blush
+20. cool-toned makeup
+21. warm peach makeup
+22. gothic dark lipstick
+23. shimmering eye makeup
+24. elegant straight nose
+25. soft baby-face impression
+26. confident beauty face
+27. ethereal fantasy face
+28. princess-like face
+29. heroine-like face
+30. villainess-like face
+31. cute mischievous face
+32. calm refined expression features
+33. sparkling under-eye makeup
+34. subtle costume contour makeup
+35. rosy cheeks
+36. crystal-like eye highlights
+37. natural beauty retouch skin
+38. soft matte skin texture
+39. high-gloss editorial makeup
+40. clean youthful features
+41. sharp V-line face
+42. soft rounded jawline
+43. delicate eyebrows
+44. long eyelashes
+45. bright expressive eyes
+46. gentle smiling eyes
+47. cool charismatic gaze
+48. dreamy soft gaze
+49. anime heroine facial impression
+50. premium cosplay makeup look

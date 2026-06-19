@@ -1,0 +1,53 @@
+﻿COSPLAY_MOOD_KEYWORDS
+=====================
+
+01. cute, magical, energetic
+02. heroic, dramatic, powerful
+03. romantic, dreamy, soft
+04. luxurious, elegant, refined
+05. dark, mysterious, gothic
+06. bright, cheerful, idol-like
+07. fantasy-like, ethereal, graceful
+08. cyberpunk, futuristic, intense
+09. royal, noble, majestic
+10. playful, charming, sweet
+11. cinematic, emotional, dramatic
+12. angelic, pure, soft
+13. villainous, charismatic, bold
+14. festival-like, joyful, colorful
+15. calm, graceful, delicate
+16. powerful, confident, stylish
+17. soft, pastel, dreamy
+18. dramatic, moody, high-fashion
+19. cute, innocent, heart-fluttering
+20. mystical, magical, glowing
+21. cool, sharp, chic
+22. warm, nostalgic, romantic
+23. elegant, princess-like, luxurious
+24. bold, action-oriented, heroic
+25. gothic, romantic, mysterious
+26. sci-fi, sleek, futuristic
+27. cosy, wintery, gentle
+28. spring-like, fresh, charming
+29. summer-like, bright, lively
+30. autumnal, warm, elegant
+31. stage-like, glamorous, sparkling
+32. convention-like, fun, vivid
+33. storybook, whimsical, sweet
+34. battle-ready, intense, dynamic
+35. soft-glow, cinematic, refined
+36. high-energy, confident, stylish
+37. clean, minimal, premium
+38. dreamlike, luxurious, delicate
+39. magical girl, cute, sparkling
+40. dark queen, elegant, powerful
+41. school festival, youthful, cheerful
+42. royal fantasy, elegant, grand
+43. idol performance, bright, energetic
+44. neon night, cool, futuristic
+45. vampire, elegant, dangerous
+46. fairy, soft, ethereal
+47. witchy, mysterious, charming
+48. game character, vivid, dynamic
+49. editorial, polished, luxurious
+50. premium cosplay, detailed, immersive

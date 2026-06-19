@@ -1,0 +1,53 @@
+﻿COSPLAY_COMPOSITION_DESCRIPTION
+===============================
+
+01. centered dynamic composition
+02. subject occupying 70% of the frame
+03. tight framing around the face
+04. full costume visible in frame
+05. symmetrical magazine cover composition
+06. diagonal action composition
+07. foreground bokeh framing
+08. character placed slightly off-center
+09. clean white-space composition
+10. low-angle heroic composition
+11. high-angle cute composition
+12. waist-up centered composition
+13. three-quarter body balanced framing
+14. full-body character showcase composition
+15. close-up face-focused composition
+16. prop-focused composition
+17. costume-detail focused composition
+18. stage-centered composition
+19. dynamic convention snapshot composition
+20. soft dreamy vertical composition
+21. cinematic rule-of-thirds composition
+22. wide fantasy background composition
+23. portrait with glowing frame elements
+24. character poster layout composition
+25. fashion editorial composition
+26. luxury studio cover composition
+27. romantic close framing
+28. dramatic spotlight composition
+29. floating particle surround composition
+30. eye-focused beauty composition
+31. soft shoulder-up composition
+32. idol stage center composition
+33. walking-forward composition
+34. over-the-shoulder framing
+35. side-profile elegant composition
+36. low-depth background blur composition
+37. vertical 4:5 social media composition
+38. square profile portrait composition
+39. full costume catalog composition
+40. heroine transformation pose composition
+41. battle-ready triangular composition
+42. royal throne-centered composition
+43. cute compact composition
+44. large head-and-shoulders composition
+45. dynamic arm gesture composition
+46. balanced prop-and-face composition
+47. soft pastel magazine composition
+48. cosplay booth background composition
+49. premium character portrait composition
+50. high-end editorial cover framing

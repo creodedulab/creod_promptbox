@@ -1,18 +1,6 @@
-const templatePath = "Random Portrait Prompt/Random Portrait Prompt.txt";
-const variableListPath = "Random Portrait Prompt/prompt_variable_lists_txt";
-
-const generateButton = document.querySelector("#generateRandomPrompt");
-const copyButton = document.querySelector("#copyGeneratedPrompt");
-const resetButton = document.querySelector("#resetGeneratedPrompt");
-const generatedPrompt = document.querySelector("#generatedPrompt");
-const makerStatus = document.querySelector("#makerStatus");
-
-let templateText = "";
+const makerCards = document.querySelectorAll("[data-random-prompt-maker]");
+const templateCache = new Map();
 const variableCache = new Map();
-
-function setMakerStatus(message) {
-  if (makerStatus) makerStatus.textContent = message;
-}
 
 function extractVariables(template) {
   return [...new Set([...template.matchAll(/\{([A-Z0-9_]+)\}/g)].map((match) => match[1]))];
@@ -39,50 +27,76 @@ async function fetchText(path) {
   return response.text();
 }
 
-async function getTemplate() {
-  if (!templateText) {
-    templateText = (await fetchText(templatePath)).trim();
+async function getTemplate(templatePath) {
+  if (!templateCache.has(templatePath)) {
+    const template = (await fetchText(templatePath)).trim();
+    if (!template) throw new Error(`${templatePath} 파일이 비어 있습니다.`);
+    templateCache.set(templatePath, template);
   }
-  return templateText;
+
+  return templateCache.get(templatePath);
 }
 
-async function getVariableOptions(variableName) {
-  if (!variableCache.has(variableName)) {
+async function getVariableOptions(variableListPath, variableName) {
+  const cacheKey = `${variableListPath}/${variableName}`;
+  if (!variableCache.has(cacheKey)) {
     const text = await fetchText(`${variableListPath}/${variableName}.txt`);
     const options = parseVariableList(text, variableName);
-    if (options.length === 0) throw new Error(`${variableName}.txt 안에 사용할 값이 없습니다.`);
-    variableCache.set(variableName, options);
+    if (options.length === 0) throw new Error(`${variableName}.txt에 사용할 값이 없습니다.`);
+    variableCache.set(cacheKey, options);
   }
 
-  return variableCache.get(variableName);
+  return variableCache.get(cacheKey);
 }
 
-async function generateRandomPrompt() {
+function getCardElements(card) {
+  return {
+    generateButton: card.querySelector("[data-generate-random-prompt]"),
+    copyButton: card.querySelector("[data-copy-generated-prompt]"),
+    resetButton: card.querySelector("[data-reset-generated-prompt]"),
+    generatedPrompt: card.querySelector("[data-generated-prompt]"),
+    makerStatus: card.querySelector("[data-maker-status]"),
+    sourcePreview: card.querySelector("[data-source-prompt-preview]"),
+  };
+}
+
+function setMakerStatus(card, message) {
+  const { makerStatus } = getCardElements(card);
+  if (makerStatus) makerStatus.textContent = message;
+}
+
+async function generateRandomPrompt(card) {
+  const templatePath = card.dataset.templatePath;
+  const variableListPath = card.dataset.variableListPath;
+  const { generatedPrompt } = getCardElements(card);
+
   try {
-    setMakerStatus("프롬프트를 생성하는 중입니다.");
-    const template = await getTemplate();
+    setMakerStatus(card, "프롬프트를 생성하는 중입니다.");
+    const template = await getTemplate(templatePath);
     const variables = extractVariables(template);
     const selectedValues = {};
 
     await Promise.all(
       variables.map(async (variableName) => {
-        selectedValues[variableName] = pickRandom(await getVariableOptions(variableName));
+        selectedValues[variableName] = pickRandom(await getVariableOptions(variableListPath, variableName));
       }),
     );
 
     generatedPrompt.value = template.replace(/\{([A-Z0-9_]+)\}/g, (_, variableName) => {
       return selectedValues[variableName] || `{${variableName}}`;
     });
-    setMakerStatus("");
+    setMakerStatus(card, "");
   } catch (error) {
     generatedPrompt.value = "";
-    setMakerStatus(error.message);
+    setMakerStatus(card, error.message);
   }
 }
 
-async function copyGeneratedPrompt() {
+async function copyGeneratedPrompt(card) {
+  const { generatedPrompt } = getCardElements(card);
+
   if (!generatedPrompt.value.trim()) {
-    setMakerStatus("복사할 프롬프트가 없습니다.");
+    setMakerStatus(card, "복사할 프롬프트가 없습니다.");
     return;
   }
 
@@ -93,15 +107,31 @@ async function copyGeneratedPrompt() {
     document.execCommand("copy");
   }
 
-  setMakerStatus("프롬프트가 복사되었습니다.");
+  setMakerStatus(card, "프롬프트가 복사되었습니다.");
 }
 
-function resetGeneratedPrompt() {
+function resetGeneratedPrompt(card) {
+  const { generatedPrompt } = getCardElements(card);
   generatedPrompt.value = "";
-  generatedPrompt.placeholder = "생성 버튼을 눌러주세요";
-  setMakerStatus("");
+  generatedPrompt.placeholder = "생성 버튼을 눌러주세요.";
+  setMakerStatus(card, "");
 }
 
-generateButton?.addEventListener("click", generateRandomPrompt);
-copyButton?.addEventListener("click", copyGeneratedPrompt);
-resetButton?.addEventListener("click", resetGeneratedPrompt);
+makerCards.forEach((card) => {
+  const { generateButton, copyButton, resetButton } = getCardElements(card);
+  generateButton?.addEventListener("click", () => generateRandomPrompt(card));
+  copyButton?.addEventListener("click", () => copyGeneratedPrompt(card));
+  resetButton?.addEventListener("click", () => resetGeneratedPrompt(card));
+});
+
+makerCards.forEach(async (card) => {
+  const { sourcePreview } = getCardElements(card);
+  if (!sourcePreview) return;
+
+  try {
+    const template = await fetchText(card.dataset.templatePath);
+    sourcePreview.textContent = template.trim() || "템플릿 파일이 비어 있습니다.";
+  } catch (error) {
+    sourcePreview.textContent = error.message;
+  }
+});

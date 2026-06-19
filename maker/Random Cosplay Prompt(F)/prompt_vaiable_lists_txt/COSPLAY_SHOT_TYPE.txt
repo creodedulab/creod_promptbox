@@ -1,0 +1,53 @@
+﻿COSPLAY_SHOT_TYPE
+=================
+
+01. close-up
+02. extreme close-up
+03. tight face portrait
+04. half-body
+05. upper-body
+06. three-quarter body
+07. full-body
+08. knee-up portrait
+09. waist-up portrait
+10. magazine cover portrait
+11. character profile portrait
+12. hero shot
+13. dynamic action shot
+14. low-angle portrait
+15. high-angle portrait
+16. over-the-shoulder portrait
+17. side-profile portrait
+18. front-facing portrait
+19. centered portrait
+20. cinematic portrait
+21. beauty close-up
+22. fashion editorial portrait
+23. cosplay catalog portrait
+24. character sheet style portrait
+25. poster-style portrait
+26. stage performance portrait
+27. idol-style portrait
+28. fantasy character portrait
+29. dramatic battle pose portrait
+30. sitting pose portrait
+31. standing pose portrait
+32. walking pose portrait
+33. turnaround reference portrait
+34. portrait with prop focus
+35. face-and-costume detail portrait
+36. soft dreamy portrait
+37. wide environmental portrait
+38. vertical social media portrait
+39. studio profile shot
+40. event snapshot portrait
+41. premium costume showcase portrait
+42. romantic close portrait
+43. cute selfie-style portrait
+44. dramatic spotlight portrait
+45. symmetrical character portrait
+46. diagonal composition portrait
+47. portrait with floating effects
+48. portrait with foreground bokeh
+49. portrait focused on eyes
+50. high-end cosplay cover portrait

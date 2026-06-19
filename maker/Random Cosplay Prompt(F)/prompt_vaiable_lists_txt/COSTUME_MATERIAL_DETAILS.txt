@@ -1,0 +1,53 @@
+﻿COSTUME_MATERIAL_DETAILS
+========================
+
+01. glossy satin fabric
+02. metallic armor details
+03. lace trims
+04. leather straps
+05. embroidered patterns
+06. sheer chiffon layers
+07. velvet cape texture
+08. sequined idol fabric
+09. soft fur collar
+10. crystal bead decorations
+11. matte leather panels
+12. holographic PVC details
+13. silk ribbon accents
+14. gold embroidery
+15. silver chain details
+16. pleated skirt folds
+17. ruffled lace edges
+18. transparent organza sleeves
+19. polished metal shoulder armor
+20. glittering gemstone accents
+21. soft cotton uniform fabric
+22. stiff structured corset fabric
+23. glossy patent leather boots
+24. pearl button details
+25. feather decorations
+26. brocade royal fabric
+27. mesh sleeve details
+28. nylon futuristic panels
+29. carbon-fiber texture details
+30. handmade prop texture
+31. painted foam armor detail
+32. silky hair ribbon texture
+33. soft wool coat texture
+34. vinyl cyberpunk material
+35. layered tulle skirt
+36. gold-trimmed cape
+37. delicate bead embroidery
+38. fluffy faux-fur cuffs
+39. metal buckle details
+40. soft knit fabric
+41. jacquard fantasy pattern
+42. translucent fairy wing material
+43. satin glove texture
+44. lace stocking texture
+45. ornamental armor engraving
+46. shimmering magical fabric
+47. structured military fabric
+48. velvet gothic dress texture
+49. iridescent costume highlights
+50. detailed wig strands and costume seams

@@ -1,0 +1,53 @@
+﻿COSPLAY_ACCESSORY_DESCRIPTION
+=============================
+
+01. heart-shaped wand accessory
+02. prop sword
+03. oversized magic staff
+04. ribbon hairpiece
+05. lace choker
+06. tiny crown
+07. silver tiara
+08. cat-ear headband
+09. rabbit-ear headband
+10. angel wings
+11. black demon horns
+12. glowing halo
+13. fingerless gloves
+14. themed thigh-high stockings
+15. character wig
+16. prop shield
+17. crystal necklace
+18. large bow accessory
+19. rose hairpin
+20. mechanical goggles
+21. steampunk hat
+22. cyber visor
+23. holographic earrings
+24. magic spell book
+25. mini shoulder cape
+26. long satin gloves
+27. decorative belt
+28. lace parasol
+29. fantasy dagger prop
+30. idol microphone
+31. small plush mascot
+32. chain accessory
+33. metal armor shoulder piece
+34. gemstone brooch
+35. oversized ribbon tie
+36. school bag prop
+37. star-shaped hair clips
+38. butterfly hair ornament
+39. flower crown
+40. silver arm cuffs
+41. golden bracelet
+42. moon-shaped pendant
+43. transparent fairy wings
+44. decorative mask
+45. luxury feather fan
+46. waist pouch prop
+47. magic potion bottle
+48. glowing orb prop
+49. themed boots
+50. character-specific badge

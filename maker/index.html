@@ -8,12 +8,8 @@
   </head>
   <body data-page="maker" data-base-path="../">
     <section class="hero page-nav">
-      <div class="hero-links" aria-label="외부 링크">
-        <a
-          class="hero-link"
-          href="https://creodedulab.github.io/creod_promptbox/"
-          aria-label="홈페이지 열기"
-        >
+      <div class="hero-links" aria-label="메뉴 링크">
+        <a class="hero-link" href="https://creodedulab.github.io/creod_promptbox/" aria-label="홈페이지 열기">
           <svg aria-hidden="true" viewBox="0 0 24 24">
             <path d="M3 10.6 12 3l9 7.6v9.9a.5.5 0 0 1-.5.5h-5.2v-6.4H8.7V21H3.5a.5.5 0 0 1-.5-.5v-9.9Z" />
           </svg>
@@ -59,13 +55,7 @@
           </svg>
           <span>Maker</span>
         </a>
-        <button
-          class="theme-toggle"
-          type="button"
-          id="themeToggle"
-          aria-label="블랙 테마로 변경"
-          title="테마 변경"
-        >
+        <button class="theme-toggle" type="button" id="themeToggle" aria-label="테마 변경" title="테마 변경">
           <svg aria-hidden="true" viewBox="0 0 24 24">
             <circle class="sun-core" cx="12" cy="12" r="4.2" />
             <path d="M12 2.8v2" />
@@ -87,28 +77,60 @@
         <h2 id="makerTitle">Image Prompt Maker</h2>
         <p class="maker-intro">프롬프트 제작과 관련된 기능을 관리하는 페이지입니다.</p>
         <div class="prompt-maker-grid">
-          <article class="prompt-maker-card" data-random-prompt-maker>
+          <article
+            class="prompt-maker-card"
+            data-random-prompt-maker
+            data-template-path="Random Portrait Prompt(F)/Random Portrait Prompt(F).txt"
+            data-variable-list-path="Random Portrait Prompt(F)/prompt_variable_lists_txt"
+          >
             <div class="prompt-maker-card-head">
-              <h3>Portrait Prompt</h3>
+              <h3>Portrait Prompt(F)</h3>
             </div>
-            <div class="source-prompt-preview">
+            <div class="source-prompt-preview" data-source-prompt-preview>
               Rendered in {ART_STYLE}, a {COLOR_PALETTE} {SHOT_TYPE} portrait of a young {NATIONALITY} woman in {BACKGROUND_DESCRIPTION} during {SEASON_DESCRIPTION}, with {ENVIRONMENT_DETAILS}. She is wearing {OUTFIT_DESCRIPTION} and {ACCESSORY_DESCRIPTION}, with {FACE_DESCRIPTION} and {HAIR_DESCRIPTION}, {POSE_DESCRIPTION} with {EXPRESSION_DESCRIPTION}. Include a small, elegant, semi-transparent watermark text "@tting_ssam" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with {CAMERA_DESCRIPTION} and {COMPOSITION_DESCRIPTION}, featuring {LIGHTING_DESCRIPTION} and {MATERIAL_DETAILS}, conveying a {MOOD_KEYWORDS} atmosphere and rendered in {IMAGE_QUALITY}.
             </div>
             <div class="maker-actions">
-              <button class="maker-button maker-button-primary" type="button" id="generateRandomPrompt">
+              <button class="maker-button maker-button-primary" type="button" data-generate-random-prompt>
                 랜덤 프롬프트 생성
               </button>
-              <button class="maker-button" type="button" id="copyGeneratedPrompt">프롬프트 복사</button>
-              <button class="maker-button" type="button" id="resetGeneratedPrompt">초기화</button>
+              <button class="maker-button" type="button" data-copy-generated-prompt>프롬프트 복사</button>
+              <button class="maker-button" type="button" data-reset-generated-prompt>초기화</button>
             </div>
             <textarea
               class="generated-prompt"
-              id="generatedPrompt"
+              data-generated-prompt
               aria-label="생성된 프롬프트"
               spellcheck="false"
               placeholder="생성 버튼을 눌러주세요."
             ></textarea>
-            <p class="maker-status" id="makerStatus" role="status" aria-live="polite"></p>
+            <p class="maker-status" data-maker-status role="status" aria-live="polite"></p>
+          </article>
+
+          <article
+            class="prompt-maker-card"
+            data-random-prompt-maker
+            data-template-path="Random Cosplay Prompt(F)/Random Cosplay Prompt(F).txt"
+            data-variable-list-path="Random Cosplay Prompt(F)/prompt_vaiable_lists_txt"
+          >
+            <div class="prompt-maker-card-head">
+              <h3>Cosplay Prompt(F)</h3>
+            </div>
+            <div class="source-prompt-preview" data-source-prompt-preview></div>
+            <div class="maker-actions">
+              <button class="maker-button maker-button-primary" type="button" data-generate-random-prompt>
+                랜덤 프롬프트 생성
+              </button>
+              <button class="maker-button" type="button" data-copy-generated-prompt>프롬프트 복사</button>
+              <button class="maker-button" type="button" data-reset-generated-prompt>초기화</button>
+            </div>
+            <textarea
+              class="generated-prompt"
+              data-generated-prompt
+              aria-label="생성된 코스프레 프롬프트"
+              spellcheck="false"
+              placeholder="생성 버튼을 눌러주세요."
+            ></textarea>
+            <p class="maker-status" data-maker-status role="status" aria-live="polite"></p>
           </article>
         </div>
       </section>
@@ -127,6 +149,6 @@
     </footer>
 
     <script src="../theme.js?v=20260619-2"></script>
-    <script src="random-prompt-maker.js?v=20260619-4"></script>
+    <script src="random-prompt-maker.js?v=20260619-6"></script>
   </body>
 </html>

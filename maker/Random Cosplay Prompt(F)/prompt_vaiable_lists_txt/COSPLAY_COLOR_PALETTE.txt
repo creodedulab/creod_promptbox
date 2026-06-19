@@ -1,0 +1,53 @@
+﻿COSPLAY_COLOR_PALETTE
+=====================
+
+01. vivid anime color palette
+02. soft pastel cosplay palette
+03. neon fantasy color palette
+04. muted beige cosplay palette
+05. pink and lavender palette
+06. icy blue and silver palette
+07. black and crimson palette
+08. royal purple and gold palette
+09. white and sky-blue palette
+10. emerald green fantasy palette
+11. warm golden hour palette
+12. cool desaturated cinematic palette
+13. candy-colored idol palette
+14. dark gothic monochrome palette
+15. rose gold and cream palette
+16. cyberpunk magenta and cyan palette
+17. soft ivory and blush palette
+18. deep navy and silver palette
+19. forest green and bronze palette
+20. scarlet and black villain palette
+21. bright magical girl palette
+22. white angelic palette
+23. black lace gothic palette
+24. pastel rainbow palette
+25. luxury champagne palette
+26. warm autumn fantasy palette
+27. winter snow pastel palette
+28. spring sakura pink palette
+29. summer festival color palette
+30. moonlit blue fantasy palette
+31. fiery red and orange palette
+32. soft peach and cream palette
+33. lavender mist palette
+34. silver white futuristic palette
+35. deep wine and gold palette
+36. mint green and white palette
+37. black silver cyber palette
+38. soft coral cosplay palette
+39. emerald and pearl palette
+40. violet neon studio palette
+41. red white idol palette
+42. brown beige steampunk palette
+43. blue crystal fantasy palette
+44. soft gray and pink palette
+45. warm candlelight palette
+46. frosted pastel palette
+47. luxury black and gold palette
+48. clean white studio palette
+49. dreamy pearl color palette
+50. high-saturation game character palette

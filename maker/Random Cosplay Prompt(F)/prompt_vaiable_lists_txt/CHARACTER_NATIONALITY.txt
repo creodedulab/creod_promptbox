@@ -1,0 +1,53 @@
+﻿CHARACTER_NATIONALITY
+=====================
+
+01. Korean
+02. Japanese
+03. Chinese
+04. East Asian
+05. Southeast Asian
+06. Thai
+07. Vietnamese
+08. Filipino
+09. Indonesian
+10. Malaysian
+11. Singaporean
+12. Taiwanese
+13. Hong Kong
+14. European
+15. French
+16. Italian
+17. British
+18. German
+19. Spanish
+20. Nordic
+21. American
+22. Canadian
+23. Australian
+24. Brazilian
+25. Mexican
+26. Ukrainian
+27. Russian
+28. Polish
+29. Turkish
+30. Indian
+31. Arab
+32. Middle Eastern
+33. Persian
+34. Greek
+35. Latin American
+36. mixed Asian-European
+37. mixed Korean-American
+38. fantasy kingdom
+39. elf-inspired
+40. celestial fantasy
+41. mythical island
+42. royal academy
+43. magical city
+44. cyber city
+45. anime universe
+46. game world
+47. fairy realm
+48. steampunk nation
+49. space colony
+50. fictional fantasy

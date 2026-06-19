@@ -52,19 +52,6 @@ window.__PROMPT_FALLBACK_ITEMS__ = [
     "prompt": "Rendered in high-fashion editorial photography, a soft pastel palette magazine cover portrait of a young korean woman in a minimal white studio during Christmas season, with soft lens haze. She is wearing a cozy winter coat and a tiny heart necklace, with dreamy eyes and a small face and soft blonde hair, gently touching her hair with a confident look. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. No text in this image. Captured with front-facing portrait camera and tight framing around the face, featuring pastel-toned lighting, soft bloom effect, and natural skin texture and glossy hair strands, conveying a cinematic, dreamy, luxurious atmosphere and rendered in 4k ultra-high quality."
   },
   {
-    "title": "핑크빛 꽃잎 속 판타지 코스프레",
-    "mainCategory": "image",
-    "mainCategoryLabel": "이미지",
-    "subCategory": "person",
-    "subCategoryLabel": "인물",
-    "route": "image/person/핑크빛-꽃잎-속-판타지-코스프레",
-    "tool": "Image AI",
-    "size": "",
-    "image": "examples/image/person/핑크빛 꽃잎 속 판타지 코스프레/핑크빛 꽃잎 속 판타지 코스프레.webp",
-    "description": "",
-    "prompt": "Rendered in urban street cosplay photography, a icy blue and silver palette portrait focused on eyes portrait of a young fantasy kingdom woman in cherry blossom festival street during Valentine event season, with background crowd softly blurred. She is wearing dark sorceress robe and black demon horns, with cool charismatic gaze and fluffy twin-tail hairstyle, holding ribbons in the air with elegant calm expression. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with soft pastel studio camera and subject occupying 70% of the frame, featuring pink and purple stage lighting and leather straps, conveying a game character, vivid, dynamic atmosphere and rendered in sharp costume accessory detail quality."
-  },
-  {
     "title": "황금빛 시간 속 기차역의 여인",
     "mainCategory": "image",
     "mainCategoryLabel": "이미지",
@@ -141,5 +128,18 @@ window.__PROMPT_FALLBACK_ITEMS__ = [
     "image": "examples/image/avatar/해변가 햇빛이 눈부셔 피규어 만들기/해변가 햇빛이 눈부셔 피규어 만들기.webp",
     "description": "",
     "prompt": "Use the uploaded user photo as the only identity reference for the face.\r\n\r\nCreate a cute SD-style 3D figure of the person from the uploaded photo. Transform the real person into a small, adorable collectible-style chibi figure while preserving the person’s facial impression, hairstyle, and overall vibe. The result should clearly feel like the uploaded person reinterpreted as a cute SD figure, not a different character.\r\n\r\nRender the character as a high-quality 3D figurine with a polished toy-like finish, soft rounded proportions, and charming collectible details. Keep the overall style cute, clean, premium, and visually appealing.\r\n\r\nOutfit rules:\r\n- If the person in the uploaded photo is male, dress the figure in a white T-shirt, an unbuttoned sky-blue shirt, and blue Hawaiian shorts.\r\n- If the person in the uploaded photo is female, dress the figure in a white oversized shirt with a subtle sheer look, paired with denim shorts.\r\n\r\nExpression:\r\n- Give the figure an excited, fluttering, thrilled expression, as if enjoying the bright seaside atmosphere with a sense of anticipation and delight.\r\n\r\nComposition and framing:\r\n- 4:5 vertical image\r\n- top-down view from a slightly elevated angle\r\n- the figure should occupy about 60% of the frame\r\n- place the figure on a beach setting\r\n- include clear beach sand and seaside surroundings\r\n- the figure is looking up toward the sky\r\n- the figure is making a pose where one hand is raised to shade the sunlight\r\n- the pose should feel natural, lively, and cute\r\n\r\nBackground and environment:\r\n- bright, refreshing beach atmosphere\r\n- clear seaside mood\r\n- clean sand texture visible\r\n- fresh, cool ocean colors\r\n- vivid but natural blue tones\r\n- overall image should feel bright, clear, breezy, and summery\r\n\r\nMood and color:\r\n- refreshing\r\n- cool seaside palette\r\n- bright and clean lighting\r\n- clear sky feeling\r\n- cheerful and crisp summer atmosphere\r\n\r\nImportant requirements:\r\n- preserve the identity and vibe of the uploaded person\r\n- keep the result in a cute SD character style\r\n- make it clearly a 3D figure, not a flat illustration\r\n- include the beach and sand as essential visual elements\r\n- no excessive retouching\r\n- no unnecessary text\r\n- no text except an optional watermark if needed\r\n- avoid finger errors and malformed hands\r\n- maintain clean anatomy within the SD figure style\r\n\r\nWatermark \r\n- Add the watermark text \"@tting_ssam\" in the bottom-right corner of the image. \r\n- The watermark position must be fixed at the bottom-right corner of the image. \r\n- Set the font color to hex code \"#FFFFFF\". \r\n- Set the watermark transparency to 20, where 100 means fully transparent. \r\n- This means the watermark should appear as white text with about 80% opacity. \r\n- Keep the watermark small, clean, and stylish. \r\n- The watermark must be clearly readable but should not disturb the overall design."
+  },
+  {
+    "title": "핑크빛 꽃잎 속 판타지 코스프레",
+    "mainCategory": "image",
+    "mainCategoryLabel": "이미지",
+    "subCategory": "cosplay",
+    "subCategoryLabel": "코스프레",
+    "route": "image/cosplay/핑크빛-꽃잎-속-판타지-코스프레",
+    "tool": "Image AI",
+    "size": "",
+    "image": "examples/image/cosplay/핑크빛 꽃잎 속 판타지 코스프레/핑크빛 꽃잎 속 판타지 코스프레.webp",
+    "description": "",
+    "prompt": "Rendered in urban street cosplay photography, a icy blue and silver palette portrait focused on eyes portrait of a young fantasy kingdom woman in cherry blossom festival street during Valentine event season, with background crowd softly blurred. She is wearing dark sorceress robe and black demon horns, with cool charismatic gaze and fluffy twin-tail hairstyle, holding ribbons in the air with elegant calm expression. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with soft pastel studio camera and subject occupying 70% of the frame, featuring pink and purple stage lighting and leather straps, conveying a game character, vivid, dynamic atmosphere and rendered in sharp costume accessory detail quality."
   }
 ];

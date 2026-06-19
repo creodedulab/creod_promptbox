@@ -1,0 +1,53 @@
+﻿CHARACTER_HAIRSTYLE_DESCRIPTION
+==========================
+
+1. long straight black hair
+2. long straight dark brown hair
+3. long soft wavy hair
+4. long loose curls
+5. long layered hair
+6. long hair with curtain bangs
+7. long hair with see-through bangs
+8. waist-length silky straight hair
+9. chest-length natural wavy hair
+10. long hair with side-swept bangs
+11. medium-length straight bob
+12. chin-length classic bob
+13. shoulder-length layered hair
+14. shoulder-length soft waves
+15. shoulder-length hair with curtain bangs
+16. collarbone-length straight hair
+17. collarbone-length wavy hair
+18. short pixie cut
+19. long pixie cut with soft bangs
+20. short layered haircut
+21. wolf cut hairstyle
+22. medium-length wolf cut
+23. long wolf cut with wispy bangs
+24. hime cut with long straight hair
+25. hime cut with curtain bangs
+26. long hair tied in a low ponytail
+27. long high ponytail
+28. sleek high ponytail
+29. messy low ponytail
+30. side ponytail with soft curls
+31. long twin-tail hairstyle
+32. low twin-tail hairstyle
+33. curly twin-tail hairstyle
+34. braided twin-tail hairstyle
+35. loose side braid
+36. long single braid
+37. thick fishtail braid
+38. crown braid hairstyle
+39. half-up half-down hairstyle
+40. half-up hairstyle with ribbon
+41. half-up hairstyle with soft curls
+42. space buns hairstyle
+43. double bun hairstyle
+44. messy bun hairstyle
+45. elegant low bun hairstyle
+46. braided low bun hairstyle
+47. long silver hair with gentle waves
+48. long pastel pink hair with soft curls
+49. long ash-brown hair with layered ends
+50. long dark navy hair with wispy bangs45. burgundy red hair

@@ -1,0 +1,53 @@
+﻿CHARACTER_HAIRCOLOR_DESCRIPTION
+==========================
+
+1. jet black hair
+2. natural black hair
+3. soft black hair
+4. dark brown hair
+5. chocolate brown hair
+6. chestnut brown hair
+7. warm brown hair
+8. ash brown hair
+9. mocha brown hair
+10. caramel brown hair
+11. honey brown hair
+12. golden brown hair
+13. light brown hair
+14. sandy brown hair
+15. beige brown hair
+16. mushroom brown hair
+17. taupe brown hair
+18. ash gray hair
+19. silver gray hair
+20. platinum silver hair
+21. platinum blonde hair
+22. champagne blonde hair
+23. golden blonde hair
+24. honey blonde hair
+25. strawberry blonde hair
+26. creamy blonde hair
+27. ivory blonde hair
+28. pearl blonde hair
+29. rose gold hair
+30. dusty pink hair
+31. pastel pink hair
+32. cotton candy pink hair
+33. peach pink hair
+34. lavender hair
+35. pastel purple hair
+36. lilac hair
+37. icy blue hair
+38. sky blue hair
+39. aqua blue hair
+40. teal gradient hair
+41. mint green hair
+42. emerald green hair
+43. copper red hair
+44. auburn hair
+45. burgundy red hair
+46. wine red hair
+47. cherry red hair
+48. ombre black-to-silver hair
+49. ombre brown-to-blonde hair
+50. iridescent rainbow hair

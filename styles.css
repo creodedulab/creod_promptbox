@@ -336,6 +336,13 @@ h2 {
   backdrop-filter: blur(18px);
 }
 
+.search-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 44px;
+  align-items: center;
+  gap: 10px;
+}
+
 .search-form input {
   width: 100%;
   border: 0;
@@ -349,6 +356,35 @@ h2 {
 
 .search-form input:focus {
   border-color: var(--accent);
+}
+
+.search-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.search-button:hover,
+.search-button:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.search-button svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
 }
 
 body[data-theme="dark"] .filter-bar,

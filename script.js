@@ -50,6 +50,7 @@ let selectedImage = "";
 let selectedTitle = "";
 let selectedSubCategoryLabel = "";
 let selectedRoute = "";
+let activeSearchKeyword = "";
 let imagePanX = 0;
 let imagePanY = 0;
 let isImagePanning = false;
@@ -61,6 +62,7 @@ let imagePanOriginY = 0;
 const mainCategoryTabs = document.querySelectorAll("[data-main-category]");
 const subcategoryTabs = document.querySelector("#subcategoryTabs");
 const galleryGrid = document.querySelector("#galleryGrid");
+const searchForm = document.querySelector(".search-form");
 const searchInput = document.querySelector("#searchInput");
 const emptyState = document.querySelector("#emptyState");
 const resultCount = document.querySelector("#resultCount");
@@ -253,7 +255,7 @@ function renderSubcategoryTabs() {
 }
 
 function renderGallery() {
-  const keyword = searchInput.value.trim().toLowerCase();
+  const keyword = activeSearchKeyword;
   const filtered = galleryItems.filter((item) => {
     const matchesMain =
       activeMainCategory === "all" || item.mainCategory === activeMainCategory;
@@ -572,7 +574,11 @@ subcategoryTabs.addEventListener("click", (event) => {
   renderGallery();
 });
 
-searchInput?.addEventListener("input", renderGallery);
+searchForm?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  activeSearchKeyword = searchInput.value.trim().toLowerCase();
+  renderGallery();
+});
 imageZoom?.addEventListener("input", updateImageZoom);
 modalImage?.addEventListener("wheel", (event) => {
   if (!selectedImage) return;

@@ -37,6 +37,7 @@ examples/image/person
 examples/image/animal
 examples/image/avatar
 examples/image/cosplay
+examples/image/magazine
 examples/image/illustration
 examples/image/infographic
 examples/image/mockup

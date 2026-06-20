@@ -15,6 +15,7 @@ const categories = {
       animal: "동물",
       avatar: "아바타",
       cosplay: "코스프레",
+      magazine: "잡지",
       illustration: "일러스트",
       infographic: "인포그래픽",
       mockup: "목업",

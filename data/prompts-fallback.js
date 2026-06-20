@@ -138,7 +138,7 @@ window.__PROMPT_FALLBACK_ITEMS__ = [
     "route": "image/cosplay/밤의-장미정원에서-만난-다크-로맨티시즘-지뢰계-코스프레",
     "tool": "Image AI",
     "size": "",
-    "image": "examples/image/cosplay/밤의 장미정원에서 만난 다크 로맨티시즘 지뢰계 코스프레/밤의 장미정원에서 만난 다크 로맨티시즘 지뢰계 코스프레.png",
+    "image": "examples/image/cosplay/밤의 장미정원에서 만난 다크 로맨티시즘 지뢰계 코스프레/밤의 장미정원에서 만난 다크 로맨티시즘 지뢰계 코스프레.webp",
     "description": "",
     "prompt": "Rendered in gothic lolita cosplay editorial, a black lace gothic palette side-profile portrait portrait of a young korean woman in storybook garden during warm spring afternoon, with bokeh from Christmas lights. She is wearing anime school uniform and school bag prop, with premium cosplay makeup look and honey blonde hair, messy low ponytail, posing with both hands framing her face with charismatic villainess stare. Include a small, elegant, semi-transparent watermark text '@tting_ssam' fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with character reference camera and stage-centered composition, featuring clean commercial lighting and holographic PVC details, conveying a villainous, charismatic, bold atmosphere and rendered in clean commercial image quality."
   },

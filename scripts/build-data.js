@@ -4,6 +4,7 @@ const path = require("path");
 const rootDir = path.resolve(__dirname, "..");
 const examplesDir = path.join(rootDir, "examples");
 const outputPath = path.join(rootDir, "data", "prompts.json");
+const fallbackOutputPath = path.join(rootDir, "data", "prompts-fallback.js");
 
 const categories = {
   image: {
@@ -163,5 +164,11 @@ function buildItems() {
 const items = buildItems();
 fs.mkdirSync(path.dirname(outputPath), { recursive: true });
 fs.writeFileSync(outputPath, `${JSON.stringify(items, null, 2)}\n`, "utf8");
+fs.writeFileSync(
+  fallbackOutputPath,
+  `window.__PROMPT_FALLBACK_ITEMS__ = ${JSON.stringify(items, null, 2)};\n`,
+  "utf8",
+);
 
 console.log(`Wrote ${items.length} prompt item(s) to ${toSitePath(outputPath)}.`);
+console.log(`Wrote ${items.length} fallback prompt item(s) to ${toSitePath(fallbackOutputPath)}.`);

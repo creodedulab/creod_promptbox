@@ -154,5 +154,18 @@ window.__PROMPT_FALLBACK_ITEMS__ = [
     "image": "examples/image/cosplay/핑크빛 꽃잎 속 판타지 코스프레/핑크빛 꽃잎 속 판타지 코스프레.webp",
     "description": "",
     "prompt": "Rendered in urban street cosplay photography, a icy blue and silver palette portrait focused on eyes portrait of a young fantasy kingdom woman in cherry blossom festival street during Valentine event season, with background crowd softly blurred. She is wearing dark sorceress robe and black demon horns, with cool charismatic gaze and fluffy twin-tail hairstyle, holding ribbons in the air with elegant calm expression. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with soft pastel studio camera and subject occupying 70% of the frame, featuring pink and purple stage lighting and leather straps, conveying a game character, vivid, dynamic atmosphere and rendered in sharp costume accessory detail quality."
+  },
+  {
+    "title": "햇살이 머무는 계절, 가장 아름다운 나를 담은 매거진",
+    "mainCategory": "image",
+    "mainCategoryLabel": "이미지",
+    "subCategory": "magazine",
+    "subCategoryLabel": "잡지",
+    "route": "image/magazine/햇살이-머무는-계절,-가장-아름다운-나를-담은-매거진",
+    "tool": "Image AI",
+    "size": "",
+    "image": "examples/image/magazine/햇살이 머무는 계절, 가장 아름다운 나를 담은 매거진/햇살이 머무는 계절, 가장 아름다운 나를 담은 매거진.webp",
+    "description": "",
+    "prompt": "Rendered in dreamy analog film style, a high-key bright palette dramatic portrait of a young korean woman in a minimal white studio during early autumn morning, with sunlight filtering through leaves. She is wearing a cream off-shoulder knit top and a soft knit scarf, with soft oval face with delicate features and long silky hair, sitting on a chair gracefully with an elegant expression. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with soft bokeh lens rendering and a complete magazine cover layout. The image features a large, stylized masthead (magazine title) at the top, and multiple lines of diverse, balanced typography over the image, including a main headline and sub-article titles in various elegant, modern, or pastel fonts, featuring moody neon lighting and smooth ceramic cup texture, conveying a dreamlike, pastel, peaceful atmosphere and rendered in soft high-end retouching."
   }
 ];

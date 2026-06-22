@@ -1,0 +1,52 @@
+{LIGHTING_STYLE}
+
+1. clean natural sunlight
+2. bright summer daylight
+3. soft diffused sunlight
+4. clear beach sunlight
+5. warm golden sunlight
+6. crisp ocean-reflected light
+7. high-key bright lighting
+8. soft cinematic daylight
+9. natural sunlit beach lighting
+10. gentle backlight from the sun
+11. soft side sunlight
+12. bright overhead sunlight
+13. clear sky daylight
+14. fresh morning sunlight
+15. warm afternoon sunlight
+16. soft rim light from the ocean side
+17. clean commercial toy lighting
+18. premium figurine product lighting
+19. soft glowing summer light
+20. bright airy daylight
+21. natural outdoor lighting
+22. gentle sunlight through clouds
+23. sparkling seaside lighting
+24. soft bokeh daylight
+25. crisp realistic sunlight
+26. soft shadow beach lighting
+27. bright vacation-style lighting
+28. clean studio-quality outdoor light
+29. natural sun glow with soft shadows
+30. warm coastal sunlight
+31. clear high-key beach lighting
+32. soft toy photography lighting
+33. gentle reflective sand lighting
+34. bright cheerful natural light
+35. cinematic soft sunlight
+36. premium 3D render lighting
+37. clean figure showcase lighting
+38. soft warm rim lighting
+39. sunlight with subtle specular highlights
+40. clear summer sun lighting
+41. bright sky-reflected lighting
+42. natural daylight with soft diffusion
+43. clean polished product lighting
+44. glowing beach sunlight
+45. soft pastel daylight
+46. realistic outdoor toy photography light
+47. bright sunlit figurine lighting
+48. soft natural shadow lighting
+49. refreshing ocean-blue daylight
+50. airy clear seaside lighting

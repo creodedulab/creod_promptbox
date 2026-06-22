@@ -1,0 +1,52 @@
+{TOP_TEXTURE}
+
+1. subtle sheer fabric
+2. soft cotton texture
+3. airy linen texture
+4. delicate chiffon texture
+5. light transparent sheer texture
+6. smooth satin-like fabric
+7. soft knit texture
+8. thin summer cotton texture
+9. gentle lace detail
+10. breezy gauze texture
+11. crisp white shirt fabric
+12. soft ruffled fabric
+13. delicate eyelet embroidery
+14. lightweight beach cover-up texture
+15. translucent organza texture
+16. soft brushed cotton texture
+17. natural linen weave
+18. fine ribbed knit texture
+19. clean cotton poplin texture
+20. thin flowing fabric
+21. delicate floral lace texture
+22. soft waffle cotton texture
+23. premium doll-cloth texture
+24. smooth toy-like fabric finish
+25. soft pleated chiffon texture
+26. light voile texture
+27. gentle see-through shirt texture
+28. airy summer blouse texture
+29. smooth microfiber texture
+30. soft silk-blend texture
+31. subtle wrinkled linen texture
+32. cute stitched fabric detail
+33. fine embroidered texture
+34. delicate frill texture
+35. matte cotton texture
+36. glossy satin accent texture
+37. soft beach shirt texture
+38. lightweight transparent sleeve texture
+39. tiny fabric weave detail
+40. soft pastel textile texture
+41. airy loose shirt texture
+42. thin sunlit fabric texture
+43. natural cotton-linen blend
+44. gentle layered sheer texture
+45. soft premium figure clothing texture
+46. toy-scale fabric texture
+47. clean high-quality blouse texture
+48. feminine lace-trim texture
+49. delicate summer fabric texture
+50. soft flowing vacation fabric

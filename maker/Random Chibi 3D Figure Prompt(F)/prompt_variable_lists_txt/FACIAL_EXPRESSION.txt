@@ -1,0 +1,52 @@
+{FACIAL_EXPRESSION}
+
+1. excited fluttering expression
+2. bright happy smile
+3. shy smile with sparkling eyes
+4. cheerful open smile
+5. soft gentle smile
+6. thrilled seaside expression
+7. playful wink
+8. surprised cute expression
+9. dreamy smile
+10. lovely bashful expression
+11. innocent smiling expression
+12. joyful summer expression
+13. delighted expression
+14. cute curious expression
+15. sparkling excited face
+16. sweet romantic smile
+17. soft closed-mouth smile
+18. big cheerful grin
+19. shy blushing smile
+20. heart-fluttering expression
+21. refreshing beach smile
+22. amazed upward-looking expression
+23. calm happy expression
+24. cute pouty smile
+25. playful mischievous smile
+26. gentle thrilled expression
+27. bright anticipation expression
+28. innocent excited expression
+29. adorable surprised smile
+30. warm friendly smile
+31. sparkling joyful expression
+32. soft blushing expression
+33. charming delighted face
+34. tiny doll-like smile
+35. sweet shy grin
+36. cute sunny expression
+37. refreshing joyful face
+38. lively smiling expression
+39. thrilled with soft blush
+40. excited with wide eyes
+41. peaceful happy smile
+42. lovely smile with rosy cheeks
+43. joyful looking-up expression
+44. cute amazed expression
+45. soft romantic expression
+46. gentle seaside smile
+47. happy vacation expression
+48. excited and bashful expression
+49. bright fluttering smile
+50. adorable chibi smile

@@ -495,13 +495,52 @@ body[data-theme="dark"] .maker-section {
   padding: 18px;
 }
 
+.prompt-maker-card:not(.is-open) > :not(.prompt-maker-card-head) {
+  display: none;
+}
+
+.prompt-maker-card:not(.is-open) {
+  align-content: center;
+  min-height: 72px;
+}
+
 .prompt-maker-card-head {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 8px;
+  min-height: 34px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.prompt-maker-card-head::after {
+  content: "+";
+  display: inline-grid;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid #cfe8ff;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--accent);
+  font-size: 18px;
+  line-height: 1;
+}
+
+.prompt-maker-card.is-open .prompt-maker-card-head::after {
+  content: "-";
+}
+
+.prompt-maker-card-head:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }
 
 .prompt-maker-card h3 {
+  min-width: 0;
+  overflow-wrap: anywhere;
   margin: 0;
   font-size: 17px;
 }

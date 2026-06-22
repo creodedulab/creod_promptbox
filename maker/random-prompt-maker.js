@@ -51,6 +51,7 @@ async function getVariableOptions(variableListPath, variableName) {
 
 function getCardElements(card) {
   return {
+    cardHead: card.querySelector(".prompt-maker-card-head"),
     generateButton: card.querySelector("[data-generate-random-prompt]"),
     copyButton: card.querySelector("[data-copy-generated-prompt]"),
     resetButton: card.querySelector("[data-reset-generated-prompt]"),
@@ -58,6 +59,18 @@ function getCardElements(card) {
     makerStatus: card.querySelector("[data-maker-status]"),
     sourcePreview: card.querySelector("[data-source-prompt-preview]"),
   };
+}
+
+function setCardExpanded(card, isExpanded) {
+  card.classList.toggle("is-open", isExpanded);
+  card.setAttribute("aria-expanded", String(isExpanded));
+
+  const { cardHead } = getCardElements(card);
+  if (cardHead) cardHead.setAttribute("aria-expanded", String(isExpanded));
+}
+
+function toggleCard(card) {
+  setCardExpanded(card, !card.classList.contains("is-open"));
 }
 
 function setMakerStatus(card, message) {
@@ -125,7 +138,20 @@ makerCards.forEach((card) => {
 });
 
 makerCards.forEach(async (card) => {
-  const { sourcePreview } = getCardElements(card);
+  const { cardHead, sourcePreview } = getCardElements(card);
+  setCardExpanded(card, false);
+
+  if (cardHead) {
+    cardHead.setAttribute("role", "button");
+    cardHead.setAttribute("tabindex", "0");
+    cardHead.addEventListener("click", () => toggleCard(card));
+    cardHead.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter" && event.key !== " ") return;
+      event.preventDefault();
+      toggleCard(card);
+    });
+  }
+
   if (!sourcePreview) return;
 
   try {

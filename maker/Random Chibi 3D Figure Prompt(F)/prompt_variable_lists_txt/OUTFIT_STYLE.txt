@@ -1,52 +1,52 @@
 {OUTFIT_STYLE}
 
-1. cute summer beach outfit
-2. soft casual seaside outfit
-3. refreshing vacation outfit
-4. lovely resort-style outfit
-5. pastel summer casual outfit
-6. feminine beach picnic outfit
-7. cute marine-inspired outfit
-8. casual chic summer outfit
-9. airy beach girl outfit
-10. soft romantic summer outfit
-11. adorable white-and-denim outfit
-12. refreshing sky-blue outfit
-13. clean minimal summer outfit
-14. breezy ocean vacation outfit
-15. lovely island resort outfit
-16. cute Korean casual beach outfit
-17. soft girlish summer outfit
-18. playful seaside outfit
-19. premium doll-like summer outfit
-20. elegant casual resort outfit
-21. cute sailor-inspired outfit
-22. pastel resort vacation outfit
-23. clean white summer outfit
-24. soft sheer beach outfit
-25. lovely denim summer outfit
-26. beach date outfit
-27. cute tropical vacation outfit
-28. bright and youthful summer outfit
-29. cozy beach cardigan outfit
-30. feminine resort casual outfit
-31. cute swim-coverup style outfit
-32. soft linen summer outfit
-33. relaxed beach walking outfit
-34. cheerful summer holiday outfit
-35. bright seaside picnic outfit
-36. casual feminine travel outfit
-37. adorable chibi beach outfit
-38. dreamy pastel beach outfit
-39. clean ocean-blue outfit
-40. cute holiday resort outfit
-41. lovely white shirt outfit
-42. soft beachwear-inspired outfit
-43. refreshing denim casual outfit
-44. elegant summer vacation outfit
-45. cute breezy coastal outfit
-46. romantic seaside outfit
-47. bright sunny beach outfit
-48. youthful summer day outfit
-49. soft toy-like fashion outfit
-50. premium collectible figure outfit
+1. classic preppy school uniform style
+2. futuristic cyberpunk tech-wear tactical style
+3. dark gothic lolita elegant lace style
+4. cozy rustic country cottagecore style
+5. rebellious punk-rock leather and chain style
+6. traditional elegant Korean Hanbok style
+7. hip-hop street-wear oversized slouchy style
+8. sleek modern corporate office chic style
+9. whimsical fairytale magical girl style
+10. rugged outdoor military tactical cargo style
+11. vintage 1950s rockabilly retro polka-dot style
+12. industrial steampunk mechanical explorer style
+13. athletic sporty tennis pleated cheerleading style
+14. luxurious high-end runway avant-garde style
+15. cozy winter ski-resort puffer jacket style
+16. traditional Japanese kimono festival style
+17. mysterious dark academia intellectual tweed style
+18. bohemian gypsy patchwork festival style
+19. cute fluffy animal onesie pajama style
+20. sleek professional astronaut space suit style
+21. classic royal prince military dress uniform style
+22. historical Victorian era corseted gown style
+23. modern tech-ninja stealth black style
+24. sweet patisserie baker apron style
+25. nautical sailor-navy officer uniform style
+26. pop-star glittering stage idol outfit style
+27. traditional Arabian nights genie style
+28. post-apocalyptic wasteland scavenger style
+29. clean Scandinavian minimalist linen style
+30. vintage aviation pilot flight suit style
+31. cute chibi-scale oversized denim dungaree style
+32. elegant bridal white lace wedding gown style
+33. traditional Chinese cheongsam qipao style
+34. spooky but cute Halloween witch style
+35. divine celestial angelic white robe style
+36. cyber-pop neon holographic dancer style
+37. urban skater girl beanie and shorts style
+38. classic British detective trench coat style
+39. tropical safari jungle explorer khaki style
+40. colorful pop-art comic book retro style
+41. traditional Scottish highland tartan kilt style
+42. cozy autumn cable-knit sweater style
+43. futuristic metallic cybernetic armor suit style
+44. elegant velvet vampire countess style
+45. playful circus ringmaster tailcoat style
+46. minimal lounge-wear oversized hoodie style
+47. wild western cowboy fringed suede style
+48. cute teddy-bear fluffy fleece outfit style
+49. vintage racetrack driver jumpsuit style
+50. elegant classical orchestra tailcoat musical style

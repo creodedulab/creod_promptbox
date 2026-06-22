@@ -1,52 +1,52 @@
 {TOP_WEAR}
 
-1. white oversized shirt
-2. white sheer oversized shirt
-3. loose white linen shirt
-4. soft ivory blouse
-5. sky-blue cropped cardigan
-6. white sleeveless blouse
-7. pastel blue summer shirt
-8. cream off-shoulder blouse
-9. white puff-sleeve blouse
-10. soft sheer beach cover-up
-11. white sailor-collar blouse
-12. pastel striped shirt
-13. white lace-trim blouse
-14. light denim short jacket
-15. soft mint cardigan
-16. loose chiffon shirt
-17. white ribbon blouse
-18. pastel pink summer blouse
-19. ivory knit sleeveless top
-20. white cropped summer shirt
-21. light blue open shirt
-22. soft beach tunic top
-23. white ruffled blouse
-24. sheer ivory long shirt
-25. white cotton shirt with rolled sleeves
-26. pastel lavender cardigan
-27. cream summer knit top
-28. white frill collar blouse
-29. sky-blue linen blouse
-30. white camisole with sheer shirt
-31. soft beige beach shirt
-32. light aqua blouse
-33. white oversized collar shirt
-34. soft romantic blouse
-35. pastel yellow summer top
-36. white eyelet blouse
-37. airy chiffon blouse
-38. loose sailor-style shirt
-39. ivory ribbon cardigan
-40. white summer crop blouse
-41. soft blue ribbon blouse
-42. white open beach shirt
-43. pastel gingham blouse
-44. cream lace blouse
-45. light sky-blue cardigan
-46. white doll-collar blouse
-47. sheer white vacation shirt
-48. soft cotton summer blouse
-49. cute marine stripe top
-50. premium toy-like white shirt
+1. classic white oversized button-up shirt
+2. chunky cable-knit cream turtleneck sweater
+3. rugged distressed indigo denim jacket
+4. sleek black matte leather biker jacket
+5. plush and fluffy pastel pink teddy-bear fleece hoodie
+6. minimalist heather gray crewneck sweatshirt
+7. high-tech cyberpunk black tech-wear vest
+8. sporty neon-accented zip-up track jacket
+9. elegant dark gothic lace-trimmed corset top
+10. casual red and black buffalo plaid flannel shirt
+11. traditional embroidered high-collar Korean Hanok top
+12. sophisticated charcoal gray pinstriped tailored blazer
+13. whimsical fairytale magical girl puffy-sleeve blouse
+14. rugged military tactical camo-patterned field jacket
+15. cozy winter ski-resort insulated puffer jacket
+16. athletic rib-knit racerback tank top
+17. vintage 1980s colorful color-block windbreaker
+18. elegant off-the-shoulder white silk blouse
+19. cozy autumn brown corduroy button-up jacket
+20. cute fluffy animal-eared pullover hoodie
+21. traditional Japanese festival happi coat
+22. mysterious dark academia brown tweed vest with tie
+23. bohemian gypsy patchwork fringe jacket
+24. sleek metallic silver astronaut space-suit top
+25. nautical navy blue sailor-collar uniform blouse
+26. pop-star glittering sequin idol stage top
+27. post-apocalyptic asymmetrical leather shoulder-armor top
+28. clean scandinavian minimalist beige linen tunic
+29. vintage aviator brown leather flight jacket with fur collar
+30. cute chibi-scale oversized denim dungaree straps
+31. elegant sheer pleated black chiffon blouse
+32. intricate honeycomb mesh athletic jersey
+33. punk-style ripped band t-shirt with fishnet undershirt
+34. spooky but cute Halloween witch cape with silver buckles
+35. divine celestial angelic white robe top with gold trim
+36. cyber-pop neon holographic halter top
+37. urban skater girl oversized graphic tee
+38. classic British double-breasted trench coat
+39. tropical safari jungle explorer khaki utility shirt
+40. colorful pop-art comic book patterned button-down
+41. cozy knit argyle pattern sweater vest
+42. sleek neoprene scuba-style zip-up top
+43. futuristic glowing cybernetic armor breastplate
+44. elegant royal velvet doublet with gold embroidery
+45. playful circus ringmaster red tailcoat jacket
+46. minimal lounge-wear drop-shoulder oversized hoodie
+47. wild western cowboy fringed suede jacket
+48. vintage racetrack driver branded jumpsuit top
+49. elegant classical orchestra tuxedo jacket with pleated shirt
+50. sweet patisserie baker apron over a gingham shirt

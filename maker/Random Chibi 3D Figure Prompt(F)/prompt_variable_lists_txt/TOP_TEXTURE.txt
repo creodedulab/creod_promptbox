@@ -1,52 +1,52 @@
 {TOP_TEXTURE}
 
-1. subtle sheer fabric
-2. soft cotton texture
-3. airy linen texture
-4. delicate chiffon texture
-5. light transparent sheer texture
-6. smooth satin-like fabric
-7. soft knit texture
-8. thin summer cotton texture
-9. gentle lace detail
-10. breezy gauze texture
-11. crisp white shirt fabric
-12. soft ruffled fabric
-13. delicate eyelet embroidery
-14. lightweight beach cover-up texture
-15. translucent organza texture
-16. soft brushed cotton texture
-17. natural linen weave
-18. fine ribbed knit texture
-19. clean cotton poplin texture
-20. thin flowing fabric
-21. delicate floral lace texture
-22. soft waffle cotton texture
-23. premium doll-cloth texture
-24. smooth toy-like fabric finish
-25. soft pleated chiffon texture
-26. light voile texture
-27. gentle see-through shirt texture
-28. airy summer blouse texture
-29. smooth microfiber texture
-30. soft silk-blend texture
-31. subtle wrinkled linen texture
-32. cute stitched fabric detail
-33. fine embroidered texture
-34. delicate frill texture
-35. matte cotton texture
-36. glossy satin accent texture
-37. soft beach shirt texture
-38. lightweight transparent sleeve texture
-39. tiny fabric weave detail
-40. soft pastel textile texture
-41. airy loose shirt texture
-42. thin sunlit fabric texture
-43. natural cotton-linen blend
-44. gentle layered sheer texture
-45. soft premium figure clothing texture
-46. toy-scale fabric texture
-47. clean high-quality blouse texture
-48. feminine lace-trim texture
-49. delicate summer fabric texture
-50. soft flowing vacation fabric
+1. chunky hand-knitted cable knit texture
+2. rugged distressed heavy denim texture
+3. premium soft matte genuine leather texture
+4. glossy reflective patent vinyl texture
+5. plush and fluffy teddy-bear fleece texture
+6. luxurious crushed velvet texture with subtle sheen
+7. stiff industrial high-tech ripstop nylon fabric
+8. soft and warm ribbed corduroy texture
+9. elegant shimmering metallic brocade fabric
+10. delicate vintage floral eyelet lace embroidery
+11. smooth and crisp high-thread cotton poplin
+12. lightweight translucent crinkled organza texture
+13. heavy thermal waffle-weave cotton texture
+14. sleek and stretchy athletic spandex material
+15. luxurious smooth mulberry silk texture
+16. iridescent holographic PVC material finish
+17. rough-woven natural bohemian burlap texture
+18. cozy quilted down-jacket puffer fabric texture
+19. sophisticated herringbone tweed wool texture
+20. soft brushed flannel checkered fabric texture
+21. traditional thick woven tapestry fabric pattern
+22. matte finish flexible silicone toy clothing texture
+23. semi-transparent frosted rubberized plastic finish
+24. high-gloss metallic silver space-suit fabric
+25. delicate sheer pleated chiffon fabric texture
+26. intricate honeycomb mesh athletic fabric
+27. vintage distressed suede leather texture
+28. soft and breathable loose-weave linen texture
+29. premium cashmere wool knit texture
+30. crisp and starched military gabardine fabric
+31. punk-style fishnet layer fabric texture
+32. elegant embossed crocodile skin leather pattern
+33. soft double-gauze muslin cotton texture
+34. futuristic carbon-fiber weave texture
+35. glitter-infused sparkling fabric finish
+36. dense felted wool fabric texture
+37. traditional satin damask oriental fabric weave
+38. technical waterproof gore-tex fabric matte finish
+39. cute miniature-scale stitched denim fabric
+40. smooth microfiber fleece inner lining texture
+41. light and airy georgette fabric texture
+42. rustic argyle pattern knit wool texture
+43. sleek neoprene scuba fabric smooth texture
+44. rich pinstriped tailored suit wool texture
+45. delicate scalloped edge guipure lace texture
+46. thick protective canvas weave fabric texture
+47. metallic chainmail link armor texture
+48. soft micro-velour doll clothing fabric finish
+49. vintage chenille yarn fuzzy fabric texture
+50. premium sculpted 3D resin clothing matte finish

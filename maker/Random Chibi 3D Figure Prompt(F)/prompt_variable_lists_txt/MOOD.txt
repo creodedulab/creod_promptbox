@@ -1,52 +1,52 @@
 {MOOD}
 
-1. bright and refreshing
-2. cheerful summer mood
-3. cute and breezy
-4. clear seaside happiness
-5. excited and fluttering
-6. soft romantic beach mood
-7. fresh and lively
-8. adorable vacation mood
-9. calm and sunny
-10. joyful beach day mood
-11. clean and premium
-12. lovely and youthful
-13. playful summer energy
-14. dreamy seaside atmosphere
-15. heart-fluttering happiness
-16. warm and gentle
-17. cool and refreshing
-18. bright ocean vacation mood
-19. innocent and sweet
-20. cute collectible figure mood
-21. soft and charming
-22. lively tropical mood
-23. peaceful beach morning mood
-24. clear sky freedom mood
-25. sparkling summer excitement
-26. shy and lovely
-27. cheerful coastal atmosphere
-28. breezy holiday feeling
-29. soft pastel happiness
-30. bright hopeful mood
-31. adorable and clean
-32. relaxed resort mood
-33. pure and refreshing
-34. cute doll-like emotion
-35. joyful seaside adventure
-36. sunny and optimistic
-37. premium toy commercial mood
-38. gentle beach romance
-39. fresh ocean breeze mood
-40. playful chibi charm
-41. clean summer fantasy
-42. sweet vacation daydream
-43. lively and cute
-44. soft bright happiness
-45. refreshing blue-sky mood
-46. charming seaside delight
-47. cute sunlit beach mood
-48. lovely summer anticipation
-49. polished premium figurine mood
-50. happy clear beach atmosphere
+1. whimsical and magical fairytale enchantment
+2. dark gothic mystery and haunting elegance
+3. futuristic cyberpunk dystopia with high-tech tension
+4. cozy nostalgic vintage retro warmth
+5. serene zen-like tranquility and absolute peace
+6. rebellious punk-rock energy and bold defiance
+7. spooky but cute Halloween mischief
+8. opulent royal majesty and luxurious grandeur
+9. melancholic poetic sadness and pensive longing
+10. explosive dynamic action and high-octane excitement
+11. soft dreamy pastel wonderland daydream
+12. minimalist industrial coldness and modern chic
+13. traditional cultural heritage and solemn reverence
+14. festive and joyful carnival celebration energy
+15. cozy winter cabin warmth with a crackling fire mood
+16. surrealistic abstract dreamscape distortion
+17. epic fantasy adventure and heroic grand scale
+18. retro 1980s synthwave neon nostalgia
+19. industrial steampunk mechanical complexity
+20. pure innocent childhood wonder and curiosity
+21. dark edgy tech-wear secrecy and stealth
+22. vibrant pop-art playfulness and comic book energy
+23. romantic and elegant Parisian spring romance
+24. cosmic stargazing mystery and infinite galaxy scale
+25. refreshing early morning dew and crisp new beginnings
+26. creepy dollhouse horror and subtle psychological chill
+27. cheerful high-spirited sporty athletic energy
+28. academic classic dark academia intellect and study mood
+29. tropical safari wild jungle raw untamed energy
+30. elegant high-end luxury fashion runway sophistication
+31. soft comforting healing aromatherapy relaxation
+32. post-apocalyptic wasteland survival grit and rust
+33. cute adorable chubby hamster-like cozy fluffiness
+34. cinematic film-noir suspense and smoky detective mystery
+35. divine celestial angelic purity and holy glow
+36. sweet strawberry milk bakery dessert delight
+37. mysterious deep ocean abyss hidden secrets
+38. refreshing rainy day petrichor and calm indoor listening
+39. bold futuristic sci-fi laboratory experimentation
+40. vintage circus curiosity and eccentric showmanship
+41. rustic country-style farmhouse cottagecore simplicity
+42. high-contrast heavy metal rock concert intensity
+43. traditional oriental zen monochrome ink tranquility
+44. magical girl anime transformation sparkle and hope
+45. breezy autumn maple leaf crispness and gentle touch
+46. sleek sophisticated modern office corporate sharpness
+47. whimsical mad scientist chaotic genius energy
+48. elegant timeless bridal romance and white lace purity
+49. vintage military tactical precision and historic duty
+50. playful mischievous virtual reality gaming excitement

@@ -1,52 +1,52 @@
 {COLOR_PALETTE}
 
-1. refreshing ocean-blue palette
-2. bright sky-blue and white palette
-3. soft pastel beach palette
-4. turquoise ocean and warm sand palette
-5. clean blue-and-ivory palette
-6. summer aqua palette
-7. bright white and denim blue palette
-8. soft coral and sky-blue palette
-9. pastel mint and ocean-blue palette
-10. clear blue summer palette
-11. warm beige sand and cool blue palette
-12. soft tropical pastel palette
-13. bright seaside vacation palette
-14. pale blue and cream palette
-15. clean white beach palette
-16. vivid but natural ocean palette
-17. soft cyan and ivory palette
-18. sunny yellow and sky-blue palette
-19. light aqua and white palette
-20. pastel pink and beach beige palette
-21. ocean teal and sand beige palette
-22. clear turquoise and white palette
-23. soft lavender and blue palette
-24. breezy summer pastel palette
-25. bright coastal blue palette
-26. clean marine-inspired palette
-27. sky-blue, white, and denim palette
-28. warm sand and pastel aqua palette
-29. fresh seafoam green palette
-30. bright holiday resort palette
-31. clear summer sky palette
-32. soft pearl white and blue palette
-33. creamy ivory and ocean blue palette
-34. pastel blue and sandy beige palette
-35. clean sunlit beach palette
-36. refreshing blue-green palette
-37. bright cheerful summer colors
-38. soft white and turquoise palette
-39. natural beach color palette
-40. dreamy seaside pastel palette
-41. crisp blue and white palette
-42. light coral sunset palette
-43. cool ocean-inspired color palette
-44. clean high-key pastel palette
-45. cheerful tropical beach palette
-46. pale denim and white palette
-47. soft shell pink and aqua palette
-48. premium toy-like pastel palette
-49. clear blue vacation palette
-50. bright breezy seaside palette
+1. sweet pastel pink and baby blue palette
+2. vibrant neon purple and cyberpunk green palette
+3. clean monochrome black and crisp white palette
+4. warm autumn terracotta and olive green palette
+5. elegant royal navy blue and shimmering gold palette
+6. soft lavender and creamy vanilla palette
+7. deep gothic crimson red and charcoal gray palette
+8. refreshing mint green and lemon yellow palette
+9. rustic chocolate brown and tan leather palette
+10. futuristic metallic silver and glowing cyan palette
+11. soft peach coral and sage green palette
+12. vivid retro orange and teal blue palette
+13. luxurious emerald green and pearl ivory palette
+14. delicate cherry blossom pink and pure white palette
+15. dark moody obsidian black and deep violet palette
+16. earthy sand beige and warm khaki palette
+17. bright mustard yellow and midnight blue palette
+18. whimsical wonderland violet and magenta palette
+19. cozy oatmeal cream and soft heather gray palette
+20. holographic iridescent rainbow pastel palette
+21. vintage sepia brown and muted brass palette
+22. striking bumblebee yellow and matte black palette
+23. soft marshmallow white and powder pink palette
+24. sophisticated burgundy red and warm taupe palette
+25. tropical mango orange and lime green palette
+26. cool slate gray and icy crystal blue palette
+27. romantic wine purple and dusty rose palette
+28. sunny marigold yellow and sky blue palette
+29. military camouflage green and matte brown palette
+30. elegant plum purple and soft champagne gold palette
+31. fresh eucalyptus green and clean linen palette
+32. bold pop-art red and royal blue palette
+33. dreamy twilight gradient purple and orange palette
+34. minimalist charcoal gray and concrete silver palette
+35. sweet strawberry milk pink and chocolate brown palette
+36. cyber tech-wear black and safety orange palette
+37. delicate apricot orange and soft mint palette
+38. rich forest green and warm walnut wood palette
+39. pale lilac and soft dove gray palette
+40. fiery sunset crimson and deep indigo palette
+41. clean scandinavian white and light ash wood palette
+42. playful bubblegum pink and mint choco palette
+43. high-contrast toxic green and deep shadow black palette
+44. antique parchment cream and faded ink blue palette
+45. bright tangerine orange and pure white palette
+46. mystical amethyst purple and starlight silver palette
+47. soothing matcha green and milky ivory palette
+48. industrial rusted iron and gunmetal gray palette
+49. soft seashell pink and warm sand palette
+50. royal sapphire blue and pristine platinum palette

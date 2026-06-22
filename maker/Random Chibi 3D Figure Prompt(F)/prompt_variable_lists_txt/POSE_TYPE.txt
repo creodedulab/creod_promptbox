@@ -1,52 +1,52 @@
 {POSE_TYPE}
 
-1. looking up toward the sky
-2. standing on the beach cutely
-3. walking gently on the sand
-4. sitting on the beach with a smile
-5. kneeling on the sand playfully
-6. looking back over one shoulder
-7. jumping lightly with excitement
-8. standing with one foot forward
-9. posing like a cute vacation photo
-10. holding a tiny seashell
-11. reaching toward the sunlight
-12. standing with a shy smile
-13. leaning slightly forward
-14. waving toward the camera
-15. looking at the ocean horizon
-16. making a playful beach pose
-17. standing with fluttering excitement
-18. sitting with knees together
-19. holding a mini beach bag
-20. stepping lightly on the sand
-21. posing with a tiny parasol
-22. turning around cutely
-23. standing in a breezy pose
-24. looking upward with one hand raised
-25. posing like a collectible figure
-26. standing with arms slightly open
-27. making a heart-fluttering pose
-28. holding her shirt collar cutely
-29. balancing on one foot
-30. standing with soft body tilt
-31. looking up while smiling brightly
-32. sitting with feet on the sand
-33. gently holding a straw hat
-34. holding a seashell near the face
-35. posing with a tiny beach ball
-36. cute hands-near-face pose
-37. standing with a relaxed vacation pose
-38. leaning toward the ocean breeze
-39. walking along the shoreline
-40. looking up with excited anticipation
-41. crouching playfully on the sand
-42. holding a small flower
-43. standing in a soft diagonal pose
-44. posing with a shy tilt
-45. turning face toward the sun
-46. standing with beach picnic energy
-47. lively summer figure pose
-48. soft romantic seaside pose
-49. cute doll-like standing pose
-50. premium chibi figurine pose
+1. standing straight and facing forward in a neat posture
+2. standing with one leg slightly bent and a subtle head tilt
+3. walking forward gracefully with one foot placed gently ahead
+4. sitting cross-legged on the floor with a bright expression
+5. kneeling on both knees with the torso upright and balanced
+6. turning the upper body around to look back over one shoulder
+7. jumping lightly into the air with both feet off the ground
+8. standing confidently with feet apart and one hip pushed out
+9. tilting the upper body slightly forward with a playful lean
+10. standing balanced on one foot while lifting the other knee high
+11. crouching down low on heels with knees bent completely
+12. leaning back slightly with the torso arched elegantly
+13. sitting on the side with both legs swept to one direction
+14. taking a dynamic wide step forward into a low stance
+15. standing with the body turned sideways but the face facing forward
+16. sitting with knees bent up toward the chest and arms wrapping around them
+17. kneeling on one knee while the other leg supports the weight forward
+18. jumping with legs split sideways in a cheerful dynamic motion
+19. standing with arms stretched out wide to the sides for balance
+20. twisting the waist slightly to create an elegant S-curve silhouette
+21. sitting casually on a raised edge with legs dangling downward
+22. standing with one foot crossed over the other in a relaxed pose
+23. crouching down on one knee while looking straight forward
+24. bowing slightly from the waist in a polite welcoming gesture
+25. standing firmly with arms crossed tightly over the chest
+26. leaning sideways against an invisible wall with a casual tilt
+27. sitting flat on the ground with both legs stretched straight out
+28. jumping up with one knee tucked up and arms raised high
+29. standing with a soft diagonal body angle to emphasize depth
+30. kneeling on both knees while leaning the upper body slightly back
+31. standing in a standard symmetry pose optimized for 3D figurines
+32. sitting on the floor with legs formed into a cute wide V-shape
+33. taking a light stepping motion sideways with toes pointed out
+34. crouching down low while resting one hand flat on the ground
+35. standing with the head tilted sharply to the side in curiosity
+36. turning around quickly with the hem of the lower wear swirling
+37. sitting elegantly with one leg crossed gracefully over the other
+38. standing with both hands hidden behind the back and chest pushed forward
+39. stepping backward lightly while maintaining full frontal face view
+40. kneeling down with the hips resting flat on the heels
+41. standing with a dramatic high-fashion asymmetric posture
+42. sitting back on hands with arms supporting the weight from behind
+43. jumping forward with a gentle running momentum captured mid-air
+44. standing with a subtle slouch for a relaxed casual demeanor
+45. crouching down on the knees while peeking over the shoulders
+46. standing with feet together and torso twisting at a 30-degree angle
+47. sitting on one hip with legs bent tucked underneath neatly
+48. leaning forward heavily from the waist with arms reaching downward
+49. standing with a rigid perfectly straight doll-like toy posture
+50. making a dynamic 3D-scale floating pose with no feet touching the ground

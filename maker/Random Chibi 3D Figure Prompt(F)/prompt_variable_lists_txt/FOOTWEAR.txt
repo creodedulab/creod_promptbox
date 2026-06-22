@@ -1,52 +1,52 @@
 {FOOTWEAR}
 
-1. white summer sandals
-2. beige strap sandals
-3. cute beach sandals
-4. pastel blue sandals
-5. white sneakers
-6. light canvas sneakers
-7. soft ivory sandals
-8. transparent jelly sandals
-9. cute ribbon sandals
-10. straw-textured sandals
-11. pastel pink sandals
-12. sky-blue flip-flop sandals
-13. white platform sandals
-14. soft beige flat sandals
-15. cute ankle-strap sandals
-16. light denim slip-on shoes
-17. white canvas shoes
-18. pastel aqua sandals
-19. pearl-detail sandals
-20. simple leather sandals
-21. soft cream sneakers
-22. beach walking sandals
-23. cute doll-like shoes
-24. tiny toy sandals
-25. white Mary Jane shoes
-26. pastel Mary Jane shoes
-27. soft summer loafers
-28. ivory slip-on shoes
-29. light blue sneakers
-30. cute shell-decorated sandals
-31. minimal resort sandals
-32. ribbon-detail flat shoes
-33. pastel yellow sandals
-34. white lace-up sneakers
-35. soft pink canvas shoes
-36. cute jelly shoes
-37. pearl strap flat sandals
-38. beach resort slippers
-39. light straw sandals
-40. soft mint sandals
-41. white buckle sandals
-42. tiny chibi figure sandals
-43. clean summer sandals
-44. polished toy-like shoes
-45. ocean-blue sandals
-46. cute vacation sandals
-47. soft fabric sandals
-48. simple barefoot beach look
-49. sand-friendly flat sandals
-50. premium miniature summer footwear
+1. chunky retro platform sneakers
+2. classic black high-top canvas sneakers
+3. glossy black leather Mary Jane shoes
+4. elegant white lace-up ballet flats
+5. polished brown leather oxford shoes
+6. minimalist white slip-on sneakers
+7. rugged outdoor hiking boots
+8. techwear high-top boots with straps
+9. punk-style black leather combat boots
+10. cute animal-paw fuzzy slippers
+11. traditional wooden Japanese geta sandals
+12. futuristic glowing neon running shoes
+13. sleek high-heeled black ankle boots
+14. casual brown suede loafers
+15. cozy winter sheepskin Ugg boots
+16. classic yellow rubber rain boots
+17. vintage roller skates with colorful wheels
+18. metallic silver cybernetic boots
+19. smart-casual navy penny loafers
+20. sporty neon-accented athletic sneakers
+21. elegant velvet ballet slippers with ribbons
+22. steampunk brown leather buckle boots
+23. western-style embroidered cowboy boots
+24. cute pastel yellow rain boots with duck faces
+25. simple indoor cloud slides
+26. traditional embroidered satin shoes
+27. glossy cherry-red Dr. Martens style boots
+28. minimalist breathable mesh running shoes
+29. chic ankle-strap espadrille wedges
+30. tactical desert military boots
+31. cute plush teddy bear slippers
+32. sleek black vinyl thigh-high boots
+33. classic white tennis shoes
+34. vintage Victorian lace-up boots
+35. casual denim slip-on espadrilles
+36. star-printed high-top sneakers
+37. elegant silver metallic stiletto heels
+38. cute chibi-scale oversized work boots
+39. comfortable cork-sole double strap sandals
+40. futuristic magnetic-lacing smart sneakers
+41. traditional Scottish ghillie brogues
+42. soft quilted down indoor booties
+43. glossy patent leather T-strap shoes
+44. casual slip-on loafer mules
+45. cyber-punk platform boots with metal plates
+46. cute cat-faced slip-on canvas shoes
+47. vintage fringe-trimmed suede boots
+48. minimalist black leather Chelsea boots
+49. colorful chunky dad shoes
+50. elegant pearl-embellished bridal flats

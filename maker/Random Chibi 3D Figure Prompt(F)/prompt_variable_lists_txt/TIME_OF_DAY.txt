@@ -1,52 +1,52 @@
 {TIME_OF_DAY}
 
-1. bright summer morning
-2. clear late morning
-3. sunny noon
-4. fresh early morning
-5. golden summer afternoon
-6. soft afternoon sunlight
-7. bright midday beach time
-8. warm late afternoon
-9. crisp morning beach light
-10. clear blue-sky noon
-11. breezy summer afternoon
-12. soft golden hour
-13. early golden hour
-14. bright vacation morning
-15. clean sunlit daytime
-16. refreshing morning sunlight
-17. calm afternoon beach time
-18. radiant sunny daytime
-19. clear high-noon beach light
-20. soft sunset beginning
-21. glowing late afternoon
-22. tropical morning
-23. beach holiday noon
-24. clear sky morning
-25. soft warm summer evening
-26. fresh sunrise beach moment
-27. light-filled morning scene
-28. bright coastal afternoon
-29. clean daytime lighting
-30. sunny vacation daytime
-31. gentle morning ocean light
-32. soft blue-sky afternoon
-33. warm sunset beach glow
-34. bright open-air afternoon
-35. clear summer day
-36. seaside morning glow
-37. fresh holiday morning
-38. crisp ocean morning
-39. vivid afternoon sunlight
-40. soft evening before sunset
-41. bright cheerful daytime
-42. sunny beach picnic time
-43. clean morning sky moment
-44. warm and breezy afternoon
-45. sunlit beach day
-46. late morning vacation mood
-47. soft pastel afternoon
-48. clear coastal noon
-49. bright sky summer moment
-50. refreshing sunny seaside time
+1. crisp dawn twilight before sunrise
+2. misty and foggy early morning
+3. bright golden hour right at sunrise
+4. fresh and clear mid-morning daylight
+5. harsh high-noon with short direct shadows
+6. soft amber afternoon sunlight
+7. brilliant warm golden hour just before sunset
+8. dreamy purple and pink magic hour at dusk
+9. deep indigo twilight right after sunset
+10. starry midnight under a full moon
+11. pitch-black night illuminated only by artificial lights
+12. cloudy overcast midday with completely diffused light
+13. dynamic stormy afternoon with dark rolling clouds
+14. rainy morning with soft water reflections
+15. sun-drenched tropical mid-afternoon heat
+16. hazy and humid summer evening
+17. crisp autumn afternoon with long long shadows
+18. freezing cold winter morning with pale icy sunlight
+19. cozy fireside midnight with deep shadows
+20. neon-flooded cyberpunk midnight
+21. festive Christmas eve night with glowing lights
+22. early morning dew hour just as light breaks
+23. serene spring afternoon with soft scattering light
+24. spooky Halloween midnight with a blood-red moon
+25. clear starlight night with a visible Milky Way
+26. shifting cloud shadows during a breezy afternoon
+27. blinding desert high-noon with high contrast
+28. nostalgic faded retro polaroid daytime
+29. magical eclipse totality moment with eerie dim light
+30. volcanic ash-covered dark overcast daytime
+31. deep underwater shimmering noon light
+32. warm sepia-toned vintage dusk
+33. polar night with a glowing green aurora borealis
+34. bright mid-summer midnight sun phenomenon
+35. gloomy foggy late afternoon
+36. refreshing post-rain rainbow afternoon
+37. industrial morning with smog and filtered light
+38. quiet countryside midnight with firefly glows
+39. burning crimson sunset finale
+40. abstract multi-colored fantasy dreamscape daytime
+41. clean scandinavian minimalist white winter noon
+42. romantic Parisian street lamp evening
+43. bright sports stadium night game floodlight hour
+44. peaceful lakeside sunrise with rising steam
+45. dynamic lightning flash during a midnight storm
+46. cozy rainy afternoon looking through a window
+47. vibrant amusement park neon night
+48. calm and quiet mountain peak sunrise
+49. futuristic spaceship artificial synthetic daytime
+50. elegant platinum twilight with silver reflections

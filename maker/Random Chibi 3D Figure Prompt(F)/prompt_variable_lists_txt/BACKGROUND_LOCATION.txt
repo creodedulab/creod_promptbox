@@ -1,52 +1,52 @@
 {BACKGROUND_LOCATION}
 
-1. bright sandy beach
-2. refreshing seaside beach
-3. clean tropical beach
-4. sunny ocean shore
-5. soft white sand beach
-6. pastel summer beach
-7. clear blue seaside
-8. beach with gentle waves
-9. tropical island beach
-10. quiet coastal beach
-11. beach picnic setting
-12. oceanfront sandy shore
-13. beach with seashells
-14. beach with small starfish
-15. clean resort beach
-16. cute miniature beach diorama
-17. summer vacation beach
-18. sparkling blue ocean beach
-19. soft beige sand beach
-20. beach with clear horizon
-21. sunny Korean seaside beach
-22. peaceful coastal shore
-23. beach with tiny beach props
-24. bright beach under clear sky
-25. beach with soft wave foam
-26. ocean-blue beach background
-27. clean minimal beach scene
-28. dreamy pastel seaside
-29. beach with shallow water
-30. sand dune beach
-31. small private beach
-32. bright beach boardwalk
-33. beach with a tiny parasol
-34. resort-style beach background
-35. clear summer coastline
-36. beach with sea breeze mood
-37. soft warm sand shore
-38. beach with natural shells
-39. cute toy-scale beach set
-40. premium miniature seaside set
-41. clean coastal vacation scene
-42. beach with blue sky reflection
-43. sandy shore near turquoise water
-44. peaceful island coastline
-45. bright seaside vacation spot
-46. beach with soft sunlight
-47. clear summer beach environment
-48. cute chibi beach diorama
-49. refreshing oceanfront scene
-50. premium toy-like beach background
+1. cozy sunlit modern cafe
+2. neon-lit rainy cyberpunk street corner
+3. classic wooden library with giant books
+4. pastel-themed gaming bedroom with LED lights
+5. enchanted glowing mushroom forest
+6. traditional Korean Hanok courtyard
+7. bustling retro 1980s arcade room
+8. lush indoor botanical greenhouse
+9. vintage 1950s American diner
+10. mystical crystal cavern with glowing ores
+11. vibrant amusement park with a ferris wheel
+12. quiet European cobblestone alleyway
+13. interior of a futuristic spaceship bridge
+14. messy but cute artist's painting studio
+15. frozen icy glacier cave
+16. grand royal ballroom with crystal chandeliers
+17. blooming cherry blossom park
+18. high-tech modern chemistry laboratory
+19. colorful candy and chocolate land diorama
+20. dusty antique watchmaker's workshop
+21. dark gothic vampire castle hall
+22. modern glass-walled skyscraper rooftop
+23. serene Japanese zen rock garden
+24. inside a claw machine filled with plushies
+25. abandoned industrial warehouse
+26. deep underwater coral reef kingdom
+27. festive Christmas market square
+28. cluttered wooden computer desk with giant keyboard
+29. magical floating island in the sky
+30. quiet autumn lakeside with red maple leaves
+31. steampunk zeppelin deck floating in the clouds
+32. bright and cheerful circus tent interior
+33. cute miniature pastry bakery display
+34. misty pine tree mountain peak
+35. graffiti-covered underground subway station
+36. starry galaxy space station observatory
+37. spooky abandoned haunted mansion
+38. messy toy box spilling over with building blocks
+39. vast golden wheat field at sunset
+40. elegant museum exhibition hall
+41. lush tropical jungle ruin
+42. magical potion shop filled with colorful bottles
+43. dry rocky desert canyon
+44. grand theater stage with red velvet curtains
+45. classic retro cinema ticket booth
+46. suburban front yard with a white picket fence
+47. peaceful countryside train station platform
+48. cozy campsite with a crackling fire pit
+49. sunny backyard treehouse
+50. bustling Tokyo crossing at night

@@ -1,52 +1,52 @@
 {HAND_GESTURE}
 
-1. one hand raised to shade the sunlight
-2. one hand waving gently
-3. both hands near cheeks
-4. one hand holding a seashell
-5. one hand touching the hair
-6. both hands holding a tiny beach bag
-7. one hand holding a straw hat
-8. one hand reaching upward
-9. one hand pointing toward the sky
-10. both hands making a small heart
-11. one hand holding a mini parasol
-12. one hand on chest
-13. one hand slightly lifted cutely
-14. one hand holding sunglasses
-15. both hands clasped with excitement
-16. one hand holding a starfish
-17. one hand touching the shirt collar
-18. one hand holding a ribbon
-19. one hand behind the back
-20. one hand on hip
-21. both hands softly open
-22. one hand holding a flower
-23. one hand holding a beach ball
-24. one hand brushing wind-blown hair
-25. one hand shading eyes from sunlight
-26. both hands holding a seashell necklace
-27. one hand making a peace sign
-28. one hand gently lifted near face
-29. both hands holding a small drink
-30. one hand holding a tiny camera
-31. one hand adjusting a hairpin
-32. one hand touching a straw hat brim
-33. both hands holding a cute prop
-34. one hand reaching toward the ocean
-35. one hand waving at the viewer
-36. one hand holding a small shell purse
-37. one hand raised in surprise
-38. both hands in a shy pose
-39. one hand holding a beach map
-40. one hand making a soft V-sign
-41. one hand lightly gripping shirt hem
-42. one hand holding a mini towel
-43. one hand lifted in a fluttering gesture
-44. both hands holding a heart-shaped shell
-45. one hand covering forehead from sun
-46. one hand pointing at floating clouds
-47. one hand holding a pastel ribbon
-48. one hand slightly stretched forward
-49. both hands posed neatly for a figure
-50. clean cute hands with no finger errors
+1. one hand waving gently toward the viewer
+2. making a classic peace sign with one hand near the eye
+3. both hands framing the face by resting under the chin
+4. one hand gently touching the cheek with a finger
+5. making a small finger-heart gesture with thumb and index finger
+6. both hands joining together to form a large heart shape
+7. one hand resting naturally on the hip
+8. both hands hidden shyly behind the back
+9. one hand raised high with an open palm as if greeting
+10. pointing forward with the index finger
+11. clasping both hands tightly together in front of the chest
+12. one hand covering the mouth in surprise or a giggle
+13. both hands pressing gently against the cheeks in excitement
+14. crossing both arms confidently over the chest
+15. one hand gently lifting a strand of hair behind the ear
+16. one hand stretching forward with an open welcoming palm
+17. giving a cheerful thumbs-up sign with one hand
+18. resting one hand lightly on the opposite shoulder
+19. both hands open wide and lifted slightly upward
+20. saluting smartly with the index finger near the brow
+21. one hand loosely clenched into a cute mini fist
+22. both hands resting neatly on top of the thighs
+23. interlock fingers of both hands together in front
+24. one hand scratching the back of the head sheepishly
+25. pointing upward toward the sky with one finger
+26. making a cute cat-paw gesture with both hands bent at the wrists
+27. holding one hand flat above the eyes to peer into the distance
+28. one hand lightly gripping the hem of the top shirt
+29. both hands cupped together as if holding something invisible
+30. one hand making a double peace sign over both eyes
+31. resting the chin on one hand with the elbow supported
+32. stretching both arms wide open to the sides
+33. one hand gently adjusting the collar of the outfit
+34. snapping fingers with one hand lifted mid-air
+35. both hands touching the temples with index fingers
+36. one hand loosely dangling fingers downward in a relaxed pose
+37. making an 'OK' sign with thumb and index finger forming a circle
+38. one hand resting over the heart on the chest
+39. both hands making small fists placed under the chin like a puppy
+40. one hand checking the wrist as if looking at a watch
+41. hiding the face behind both open palms peek-a-boo style
+42. one hand pointing sideways to highlight something
+43. both hands resting flat against each other in a prayer gesture
+44. holding index fingers of both hands together touching tips
+45. one hand shielding the side of the face from view
+46. both hands holding the lapels of a jacket or coat
+47. making a subtle V-sign pointing downward with one hand
+48. one hand lightly patting the top of the head
+49. both hands spread flat with fingers neatly separated
+50. one hand resting gently over the other wrist in a polite pose

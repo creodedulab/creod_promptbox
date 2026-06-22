@@ -7,11 +7,21 @@ function extractVariables(template) {
 }
 
 function parseVariableList(text, variableName) {
+  const numberedItems = text
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .filter((line) => /^\d+\.\s+/.test(line))
+    .map((line) => line.replace(/^\d+\.\s*/, "").trim())
+    .filter(Boolean);
+
+  if (numberedItems.length > 0) return numberedItems;
+
   return text
     .split(/\r?\n/)
     .map((line) => line.trim())
     .filter(Boolean)
-    .filter((line) => line !== variableName)
+    .filter((line) => line !== variableName && line !== `{${variableName}}`)
     .filter((line) => !/^=+$/.test(line))
     .map((line) => line.replace(/^\d+\.\s*/, "").replace(/^[-*]\s*/, "").trim())
     .filter(Boolean);

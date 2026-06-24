@@ -1,6 +1,8 @@
 const makerCards = document.querySelectorAll("[data-random-prompt-maker]");
+const makerToast = document.querySelector("#makerToast");
 const templateCache = new Map();
 const variableCache = new Map();
+let makerToastTimer;
 
 function extractVariables(template) {
   return [...new Set([...template.matchAll(/\{([A-Z0-9_]+)\}/g)].map((match) => match[1]))];
@@ -88,6 +90,15 @@ function setMakerStatus(card, message) {
   if (makerStatus) makerStatus.textContent = message;
 }
 
+function showMakerToast(message = "복사되었습니다.") {
+  if (!makerToast) return;
+
+  window.clearTimeout(makerToastTimer);
+  makerToast.textContent = message;
+  makerToast.classList.add("show");
+  makerToastTimer = window.setTimeout(() => makerToast.classList.remove("show"), 1600);
+}
+
 async function generateRandomPrompt(card) {
   const templatePath = card.dataset.templatePath;
   const variableListPath = card.dataset.variableListPath;
@@ -130,7 +141,8 @@ async function copyGeneratedPrompt(card) {
     document.execCommand("copy");
   }
 
-  setMakerStatus(card, "프롬프트가 복사되었습니다.");
+  setMakerStatus(card, "");
+  showMakerToast();
 }
 
 function resetGeneratedPrompt(card) {

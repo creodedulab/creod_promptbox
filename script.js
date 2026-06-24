@@ -68,6 +68,7 @@ const searchInput = document.querySelector("#searchInput");
 const emptyState = document.querySelector("#emptyState");
 const resultCount = document.querySelector("#resultCount");
 const toast = document.querySelector("#toast");
+let toastTimer;
 const promptModal = document.querySelector("#promptModal");
 const modalImage = document.querySelector("#modalImage");
 const expandImage = document.querySelector("#expandImage");
@@ -530,10 +531,11 @@ function resetFinalPrompt() {
   });
 }
 
-function showToast(message = "프롬프트가 복사되었습니다.") {
+function showToast(message = "복사되었습니다.") {
+  window.clearTimeout(toastTimer);
   toast.textContent = message;
   toast.classList.add("show");
-  window.setTimeout(() => toast.classList.remove("show"), 1600);
+  toastTimer = window.setTimeout(() => toast.classList.remove("show"), 1600);
 }
 
 async function copyPrompt(text) {

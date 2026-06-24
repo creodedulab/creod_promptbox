@@ -482,6 +482,7 @@ body[data-theme="dark"] .maker-section {
 .prompt-maker-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
   gap: 18px;
   margin-top: 30px;
 }
@@ -546,6 +547,8 @@ body[data-theme="dark"] .maker-section {
 }
 
 .source-prompt-preview {
+  height: 190px;
+  overflow-y: auto;
   border: 1px solid rgba(17, 17, 17, 0.08);
   border-radius: 6px;
   background: #eef7ff;
@@ -1275,9 +1278,10 @@ body.modal-open {
 
 .toast {
   position: fixed;
-  right: 22px;
-  bottom: 22px;
-  transform: translateY(20px);
+  left: 50%;
+  top: 50%;
+  z-index: 1000;
+  transform: translate(-50%, calc(-50% + 20px));
   border-radius: 8px;
   background: var(--primary);
   color: #ffffff;
@@ -1288,7 +1292,7 @@ body.modal-open {
 }
 
 .toast.show {
-  transform: translateY(0);
+  transform: translate(-50%, -50%);
   opacity: 1;
 }
 

@@ -2,6 +2,7 @@ const makerCards = document.querySelectorAll("[data-random-prompt-maker]");
 const makerToast = document.querySelector("#makerToast");
 const templateCache = new Map();
 const variableCache = new Map();
+const generatedState = new WeakMap();
 let makerToastTimer;
 
 function extractVariables(template) {
@@ -33,10 +34,33 @@ function pickRandom(items) {
   return items[Math.floor(Math.random() * items.length)];
 }
 
+const bodyProportionOptionIndexes = {
+  slim: 1,
+  curvy: 2,
+  glamour: 3,
+  fit: 4,
+  refined: 5,
+};
+
 async function fetchText(path) {
-  const response = await fetch(path, { cache: "no-store" });
-  if (!response.ok) throw new Error(`${path} 파일을 불러오지 못했습니다.`);
-  return response.text();
+  const encodedPath = path
+    .split("/")
+    .map((segment) => encodeURIComponent(segment))
+    .join("/");
+  const candidates = [...new Set([path, encodedPath])];
+
+  for (const candidate of candidates) {
+    try {
+      const response = await fetch(candidate, { cache: "no-store" });
+      if (response.ok) return response.text();
+    } catch (error) {
+      if (window.location.protocol === "file:") {
+        throw new Error("파일을 직접 열면 프롬프트 데이터를 불러올 수 없습니다. 로컬 서버 주소로 Maker 페이지를 열어주세요.");
+      }
+    }
+  }
+
+  throw new Error(`${path} 파일을 불러오지 못했습니다.`);
 }
 
 async function getTemplate(templatePath) {
@@ -70,7 +94,31 @@ function getCardElements(card) {
     generatedPrompt: card.querySelector("[data-generated-prompt]"),
     makerStatus: card.querySelector("[data-maker-status]"),
     sourcePreview: card.querySelector("[data-source-prompt-preview]"),
+    bodyOptionInputs: card.querySelectorAll("[data-body-proportion-option]"),
   };
+}
+
+function replaceTemplateVariables(template, selectedValues) {
+  return template.replace(/\{([A-Z0-9_]+)\}/g, (_, variableName) => {
+    return selectedValues[variableName] || `{${variableName}}`;
+  });
+}
+
+async function applyBodyProportionSelection(card, selectedValues) {
+  if (!("BODY_PROPORTION_DESCRIPTION" in selectedValues)) return;
+
+  const options = await getVariableOptions(card.dataset.variableListPath, "BODY_PROPORTION_DESCRIPTION");
+  selectedValues.BODY_PROPORTION_DESCRIPTION =
+    options[getSelectedBodyProportionIndex(card)] || options[0];
+}
+
+async function renderGeneratedPrompt(card) {
+  const state = generatedState.get(card);
+  if (!state) return;
+
+  const { generatedPrompt } = getCardElements(card);
+  await applyBodyProportionSelection(card, state.selectedValues);
+  generatedPrompt.value = replaceTemplateVariables(state.template, state.selectedValues);
 }
 
 function setCardExpanded(card, isExpanded) {
@@ -88,6 +136,21 @@ function toggleCard(card) {
 function setMakerStatus(card, message) {
   const { makerStatus } = getCardElements(card);
   if (makerStatus) makerStatus.textContent = message;
+}
+
+function getSelectedBodyProportionIndex(card) {
+  const selectedOption = card.querySelector("[data-body-proportion-option]:checked")?.dataset
+    .bodyProportionOption;
+
+  return bodyProportionOptionIndexes[selectedOption] || 0;
+}
+
+function enforceSingleBodyOption(card, selectedInput) {
+  if (!selectedInput.checked) return;
+
+  getCardElements(card).bodyOptionInputs.forEach((input) => {
+    if (input !== selectedInput) input.checked = false;
+  });
 }
 
 function showMakerToast(message = "복사되었습니다.") {
@@ -112,16 +175,28 @@ async function generateRandomPrompt(card) {
 
     await Promise.all(
       variables.map(async (variableName) => {
-        selectedValues[variableName] = pickRandom(await getVariableOptions(variableListPath, variableName));
+        const options = await getVariableOptions(variableListPath, variableName);
+        selectedValues[variableName] = pickRandom(options);
       }),
     );
 
-    generatedPrompt.value = template.replace(/\{([A-Z0-9_]+)\}/g, (_, variableName) => {
-      return selectedValues[variableName] || `{${variableName}}`;
-    });
+    generatedState.set(card, { template, selectedValues });
+    await renderGeneratedPrompt(card);
     setMakerStatus(card, "");
   } catch (error) {
     generatedPrompt.value = "";
+    generatedState.delete(card);
+    setMakerStatus(card, error.message);
+  }
+}
+
+async function updateBodyProportionSelection(card) {
+  if (!generatedState.has(card)) return;
+
+  try {
+    await renderGeneratedPrompt(card);
+    setMakerStatus(card, "");
+  } catch (error) {
     setMakerStatus(card, error.message);
   }
 }
@@ -147,16 +222,23 @@ async function copyGeneratedPrompt(card) {
 
 function resetGeneratedPrompt(card) {
   const { generatedPrompt } = getCardElements(card);
+  generatedState.delete(card);
   generatedPrompt.value = "";
   generatedPrompt.placeholder = "생성 버튼을 눌러주세요.";
   setMakerStatus(card, "");
 }
 
 makerCards.forEach((card) => {
-  const { generateButton, copyButton, resetButton } = getCardElements(card);
+  const { generateButton, copyButton, resetButton, bodyOptionInputs } = getCardElements(card);
   generateButton?.addEventListener("click", () => generateRandomPrompt(card));
   copyButton?.addEventListener("click", () => copyGeneratedPrompt(card));
   resetButton?.addEventListener("click", () => resetGeneratedPrompt(card));
+  bodyOptionInputs.forEach((input) => {
+    input.addEventListener("change", () => {
+      enforceSingleBodyOption(card, input);
+      updateBodyProportionSelection(card);
+    });
+  });
 });
 
 makerCards.forEach(async (card) => {

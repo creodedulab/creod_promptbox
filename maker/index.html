@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maker | TTingSSam's Prompt Box</title>
     <link rel="icon" href="../images/logo.png" />
-    <link rel="stylesheet" href="../styles.css?v=20260624-6" />
+    <link rel="stylesheet" href="../styles.css?v=20260625-2" />
   </head>
   <body data-page="maker" data-base-path="../">
     <section class="hero page-nav">
@@ -103,6 +103,28 @@
             <div class="source-prompt-preview" data-source-prompt-preview>
               Rendered in {ART_STYLE}, a {COLOR_PALETTE} {SHOT_TYPE} portrait of a young {NATIONALITY} woman in {BACKGROUND_DESCRIPTION} during {SEASON_DESCRIPTION}, with {ENVIRONMENT_DETAILS}. She is wearing {OUTFIT_DESCRIPTION} and {ACCESSORY_DESCRIPTION}, with {FACE_DESCRIPTION} and {HAIR_DESCRIPTION}, {POSE_DESCRIPTION} with {EXPRESSION_DESCRIPTION}. Include a small, elegant, semi-transparent watermark text "@tting_ssam" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with {CAMERA_DESCRIPTION} and {COMPOSITION_DESCRIPTION}, featuring {LIGHTING_DESCRIPTION} and {MATERIAL_DETAILS}, conveying a {MOOD_KEYWORDS} atmosphere and rendered in {IMAGE_QUALITY}.
             </div>
+            <div class="maker-options maker-options-inline">
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="slim" />
+                <span>슬림</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="curvy" />
+                <span>곡선</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="glamour" />
+                <span>글래머</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="fit" />
+                <span>건강미</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="refined" />
+                <span>세련미</span>
+              </label>
+            </div>
             <div class="maker-actions">
               <button class="maker-button maker-button-primary" type="button" data-generate-random-prompt>
                 랜덤 프롬프트 생성
@@ -130,6 +152,28 @@
               <h3>Cosplay Prompt(F)</h3>
             </div>
             <div class="source-prompt-preview" data-source-prompt-preview></div>
+            <div class="maker-options maker-options-inline">
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="slim" />
+                <span>슬림</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="curvy" />
+                <span>곡선</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="glamour" />
+                <span>글래머</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="fit" />
+                <span>건강미</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="refined" />
+                <span>세련미</span>
+              </label>
+            </div>
             <div class="maker-actions">
               <button class="maker-button maker-button-primary" type="button" data-generate-random-prompt>
                 랜덤 프롬프트 생성
@@ -193,6 +237,6 @@
     <div class="toast" id="makerToast" role="status" aria-live="polite">복사되었습니다.</div>
 
     <script src="../theme.js?v=20260619-2"></script>
-    <script src="random-prompt-maker.js?v=20260624-2"></script>
+    <script src="random-prompt-maker.js?v=20260625-5"></script>
   </body>
 </html>

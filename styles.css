@@ -580,6 +580,43 @@ body[data-theme="dark"] .maker-section {
   gap: 10px;
 }
 
+.maker-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.maker-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.maker-option input {
+  accent-color: var(--accent);
+}
+
+.maker-options-inline {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.maker-options-inline .maker-option {
+  flex: 0 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  white-space: nowrap;
+}
+
 .maker-button {
   min-height: 46px;
   border: 1px solid #cfe8ff;

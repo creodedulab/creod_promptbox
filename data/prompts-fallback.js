@@ -52,6 +52,32 @@ window.__PROMPT_FALLBACK_ITEMS__ = [
     "prompt": "Rendered in elegant bridal editorial style, a muted beige palette magazine cover portrait of a young korean woman in a rainy city street during cherry blossom season, with soft drifting snowflakes. She is wearing a minimalist black dress and a hair scrunchie, with calm eyes with a refined expression and long hair with curtain bangs, posing naturally like a candid moment with a dreamy gaze. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with sharp focus on the eyes and subject occupying 60% of the frame, featuring clean commercial lighting, subtle lens diffusion, and soft fabric folds, conveying a sweet, delicate, charming atmosphere and rendered in high-end beauty retouch quality."
   },
   {
+    "title": "비 오는 도시의 옥상에서 녹색의 여름 밤의 그녀",
+    "mainCategory": "image",
+    "mainCategoryLabel": "이미지",
+    "subCategory": "person",
+    "subCategoryLabel": "인물",
+    "route": "image/person/비-오는-도시의-옥상에서-녹색의-여름-밤의-그녀",
+    "tool": "Image AI",
+    "size": "",
+    "image": "examples/image/person/비 오는 도시의 옥상에서 녹색의 여름 밤의 그녀/비 오는 도시의 옥상에서 녹색의 여름 밤의 그녀.webp",
+    "description": "",
+    "prompt": "Rendered in Japanese magazine photography, a deep emerald accent palette high-angle portrait of a young korean woman in a rooftop at sunset during rainy spring day, with glowing city bokeh. She is wearing a black evening dress and a beret, with clear doe-like eyes, black hair with see-through bangs, and a refined silhouette with balanced natural proportions, adjusting her cardigan with a slightly surprised face. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with vintage film camera look and layered foreground composition, featuring soft diffused lighting and glossy lip texture, conveying a cute, playful, charming atmosphere and rendered in realistic skin details."
+  },
+  {
+    "title": "비밀문서 어디에 숨겨둔거야",
+    "mainCategory": "image",
+    "mainCategoryLabel": "이미지",
+    "subCategory": "person",
+    "subCategoryLabel": "인물",
+    "route": "image/person/비밀문서-어디에-숨겨둔거야",
+    "tool": "Image AI",
+    "size": "",
+    "image": "examples/image/person/비밀문서 어디에 숨겨둔거야/비밀문서 어디에 숨겨둔거야.webp",
+    "description": "",
+    "prompt": "Rendered in dreamlike fashion photography, a warm brown and cream palette beauty close-up portrait of a young Korean woman in a luxury hotel room during romantic twilight, with paper pages gently scattered. She is wearing a romantic chiffon dress and a pastel ribbon bow, with natural beauty with minimal makeup, medium layered hair, and a slim feminine figure with a fuller bust and balanced natural proportions, sitting on a chair gracefully with a natural candid smile. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with mirrorless camera portrait setup and portrait with foreground bokeh, featuring misty diffused light and silky flowing dress material, conveying a high-fashion, confident, stylish atmosphere and rendered in high dynamic range."
+  },
+  {
     "title": "스튜디오에 스민 하얀 눈송이",
     "mainCategory": "image",
     "mainCategoryLabel": "이미지",

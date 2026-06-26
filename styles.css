@@ -267,6 +267,13 @@ body[data-theme="dark"] .theme-toggle {
   background: rgba(17, 17, 17, 0.78);
 }
 
+body[data-theme="dark"] .submit-link,
+body[data-theme="dark"] .copy-button,
+body[data-theme="dark"] .secondary-button {
+  background: var(--accent);
+  color: #ffffff;
+}
+
 body[data-theme="dark"] .hero {
   border-top-color: rgba(247, 247, 242, 0.14);
 }
@@ -388,6 +395,7 @@ h2 {
 }
 
 body[data-theme="dark"] .filter-bar,
+body[data-theme="dark"] .toolbar,
 body[data-theme="dark"] .gallery-card,
 body[data-theme="dark"] .modal-content,
 body[data-theme="dark"] .ai-link,
@@ -397,6 +405,24 @@ body[data-theme="dark"] .preview-action-button {
 
 body[data-theme="dark"] .image-frame {
   background: #1d1d1a;
+}
+
+body[data-theme="dark"] .toolbar {
+  border-color: rgba(247, 247, 242, 0.26);
+}
+
+body[data-theme="dark"] .tab,
+body[data-theme="dark"] .subtab,
+body[data-theme="dark"] .subtab-link {
+  border-color: rgba(247, 247, 242, 0.24);
+  color: var(--muted);
+}
+
+body[data-theme="dark"] .tab.active,
+body[data-theme="dark"] .subtab.active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #ffffff;
 }
 
 .category-tabs,
@@ -496,6 +522,11 @@ body[data-theme="dark"] .maker-section {
   padding: 18px;
 }
 
+body[data-theme="dark"] .prompt-maker-card {
+  border-color: rgba(247, 247, 242, 0.26);
+  background: #141414;
+}
+
 .prompt-maker-card:not(.is-open) > :not(.prompt-maker-card-head) {
   display: none;
 }
@@ -530,6 +561,12 @@ body[data-theme="dark"] .maker-section {
   line-height: 1;
 }
 
+body[data-theme="dark"] .prompt-maker-card-head::after {
+  border-color: rgba(247, 247, 242, 0.24);
+  background: #202020;
+  color: #93b4ff;
+}
+
 .prompt-maker-card.is-open .prompt-maker-card-head::after {
   content: "-";
 }
@@ -557,6 +594,12 @@ body[data-theme="dark"] .maker-section {
   font-size: 12px;
   line-height: 1.65;
   padding: 14px;
+}
+
+body[data-theme="dark"] .source-prompt-preview {
+  border-color: rgba(247, 247, 242, 0.18);
+  background: #0b1220;
+  color: #e8edf7;
 }
 
 .prompt-maker-badge {
@@ -627,7 +670,19 @@ body[data-theme="dark"] .maker-section {
   padding: 0 20px;
 }
 
+body[data-theme="dark"] .maker-button {
+  border-color: rgba(247, 247, 242, 0.22);
+  background: #202020;
+  color: var(--ink);
+}
+
 .maker-button-primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+}
+
+body[data-theme="dark"] .maker-button-primary {
   border-color: var(--accent);
   background: var(--accent);
   color: #ffffff;
@@ -1003,6 +1058,11 @@ body[data-theme="dark"] .maker-section {
   padding: 12px 14px;
 }
 
+body[data-theme="dark"] .zoom-control {
+  border-top-color: rgba(247, 247, 242, 0.16);
+  background: #171717;
+}
+
 .image-lightbox {
   position: fixed;
   inset: 0;
@@ -1050,6 +1110,10 @@ body[data-theme="dark"] .maker-section {
   padding: 26px;
 }
 
+body[data-theme="dark"] .prompt-lightbox-panel {
+  background: var(--surface);
+}
+
 .prompt-lightbox-panel h2 {
   margin: 0 52px 16px 0;
   font-size: 22px;
@@ -1068,6 +1132,11 @@ body[data-theme="dark"] .maker-section {
   line-height: 1.65;
   padding: 16px;
   white-space: pre-wrap;
+}
+
+body[data-theme="dark"] .full-prompt-text {
+  background: #0b1220;
+  color: #e8edf7;
 }
 
 .lightbox-backdrop {
@@ -1173,6 +1242,11 @@ body[data-theme="dark"] .maker-section {
   white-space: pre-wrap;
 }
 
+body[data-theme="dark"] .prompt-detail {
+  background: #0b1220;
+  color: #e8edf7;
+}
+
 .source-notice {
   border: 1px solid rgba(37, 99, 235, 0.22);
   border-radius: 8px;
@@ -1182,6 +1256,11 @@ body[data-theme="dark"] .maker-section {
   padding: 11px 13px;
   font-size: 13px;
   font-weight: 400;
+}
+
+body[data-theme="dark"] .source-notice {
+  border-color: rgba(147, 180, 255, 0.34);
+  color: #c7d6ff;
 }
 
 .variable-panel,
@@ -1217,6 +1296,13 @@ body[data-theme="dark"] .maker-section {
   font-size: 12px;
   font-weight: 400;
   padding: 7px 10px;
+}
+
+body[data-theme="dark"] .view-full-prompt,
+body[data-theme="dark"] .secondary-button.subtle {
+  border-color: rgba(247, 247, 242, 0.22);
+  background: #202020;
+  color: var(--ink);
 }
 
 .view-full-prompt:hover {
@@ -1297,6 +1383,12 @@ body[data-theme="dark"] .maker-section {
   font-size: 14px;
 }
 
+body[data-theme="dark"] .variable-field > input {
+  border-color: rgba(247, 247, 242, 0.22);
+  background: #202020;
+  color: var(--ink);
+}
+
 .variable-field > input:focus {
   border-color: var(--accent);
 }
@@ -1326,6 +1418,11 @@ body.modal-open {
   padding: 13px 16px;
   pointer-events: none;
   transition: 0.2s ease;
+}
+
+body[data-theme="dark"] .toast {
+  background: var(--accent);
+  color: #ffffff;
 }
 
 .toast.show {

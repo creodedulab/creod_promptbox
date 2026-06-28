@@ -1,0 +1,52 @@
+[CAMERA_DESCRIPTION] male image prompt variable values
+
+1. a full-frame DSLR portrait setup
+2. a mirrorless camera portrait setup
+3. a medium-format camera look
+4. a handheld street photography camera
+5. a vintage film camera
+6. a professional studio camera
+7. a cinematic anamorphic lens setup
+8. an 85mm portrait lens
+9. a 50mm prime lens
+10. a 35mm documentary-style lens
+11. a telephoto lens with compressed depth
+12. a soft-focus beauty lens
+13. a smartphone cinematic camera look
+14. a front-facing portrait camera
+15. a low-angle wide-lens setup
+16. a high-angle candid camera setup
+17. a waist-level film camera
+18. a fashion editorial camera setup
+19. a natural-light photography setup
+20. a beauty-retouch photography setup
+21. a backstage reportage camera
+22. a travel photography camera
+23. a monochrome film camera
+24. a close-focus macro portrait lens
+25. a shallow depth-of-field portrait setup
+26. a long-lens outdoor portrait setup
+27. a sports campaign camera setup
+28. a clean catalog photography setup
+29. a concert photography camera
+30. a dramatic side-light camera setup
+31. a low-ISO studio setup
+32. a high-ISO moody night setup
+33. a run-and-gun indie film camera look
+34. a luxury advertising camera setup
+35. a documentary interview camera setup
+36. a soft-window-light portrait setup
+37. a 28mm environmental portrait lens
+38. a polished K-drama camera look
+39. a glossy commercial camera setup
+40. a fashion week backstage camera
+41. a compact travel camera
+42. a portrait setup with foreground bokeh
+43. a candid campus photography camera
+44. a cinematic still-frame camera
+45. a wide-aperture lens setup
+46. a high-resolution digital camera
+47. a portrait setup with subtle lens flare
+48. a moody neon-night camera setup
+49. a clean indoor portrait camera
+50. a warm wedding editorial camera setup

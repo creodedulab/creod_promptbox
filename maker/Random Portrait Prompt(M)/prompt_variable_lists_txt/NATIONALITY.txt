@@ -1,0 +1,52 @@
+[NATIONALITY] male image prompt variable values
+
+1. Korean
+2. Japanese
+3. Chinese
+4. Thai
+5. Vietnamese
+6. Filipino
+7. Indonesian
+8. Indian
+9. Pakistani
+10. Turkish
+11. Mongolian
+12. Kazakh
+13. Uzbek
+14. Nepalese
+15. Sri Lankan
+16. Italian
+17. French
+18. Spanish
+19. Portuguese
+20. German
+21. Dutch
+22. Belgian
+23. Swiss
+24. Greek
+25. Polish
+26. Czech
+27. Hungarian
+28. Romanian
+29. British
+30. Irish
+31. Scottish
+32. Swedish
+33. Norwegian
+34. Danish
+35. Finnish
+36. Russian
+37. Ukrainian
+38. American
+39. Canadian
+40. Mexican
+41. Brazilian
+42. Argentinian
+43. Colombian
+44. Peruvian
+45. Moroccan
+46. Egyptian
+47. Nigerian
+48. South African
+49. Australian
+50. New Zealander

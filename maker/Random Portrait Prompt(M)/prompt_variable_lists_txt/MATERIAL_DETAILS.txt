@@ -1,0 +1,52 @@
+[MATERIAL_DETAILS] male image prompt variable values
+
+1. realistic skin texture and soft fabric folds
+2. silky shirt fabric and natural hair strands
+3. matte knit texture and subtle skin detail
+4. crisp cotton fabric and clean garment structure
+5. wool coat texture and refined tailoring lines
+6. light linen texture moving in the breeze
+7. soft denim texture and worn seams
+8. polished leather texture and metal detailing
+9. smooth satin highlights and gentle sheen
+10. thick sweater knit texture
+11. suede jacket texture and soft surface variation
+12. rain-damp fabric and glossy reflections
+13. windblown hair strands and layered cloth movement
+14. detailed embroidery and stitch definition
+15. minimal wrinkle detail on tailored clothing
+16. velvet texture with rich light absorption
+17. brushed cotton texture and casual softness
+18. ribbed knit texture and subtle contours
+19. structured blazer fabric and sharp edges
+20. washed vintage fabric with natural fading
+21. sheer curtain texture in the background
+22. textured wall surfaces and tactile clothing materials
+23. plush winter fabric and cozy volume
+24. metal accessories with soft reflective highlights
+25. sweat-damp athletic fabric and realistic movement
+26. fine hair texture and luminous skin finish
+27. smooth ceramic mug texture and fabric contrast
+28. crinkled bedding texture and soft ambient detail
+29. tailored trouser drape and crease definition
+30. soft jersey fabric and relaxed folds
+31. wet pavement reflections and textured outerwear
+32. canvas bag texture and casual cotton clothing
+33. wood grain textures and soft knit details
+34. glass reflections and glossy button surfaces
+35. natural freckles and believable skin finish
+36. textured scarf knit and winter coat layering
+37. silk tie sheen and formal suiting texture
+38. rugged workwear fabric and durable stitching
+39. sunlit skin highlights and breathable summer fabric
+40. smooth turtleneck knit and wool texture
+41. hair movement with fine flyaway strands
+42. subtle makeup-free skin texture
+43. luxury menswear material contrast
+44. pressed uniform fabric and clean lines
+45. slightly oversized clothing folds and soft drape
+46. paper texture from books or notes nearby
+47. glossy raincoat texture and moody shine
+48. casual hoodie fleece texture
+49. refined monochrome textile layering
+50. high-detail fabric realism with tactile depth

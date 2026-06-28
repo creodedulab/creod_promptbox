@@ -1,0 +1,52 @@
+[ACCESSORY_DESCRIPTION] male image prompt variable values
+
+1. a silver wristwatch
+2. thin metal-frame glasses
+3. a simple chain necklace
+4. a leather bracelet
+5. a knit beanie
+6. small hoop earrings
+7. a messenger bag
+8. a crossbody bag
+9. a patterned scarf
+10. a baseball cap
+11. a signet ring
+12. a stack of silver rings
+13. a black backpack
+14. wireless headphones around his neck
+15. a camera strap over one shoulder
+16. a pair of sunglasses
+17. a pocket square
+18. a silk neck scarf
+19. a tote bag
+20. a wrist cuff
+21. a minimal pendant necklace
+22. a canvas shoulder bag
+23. fingerless gloves
+24. a fedora hat
+25. a beret
+26. a guitar pick necklace
+27. a leather satchel
+28. a lanyard with an ID card
+29. a silver ear cuff
+30. a soft wool muffler
+31. a gym duffel bag
+32. a floral boutonniere
+33. a tie clip
+34. a brooch pin
+35. a belt with a bold buckle
+36. a scarf loosely draped around his neck
+37. a travel backpack
+38. a slim briefcase
+39. a ring on one index finger
+40. layered necklaces
+41. a handkerchief tucked into a pocket
+42. a bucket hat
+43. a simple headband
+44. a keychain hanging from his belt loop
+45. a bracelet made of beads
+46. a smartwatch
+47. a pair of leather gloves
+48. a soft fabric headband
+49. a school bag
+50. no visible accessories

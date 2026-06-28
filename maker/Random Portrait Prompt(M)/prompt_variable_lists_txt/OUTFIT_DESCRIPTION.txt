@@ -1,0 +1,52 @@
+[OUTFIT_DESCRIPTION] male image prompt variable values
+
+1. a crisp white button-up shirt with tailored black trousers
+2. an oversized knit sweater with relaxed denim jeans
+3. a fitted black turtleneck with a wool overcoat
+4. a casual hoodie with cargo pants
+5. a linen shirt with rolled sleeves and beige slacks
+6. a school uniform with a loosened tie
+7. a bomber jacket with a plain T-shirt and jeans
+8. a sleek tailored suit with a clean dress shirt
+9. a turtleneck knit with wide-leg trousers
+10. a leather jacket with a vintage band tee
+11. a denim jacket layered over a hoodie
+12. a sports jersey with training pants
+13. a sleeveless athletic top with joggers
+14. a relaxed cardigan with a white inner shirt
+15. a patterned short-sleeve shirt with summer shorts
+16. a long trench coat over a monochrome outfit
+17. a military-inspired jacket with fitted pants
+18. a soft cashmere sweater with tailored slacks
+19. a resort-style open-collar shirt with linen pants
+20. a varsity jacket with straight-cut jeans
+21. a formal three-piece suit
+22. a workwear jumpsuit with utility details
+23. a black shirt with silver-button detailing
+24. a striped knit polo with pleated trousers
+25. a cozy puffer jacket with winter layers
+26. a fisherman sweater with dark denim
+27. a simple Henley shirt with chinos
+28. a sleeveless tank with layered streetwear pieces
+29. a cashmere coat with a turtleneck and slacks
+30. a dance practice outfit with loose sweatpants
+31. a traditional hanbok-inspired modern outfit
+32. a beach-ready sleeveless shirt with drawstring pants
+33. a velvet blazer with slim trousers
+34. a mechanic-style work shirt with rugged pants
+35. a monochrome all-black outfit
+36. a pastel cardigan with a soft cotton tee
+37. a rugged flannel shirt with worn jeans
+38. a fitted vest over a rolled-sleeve shirt
+39. a winter scarf layered over a wool coat
+40. a silk shirt with formal trousers
+41. a racing jacket with tapered pants
+42. a minimalist crewneck sweatshirt with trousers
+43. a cozy pajama-style lounge set
+44. a festival-ready printed shirt with relaxed pants
+45. a karate or taekwondo uniform
+46. a painter’s apron over casual clothes
+47. a romantic poet-style blouse with slim pants
+48. a sleeveless knit top with loose-fit slacks
+49. a golfer’s polo shirt with clean trousers
+50. a casual blazer with a plain tee and slacks

@@ -1,33 +1,53 @@
 BACKGROUND_DESCRIPTION
 ======================
 
-1. a quiet bookstore aisle
-2. a cozy cafe interior
-3. a sunlit bedroom
-4. a minimal white studio
-5. a luxury hotel room
-6. a rainy city street
-7. a narrow alley with neon signs
-8. a peaceful beach
-9. a flower garden
-10. a rooftop at sunset
-11. a modern art gallery
-12. a vintage train station
-13. a soft curtain backdrop
+1. a quiet bookstore aisle with wooden shelves
+2. a cozy cafe interior with warm pendant lights
+3. a sunlit bedroom with soft white bedding
+4. a minimal white studio with clean shadows
+5. a luxury hotel room with elegant curtains
+6. a rainy city street with reflective pavement
+7. a narrow alley with colorful neon signs
+8. a peaceful beach with gentle waves
+9. a blooming flower garden with soft sunlight
+10. a rooftop at sunset overlooking the city
+11. a modern art gallery with white walls
+12. a vintage train station with old wooden benches
+13. a soft curtain backdrop with diffused light
 14. a traditional Korean hanok courtyard
-15. a forest path
-16. a lakeside pier
-17. a bright university campus
-18. a stylish fashion studio
-19. a city crosswalk
-20. a romantic balcony
-21. a quiet library
-22. a pastel-colored room
-23. a glass greenhouse
-24. a night street with bokeh lights
-25. a snowy park
-26. a cherry blossom road
-27. a luxury dressing room
-28. a clean office lounge
-29. a seaside boardwalk
-30. a warm kitchen interior
+15. a forest path with dappled sunlight
+16. a lakeside pier during golden hour
+17. a bright university campus with wide walkways
+18. a stylish fashion studio with garment racks
+19. a busy city crosswalk with motion blur
+20. a romantic balcony with flowing curtains
+21. a quiet library with tall bookshelves
+22. a pastel-colored room with cute decor
+23. a glass greenhouse filled with plants
+24. a night street with dreamy bokeh lights
+25. a snowy park with bare winter trees
+26. a cherry blossom road in spring
+27. a luxury dressing room with mirrors
+28. a clean office lounge with modern furniture
+29. a seaside boardwalk with soft ocean wind
+30. a warm kitchen interior with morning light
+31. a vintage record shop with warm wooden textures
+32. a small flower shop filled with pastel bouquets
+33. a quiet museum hallway with marble floors
+34. a city bus stop under soft evening rain
+35. a dreamy attic room with scattered books
+36. a riverside walkway with glowing street lamps
+37. a cozy reading nook beside a large window
+38. a cinematic underground subway platform
+39. a soft pink dressing room with vanity lights
+40. a rustic countryside road with tall grass
+41. a magical forest clearing with misty light
+42. a calm tea house with traditional wooden details
+43. a bright dance studio with mirror walls
+44. a retro arcade room with colorful lights
+45. a moonlit garden with silver-blue shadows
+46. a quiet chapel interior with stained glass light
+47. a high-rise apartment balcony at night
+48. a Mediterranean villa terrace with white walls
+49. a dreamy lavender field at sunset
+50. a cinematic parking lot with rain reflections

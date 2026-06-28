@@ -1,0 +1,52 @@
+[EXPRESSION_DESCRIPTION] male image prompt variable values
+
+1. a soft shy smile
+2. a calm neutral expression
+3. a quiet thoughtful gaze
+4. a gentle closed-mouth smile
+5. a confident relaxed smile
+6. a melancholic expression
+7. a warm approachable smile
+8. a cool distant gaze
+9. a playful smirk
+10. a slightly bashful expression
+11. a serious focused expression
+12. a dreamy faraway look
+13. a tender affectionate gaze
+14. a subtle half-smile
+15. a bright cheerful smile
+16. a stoic expression with quiet intensity
+17. a curious attentive look
+18. a sleepy relaxed expression
+19. a softly laughing smile
+20. a nostalgic expression
+21. a composed and elegant gaze
+22. a subtly flirtatious smile
+23. a reflective introspective look
+24. a fearless direct gaze
+25. a peaceful serene expression
+26. a proud confident expression
+27. a bittersweet smile
+28. a quietly lonely gaze
+29. a determined expression
+30. a sweet boyish smile
+31. a softly amused look
+32. a vulnerable open expression
+33. a protective steady gaze
+34. a charming camera-aware smile
+35. a pensive low-eyed expression
+36. a bright-eyed optimistic expression
+37. a mature reserved expression
+38. a teasing smile
+39. a heartfelt emotional look
+40. a calm morning face
+41. a slightly surprised expression
+42. a mysterious unreadable look
+43. a deeply immersed expression
+44. a relieved gentle smile
+45. a wistful smile
+46. a quietly confident gaze
+47. a romantic longing expression
+48. a relaxed after-work expression
+49. a fresh and lively expression
+50. a soft contemplative smile

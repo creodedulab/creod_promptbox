@@ -1,0 +1,52 @@
+[COMPOSITION_DESCRIPTION] male image prompt variable values
+
+1. centered composition
+2. slightly off-center composition
+3. symmetrical composition
+4. rule-of-thirds composition
+5. tight face-focused composition
+6. cinematic negative-space composition
+7. shoulder-up framing
+8. waist-up framing
+9. full-body balanced framing
+10. environmentally rich composition
+11. foreground-framed composition
+12. window-framed composition
+13. depth-rich layered composition
+14. eye-level composition
+15. low-angle heroic composition
+16. high-angle intimate composition
+17. close-cropped beauty composition
+18. wide breathing-room composition
+19. backlit silhouette composition
+20. dynamic diagonal composition
+21. natural candid composition
+22. editorial magazine-style composition
+23. portrait with blurred foreground elements
+24. profile-emphasized composition
+25. gaze-led composition
+26. minimal clean composition
+27. story-driven cinematic framing
+28. balanced vertical composition
+29. motion-aware composition
+30. over-the-shoulder framing
+31. reflection-based composition
+32. doorway-framed composition
+33. tabletop foreground composition
+34. background-bokeh focused composition
+35. soft asymmetrical composition
+36. full-frame immersive composition
+37. subject-isolated composition
+38. architecture-led composition
+39. casual snapshot composition
+40. poster-like graphic composition
+41. fashion lookbook composition
+42. book-cover style composition
+43. music-video inspired composition
+44. scene-within-a-scene composition
+45. turning-back composition
+46. sitting-pose centered composition
+47. leading-lines composition
+48. top-to-bottom visual flow composition
+49. eye-contact driven composition
+50. relaxed lifestyle composition

@@ -1,0 +1,52 @@
+[ART_STYLE] male image prompt variable values
+
+1. photorealistic editorial photography
+2. cinematic portrait photography
+3. fashion magazine photography
+4. dark fantasy portrait art
+5. neo-noir visual storytelling
+6. dreamlike fine art photography
+7. urban street-style photography
+8. soft natural lifestyle photography
+9. luxury campaign photography
+10. vintage film photography
+11. K-drama inspired portrait photography
+12. high-fashion runway photography
+13. minimal studio portraiture
+14. moody monochrome photography
+15. romantic cinematic realism
+16. retro 1990s photography
+17. indie film still photography
+18. documentary-style portrait photography
+19. youthful campus photography
+20. travel editorial photography
+21. fantasy realism illustration
+22. stylized 3D character render
+23. anime-inspired semi-realism
+24. painterly realism
+25. gritty action-film photography
+26. luxury menswear editorial
+27. clean commercial photography
+28. sun-drenched lifestyle photography
+29. melancholic art-house photography
+30. warm nostalgic photography
+31. cyberpunk portrait photography
+32. historical drama-inspired portraiture
+33. fairytale-inspired realism
+34. sportswear campaign photography
+35. minimal Scandinavian portrait photography
+36. baroque-inspired dramatic portraiture
+37. soft pastel portrait photography
+38. concert backstage photography
+39. outdoor adventure photography
+40. detective-thriller visual style
+41. elegant wedding editorial photography
+42. cozy winter fashion photography
+43. beachside resort photography
+44. youth romance poster photography
+45. intimate close-up portrait photography
+46. clean beauty editorial photography
+47. surreal cinematic portraiture
+48. classic Hollywood portrait photography
+49. modern catalog photography
+50. polished game-character realism

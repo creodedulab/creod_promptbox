@@ -1,0 +1,52 @@
+[FACE_DESCRIPTION] male image prompt variable values
+
+1. a soft youthful face with clear skin
+2. a sharp jawline and defined cheekbones
+3. a gentle oval face with calm features
+4. a refined face with a straight nose bridge
+5. a boyish face with a bright clean impression
+6. a mature face with subtle masculine definition
+7. a delicate face with smooth skin and balanced features
+8. a slightly angular face with deep-set eyes
+9. a kind face with naturally relaxed brows
+10. a handsome face with a structured jaw
+11. a fresh face with a soft smile line
+12. a graceful face with elegant symmetry
+13. a lively face with expressive eyes
+14. a serene face with quiet intensity
+15. a cool face with slightly sharp features
+16. a warm approachable face with soft contours
+17. a polished face with neat, well-balanced proportions
+18. a slim face with refined masculine charm
+19. a strong face with a broad forehead
+20. a classic face with understated elegance
+21. a clean-cut face with subtle charisma
+22. a youthful face with smooth, bright skin
+23. a thoughtful face with observant eyes
+24. a slightly rugged face with natural texture
+25. a charismatic face with a confident gaze
+26. a calm face with a composed expression
+27. a soft V-shaped face with modern styling
+28. a straight-profile face with clear features
+29. a balanced face with gentle masculinity
+30. a narrow face with sophisticated presence
+31. a healthy face with sun-kissed skin
+32. a scholarly face with quiet focus
+33. a dreamy face with soft eye contours
+34. a strong nose and clean jaw structure
+35. a refined face with subtle under-eye depth
+36. a photogenic face with polished features
+37. a cool-toned face with understated mood
+38. a friendly face with a natural smile
+39. a slightly tanned face with striking eyes
+40. a minimal, clean beauty face
+41. a dramatic face with intense structure
+42. a neat face with smooth contours
+43. a gentle face with soft lips
+44. a camera-friendly face with clear angles
+45. a fresh college-student face
+46. a romantic face with tender features
+47. a disciplined face with subtle strength
+48. a stylish face with modern sharpness
+49. a soft masculine face with clear skin
+50. a relaxed face with natural attractiveness

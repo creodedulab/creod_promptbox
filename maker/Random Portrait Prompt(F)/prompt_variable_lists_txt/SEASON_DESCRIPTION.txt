@@ -1,33 +1,53 @@
 SEASON_DESCRIPTION
 ==================
 
-1. early spring morning
-2. spring afternoon
-3. cherry blossom season
-4. late spring evening
-5. rainy spring day
-6. bright summer morning
-7. summer afternoon
-8. golden summer sunset
-9. humid summer evening
-10. late summer night
-11. early autumn morning
-12. autumn afternoon
-13. golden autumn sunset
-14. late autumn evening
-15. rainy autumn day
-16. early winter morning
-17. snowy winter afternoon
-18. cold winter evening
-19. Christmas season
-20. misty winter morning
-21. warm indoor winter day
-22. fresh morning after rain
-23. blue-hour evening
-24. golden-hour moment
-25. soft cloudy afternoon
-26. clear sunny day
-27. quiet night
-28. windy afternoon
-29. foggy morning
-30. romantic twilight
+1. early spring dawn
+2. fresh spring morning after light rain
+3. warm spring afternoon
+4. breezy spring garden day
+5. cherry blossom afternoon
+6. cherry blossom evening breeze
+7. late spring golden hour
+8. rainy spring morning
+9. misty spring riverside morning
+10. soft cloudy spring afternoon
+11. early summer morning
+12. bright summer noon
+13. lazy summer afternoon
+14. golden summer sunset
+15. humid summer evening
+16. tropical summer night
+17. late summer blue-hour evening
+18. sunlit summer beach day
+19. summer day after rain
+20. warm summer festival night
+21. early autumn morning
+22. crisp autumn afternoon
+23. golden autumn sunset
+24. late autumn evening
+25. rainy autumn street day
+26. foggy autumn morning
+27. windy autumn afternoon
+28. maple leaf season
+29. quiet autumn twilight
+30. nostalgic late autumn night
+31. early winter morning
+32. snowy winter afternoon
+33. cold winter evening
+34. deep winter night
+35. misty winter morning
+36. Christmas season evening
+37. warm indoor winter day
+38. snow-covered morning
+39. winter blue-hour moment
+40. quiet winter sunset
+41. fresh morning after rain
+42. clear sunny day
+43. soft cloudy afternoon
+44. romantic twilight
+45. blue-hour evening
+46. golden-hour moment
+47. quiet moonlit night
+48. windy coastal afternoon
+49. foggy city morning
+50. calm starry night

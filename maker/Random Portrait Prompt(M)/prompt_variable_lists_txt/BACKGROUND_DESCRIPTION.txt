@@ -1,0 +1,52 @@
+[BACKGROUND_DESCRIPTION] male image prompt variable values
+
+1. a minimal white studio
+2. a cozy bedroom
+3. a luxury hotel room
+4. a quiet library
+5. a rainy city street
+6. a rooftop overlooking the skyline
+7. a modern apartment interior
+8. a warm-toned coffee shop
+9. an old bookstore
+10. a sunlit greenhouse
+11. a seaside boardwalk
+12. a rugged mountain trail
+13. an underground parking garage
+14. a university campus walkway
+15. a train station platform
+16. a dim jazz bar
+17. a contemporary art gallery
+18. a flower-filled garden
+19. a snow-covered forest path
+20. a classic gentleman's study
+21. a basketball court
+22. a football stadium tunnel
+23. a record shop
+24. a moody alleyway
+25. a minimalist office
+26. a traditional hanok courtyard
+27. a European cobblestone street
+28. a desert roadside stop
+29. a vintage cinema lobby
+30. a neon-lit arcade
+31. a backstage dressing room
+32. a lakeside cabin deck
+33. a windy cliffside overlook
+34. a beach at low tide
+35. a museum hallway
+36. a rehearsal studio
+37. a candlelit restaurant
+38. a small town bus stop
+39. a subway interior
+40. a rooftop garden
+41. a garage workshop
+42. a painter’s studio
+43. a field of tall grass
+44. a moonlit riverside path
+45. a stylish menswear boutique
+46. a classroom after school
+47. a music festival ground
+48. an abandoned warehouse
+49. a sleek penthouse lounge
+50. a rustic countryside road

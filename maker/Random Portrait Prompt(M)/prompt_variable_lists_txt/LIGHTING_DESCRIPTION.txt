@@ -1,0 +1,52 @@
+[LIGHTING_DESCRIPTION] male image prompt variable values
+
+1. soft natural window light
+2. golden-hour sunlight
+3. gentle diffused daylight
+4. moody side lighting
+5. warm candlelight glow
+6. cool twilight lighting
+7. neon cyberpunk lighting
+8. overcast soft lighting
+9. misty diffused light
+10. studio softbox lighting
+11. hard sunlight with defined shadows
+12. soft backlighting
+13. rim lighting around the silhouette
+14. warm indoor ambient light
+15. clean beauty lighting
+16. low-key dramatic lighting
+17. high-key commercial lighting
+18. morning sun filtering through curtains
+19. late afternoon sunbeams
+20. rainy-day window lighting
+21. streetlamp glow at night
+22. mixed practical and natural lighting
+23. festival lights creating colorful highlights
+24. subtle spotlight lighting
+25. moonlit blue lighting
+26. firelight-inspired warm lighting
+27. restaurant mood lighting
+28. fluorescent urban night lighting
+29. soft studio reflector lighting
+30. halo-like dream lighting
+31. sunset backlighting
+32. crisp winter daylight
+33. soft haze-filtered lighting
+34. portrait lighting with catchlights
+35. backstage tungsten lighting
+36. soft lamp light beside the subject
+37. cloud-filtered daylight
+38. bright airy lighting
+39. deep shadow and highlight contrast
+40. gentle evening glow
+41. museum-style accent lighting
+42. romantic twilight lighting
+43. subtle underlighting for drama
+44. warm firework-lit ambience
+45. frosty blue-hour lighting
+46. night-city reflected lighting
+47. subtle strobe-inspired fashion lighting
+48. indie-film natural lighting
+49. clean neutral daylight
+50. glossy luxury editorial lighting

@@ -1,0 +1,52 @@
+[HAIR_DESCRIPTION] male image prompt variable values
+
+1. short neatly styled black hair
+2. soft middle-parted hair
+3. slightly tousled wavy hair
+4. clean side-parted hair
+5. textured short crop hair
+6. medium-length layered hair
+7. naturally messy hair
+8. slicked-back hair
+9. a neat two-block haircut
+10. curly hair with soft volume
+11. ash-brown hair with light texture
+12. jet-black straight hair
+13. dark brown hair with a gentle wave
+14. wolf-cut inspired layered hair
+15. shoulder-length artistic hair
+16. short buzzed hair
+17. a low ponytail on long hair
+18. wet-styled hair
+19. lightly permed hair
+20. a soft fringe haircut
+21. swept-back undercut hair
+22. silver-dyed hair with texture
+23. blond hair with natural movement
+24. auburn hair with subtle shine
+25. blue-black hair with a silky finish
+26. messy curtain bangs
+27. parted hair tucked behind the ears
+28. light brown hair with airy volume
+29. thick straight hair with tidy edges
+30. windswept hair
+31. a polished idol-style haircut
+32. a rugged outdoor hairstyle
+33. loosely curled medium hair
+34. a short ivy-league haircut
+35. a soft mullet-inspired style
+36. a neatly combed formal hairstyle
+37. a natural no-product hairstyle
+38. a glossy salon-styled haircut
+39. chestnut-brown layered hair
+40. subtly highlighted hair
+41. a clean college-style haircut
+42. a dramatic long-fringe hairstyle
+43. a slightly damp textured hairstyle
+44. a fluffy perm hairstyle
+45. a tightly curled hairstyle
+46. a smooth straight long hairstyle
+47. a tied half-up hairstyle
+48. an effortlessly casual haircut
+49. a high-fashion styled haircut
+50. a classic gentleman’s hairstyle

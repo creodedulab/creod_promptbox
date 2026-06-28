@@ -1,0 +1,52 @@
+[SEASON_DESCRIPTION] male image prompt variable values
+
+1. spring morning
+2. spring afternoon
+3. spring twilight
+4. spring night
+5. early summer morning
+6. summer afternoon
+7. summer sunset
+8. summer night
+9. late summer dusk
+10. monsoon season
+11. early autumn morning
+12. golden autumn sunset
+13. autumn twilight
+14. autumn night
+15. late autumn afternoon
+16. early winter morning
+17. winter afternoon
+18. winter blue hour
+19. winter night
+20. snowy winter dawn
+21. cherry blossom season
+22. rainy season
+23. dry season
+24. harvest season
+25. festival season
+26. holiday season
+27. midsummer noon
+28. cool early fall evening
+29. foggy late autumn dawn
+30. crisp winter sunset
+31. humid summer night
+32. windy spring evening
+33. sunny spring noon
+34. stormy summer dusk
+35. clear autumn afternoon
+36. frosty winter morning
+37. quiet winter midnight
+38. warm summer sunrise
+39. misty spring dawn
+40. overcast fall afternoon
+41. lunar new year season
+42. year-end holiday evening
+43. first snowfall season
+44. pre-summer rainy afternoon
+45. early spring golden hour
+46. late winter overcast day
+47. blooming spring weekend
+48. vacation season
+49. exam season
+50. new semester season

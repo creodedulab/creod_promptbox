@@ -1,0 +1,52 @@
+[SHOT_TYPE] male image prompt variable values
+
+1. close-up
+2. extreme close-up
+3. head-and-shoulders
+4. half-body
+5. waist-up
+6. three-quarter portrait
+7. full-body
+8. wide environmental portrait
+9. over-the-shoulder portrait
+10. profile portrait
+11. front-facing portrait
+12. low-angle portrait
+13. high-angle portrait
+14. seated portrait
+15. candid lifestyle portrait
+16. walking portrait
+17. leaning portrait
+18. mirror portrait
+19. silhouette portrait
+20. backlit portrait
+21. action-oriented portrait
+22. fashion editorial portrait
+23. street-style portrait
+24. studio beauty portrait
+25. dramatic side-profile portrait
+26. hero-shot portrait
+27. casual snapshot portrait
+28. window-side portrait
+29. bedroom portrait
+30. library portrait
+31. travel postcard portrait
+32. sports campaign portrait
+33. cinematic still portrait
+34. moody contemplative portrait
+35. smiling candid portrait
+36. nighttime urban portrait
+37. sunrise outdoor portrait
+38. golden-hour portrait
+39. rainy-day portrait
+40. underwater-inspired portrait
+41. back-view turning portrait
+42. sitting-on-the-floor portrait
+43. portrait with negative space
+44. portrait with foreground framing
+45. portrait with motion blur
+46. portrait with strong eye contact
+47. portrait with relaxed posture
+48. portrait with dramatic gesture
+49. portrait in profile silhouette
+50. portrait from a slightly off-center angle

@@ -1,0 +1,52 @@
+[COLOR_PALETTE] male image prompt variable values
+
+1. warm brown and cream palette
+2. soft earth-tone palette
+3. deep navy and silver palette
+4. muted beige and charcoal palette
+5. cool blue-gray palette
+6. golden amber palette
+7. forest green and ivory palette
+8. black and white monochrome palette
+9. dusty rose and taupe palette
+10. sunset orange and sand palette
+11. smoky plum and black palette
+12. sage green and linen palette
+13. icy blue and white palette
+14. copper and espresso palette
+15. burgundy and dark gold palette
+16. pastel mint and peach palette
+17. steel blue and graphite palette
+18. cream and camel palette
+19. rainy-day gray palette
+20. olive and khaki palette
+21. ruby red and charcoal palette
+22. lavender-gray palette
+23. teal and bronze palette
+24. washed denim blue palette
+25. soft lilac and ash palette
+26. terracotta and stone palette
+27. midnight blue and black palette
+28. pale gold and ivory palette
+29. mocha and dusty blue palette
+30. fresh white and sky-blue palette
+31. neon magenta and cyan palette
+32. burnt orange and deep brown palette
+33. moss green and wood-tone palette
+34. platinum gray palette
+35. rose-gold and cream palette
+36. emerald and slate palette
+37. soft coral and beige palette
+38. sepia-toned vintage palette
+39. pearl white and cool silver palette
+40. candlelight honey palette
+41. aubergine and smoke palette
+42. ocean teal and sand palette
+43. cherry blossom pink and gray palette
+44. black, crimson, and steel palette
+45. butter yellow and oatmeal palette
+46. rich chocolate and tan palette
+47. frosted lavender and blue palette
+48. muted wine and ash palette
+49. clean grayscale palette
+50. sunlit cream and olive palette

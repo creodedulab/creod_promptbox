@@ -1,0 +1,52 @@
+[IMAGE_QUALITY] male image prompt variable values
+
+1. high resolution
+2. ultra-detailed rendering
+3. studio-quality rendering
+4. 4K quality
+5. 8K quality
+6. high dynamic range
+7. cinematic color grading
+8. smooth tonal gradation
+9. polished editorial finish
+10. luxury beauty retouch quality
+11. realistic photographic detail
+12. premium commercial quality
+13. gallery-quality rendering
+14. sharp focus and crisp detail
+15. soft but detailed finish
+16. filmic high-detail quality
+17. clean professional finish
+18. high-end fashion editorial quality
+19. natural skin-detail quality
+20. vivid yet realistic detail
+21. refined portrait quality
+22. premium catalog quality
+23. glossy magazine-quality finish
+24. fine-art print quality
+25. realistic cinematic finish
+26. crystal-clear rendering
+27. photorealistic detail
+28. subtle retouch quality
+29. rich textural detail
+30. beautifully balanced exposure
+31. soft-focus premium finish
+32. detailed studio polish
+33. high-fidelity image quality
+34. advanced photographic realism
+35. immersive visual quality
+36. commercial campaign quality
+37. elegant portrait finish
+38. clean HD detail
+39. luxury advertising quality
+40. smooth skin and fabric detail
+41. visually rich rendering
+42. sharp editorial clarity
+43. high-definition realism
+44. finely polished finish
+45. cinema-poster quality
+46. premium portrait realism
+47. meticulously detailed quality
+48. refined lighting and texture quality
+49. top-tier visual finish
+50. professional retouched realism

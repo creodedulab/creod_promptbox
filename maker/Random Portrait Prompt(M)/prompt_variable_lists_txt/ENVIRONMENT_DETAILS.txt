@@ -1,0 +1,52 @@
+[ENVIRONMENT_DETAILS] male image prompt variable values
+
+1. soft curtains moving in the breeze
+2. subtle dust particles glowing in the light
+3. books and scattered notes on a wooden desk
+4. neon reflections on wet pavement
+5. potted plants and warm window light
+6. gentle ocean wind and salt-air haze
+7. city lights flickering in the distance
+8. steam rising from a nearby coffee cup
+9. vintage furniture and framed artwork
+10. hanging fairy lights and soft bokeh
+11. snowflakes drifting quietly through the air
+12. fallen leaves across the ground
+13. mirrors reflecting layered depth
+14. polished marble surfaces and golden accents
+15. old brick walls and dim ambient glow
+16. sound equipment and cables in the background
+17. sports gear casually placed nearby
+18. sunbeams breaking through tall trees
+19. raindrops streaking down the window
+20. linen bedding and relaxed domestic details
+21. stacked vinyl records and retro speakers
+22. fog rolling gently behind him
+23. subtle smoke drifting through the frame
+24. crowded festival lights blurred in the background
+25. clean architectural lines and open space
+26. colorful flowers framing the scene
+27. a parked motorcycle nearby
+28. paper pages gently scattered around
+29. glowing street signs and passing traffic
+30. lanterns casting a warm festive ambiance
+31. wooden shelves filled with objects
+32. metal beams and industrial textures
+33. sunlit stone walls and trailing vines
+34. beach chairs and rippling water reflections
+35. a soft haze creating dreamlike depth
+36. camping gear and rugged textures
+37. train tracks fading into the distance
+38. light rain creating fine mist
+39. floor-to-ceiling windows with skyline views
+40. retro posters and nostalgic decor
+41. subtle candlelight flickering nearby
+42. laundry lines swaying gently
+43. fountain mist sparkling in the sun
+44. chalkboard menus and cafe details
+45. classroom desks and evening silence
+46. elegant table settings and glass reflections
+47. dense greenery surrounding the path
+48. arcade machines casting colorful light
+49. traditional wooden architecture and stone paving
+50. studio backdrops and scattered props

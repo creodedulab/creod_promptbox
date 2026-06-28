@@ -145,6 +145,55 @@
           <article
             class="prompt-maker-card"
             data-random-prompt-maker
+            data-template-path="Random Portrait Prompt(M)/Random Portrait Prompt(M).txt"
+            data-variable-list-path="Random Portrait Prompt(M)/prompt_variable_lists_txt"
+          >
+            <div class="prompt-maker-card-head">
+              <h3>Portrait Prompt(M)</h3>
+            </div>
+            <div class="source-prompt-preview" data-source-prompt-preview></div>
+            <div class="maker-options maker-options-inline">
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="slim" />
+                <span>슬림</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="curvy" />
+                <span>운동</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="glamour" />
+                <span>듬직어꺠</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="fit" />
+                <span>모델</span>
+              </label>
+              <label class="maker-option">
+                <input type="checkbox" data-body-proportion-option="refined" />
+                <span>피지컬</span>
+              </label>
+            </div>
+            <div class="maker-actions">
+              <button class="maker-button maker-button-primary" type="button" data-generate-random-prompt>
+                랜덤 프롬프트 생성
+              </button>
+              <button class="maker-button" type="button" data-copy-generated-prompt>프롬프트 복사</button>
+              <button class="maker-button" type="button" data-reset-generated-prompt>초기화</button>
+            </div>
+            <textarea
+              class="generated-prompt"
+              data-generated-prompt
+              aria-label="생성된 남성 포트레이트 프롬프트"
+              spellcheck="false"
+              placeholder="생성 버튼을 눌러주세요."
+            ></textarea>
+            <p class="maker-status" data-maker-status role="status" aria-live="polite"></p>
+          </article>
+
+          <article
+            class="prompt-maker-card"
+            data-random-prompt-maker
             data-template-path="Random Cosplay Prompt(F)/Random Cosplay Prompt(F).txt"
             data-variable-list-path="Random Cosplay Prompt(F)/prompt_vaiable_lists_txt"
           >

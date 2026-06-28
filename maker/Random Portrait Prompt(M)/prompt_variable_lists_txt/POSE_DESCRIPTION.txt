@@ -1,0 +1,52 @@
+[POSE_DESCRIPTION] male image prompt variable values
+
+1. standing with his hands in his pockets
+2. leaning lightly against the wall
+3. turning over his shoulder toward the camera
+4. sitting casually on a chair
+5. walking slowly toward the viewer
+6. resting one hand on the back of a chair
+7. looking down while adjusting his sleeve
+8. seated by the window with one knee raised
+9. crossing his arms with relaxed confidence
+10. holding a coffee cup near his chest
+11. resting his chin lightly on one hand
+12. looking out through the window
+13. sitting on the floor with relaxed posture
+14. running a hand through his hair
+15. standing with a slightly tilted head
+16. leaning on a desk with one hand braced
+17. holding a book loosely at his side
+18. placing both hands in his coat pockets
+19. walking with a natural candid stride
+20. resting his forearms on a railing
+21. sitting on the edge of a bed
+22. looking back while continuing to walk away
+23. holding a jacket over one shoulder
+24. sitting with legs slightly apart in a relaxed pose
+25. reaching slightly toward the camera
+26. adjusting his tie with one hand
+27. standing under an umbrella
+28. resting his back against a window frame
+29. sitting at a table with fingers interlaced
+30. holding headphones in one hand
+31. lifting his gaze from a notebook
+32. standing beside a motorcycle with casual ease
+33. resting one elbow on his knee
+34. standing tall with composed posture
+35. bending slightly forward with curiosity
+36. placing one hand in his hair and the other at his side
+37. holding a bouquet loosely
+38. looking into a mirror from the side
+39. sitting cross-legged on the floor
+40. mid-step as if caught in motion
+41. resting both hands on a railing
+42. tugging lightly at his sweater hem
+43. one hand in pocket and one hand holding a bag strap
+44. standing with wind moving his coat
+45. kneeling beside a low surface
+46. lifting a camera toward his face
+47. resting a hand on his neck
+48. looking up from under lowered lashes
+49. sitting sideways with one arm draped over the chair
+50. standing in a relaxed contrapposto pose

@@ -31,7 +31,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p dist
-          cp -R \
+          for path in \
             .nojekyll \
             index.html \
             styles.css \
@@ -41,8 +41,15 @@ jobs:
             data \
             examples \
             images \
-            maker \
-            dist/
+            maker
+          do
+            if [ -e "$path" ]; then
+              cp -R "$path" dist/
+            else
+              echo "::error::Missing required site asset: $path"
+              exit 1
+            fi
+          done
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

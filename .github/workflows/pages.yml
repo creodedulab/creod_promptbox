@@ -31,25 +31,8 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p dist
-          for path in \
-            .nojekyll \
-            index.html \
-            styles.css \
-            script.js \
-            theme.js \
-            components \
-            data \
-            examples \
-            images \
-            maker
-          do
-            if [ -e "$path" ]; then
-              cp -R "$path" dist/
-            else
-              echo "::error::Missing required site asset: $path"
-              exit 1
-            fi
-          done
+          git archive --format=tar HEAD | tar -x -C dist
+          rm -rf dist/.github
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

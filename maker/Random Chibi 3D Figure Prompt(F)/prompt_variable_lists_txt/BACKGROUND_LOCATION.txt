@@ -1,52 +1,102 @@
 {BACKGROUND_LOCATION}
 
-1. cozy sunlit modern cafe
-2. neon-lit rainy cyberpunk street corner
-3. classic wooden library with giant books
-4. pastel-themed gaming bedroom with LED lights
-5. enchanted glowing mushroom forest
-6. traditional Korean Hanok courtyard
-7. bustling retro 1980s arcade room
-8. lush indoor botanical greenhouse
-9. vintage 1950s American diner
-10. mystical crystal cavern with glowing ores
-11. vibrant amusement park with a ferris wheel
-12. quiet European cobblestone alleyway
-13. interior of a futuristic spaceship bridge
-14. messy but cute artist's painting studio
-15. frozen icy glacier cave
-16. grand royal ballroom with crystal chandeliers
-17. blooming cherry blossom park
-18. high-tech modern chemistry laboratory
-19. colorful candy and chocolate land diorama
-20. dusty antique watchmaker's workshop
-21. dark gothic vampire castle hall
-22. modern glass-walled skyscraper rooftop
-23. serene Japanese zen rock garden
-24. inside a claw machine filled with plushies
-25. abandoned industrial warehouse
-26. deep underwater coral reef kingdom
-27. festive Christmas market square
-28. cluttered wooden computer desk with giant keyboard
-29. magical floating island in the sky
-30. quiet autumn lakeside with red maple leaves
-31. steampunk zeppelin deck floating in the clouds
-32. bright and cheerful circus tent interior
-33. cute miniature pastry bakery display
-34. misty pine tree mountain peak
-35. graffiti-covered underground subway station
-36. starry galaxy space station observatory
-37. spooky abandoned haunted mansion
-38. messy toy box spilling over with building blocks
-39. vast golden wheat field at sunset
-40. elegant museum exhibition hall
-41. lush tropical jungle ruin
-42. magical potion shop filled with colorful bottles
-43. dry rocky desert canyon
-44. grand theater stage with red velvet curtains
-45. classic retro cinema ticket booth
-46. suburban front yard with a white picket fence
-47. peaceful countryside train station platform
-48. cozy campsite with a crackling fire pit
-49. sunny backyard treehouse
-50. bustling Tokyo crossing at night
+1. cozy Nordic mountain cabin interior
+2. luxurious Paris fashion boutique
+3. underwater glass tunnel aquarium
+4. ancient Egyptian temple chamber
+5. futuristic AI control room
+6. giant sunflower field under blue skies
+7. colorful Mexican festival street
+8. whimsical fairy tree village
+9. abandoned lunar research station
+10. elegant Victorian greenhouse
+11. bustling Korean traditional marketplace
+12. tropical beach boardwalk at sunrise
+13. miniature dollhouse living room
+14. pirate ship captain's cabin
+15. enchanted moonlit lavender field
+16. colorful hot air balloon festival
+17. ancient Greek marble temple ruins
+18. futuristic holographic shopping mall
+19. hidden bamboo forest pathway
+20. snowy alpine ski village
+21. giant aquarium viewing lounge
+22. luxury penthouse overlooking a city skyline
+23. cozy attic reading nook
+24. whimsical toy factory assembly room
+25. giant tree hollow fantasy home
+26. abandoned train carriage reclaimed by nature
+27. magical unicorn meadow
+28. crystal ice palace corridor
+29. medieval blacksmith forge
+30. fantasy dragon treasure vault
+31. peaceful lotus pond pavilion
+32. cozy bookshop with spiral staircases
+33. Japanese summer festival street
+34. Italian countryside vineyard
+35. colorful balloon-filled birthday party hall
+36. enchanted autumn pumpkin village
+37. rainforest waterfall lagoon
+38. underwater mermaid palace
+39. snowy Christmas living room
+40. giant observatory telescope dome
+41. futuristic robot repair garage
+42. floating cloud café
+43. candy-colored ice cream parlor
+44. enchanted castle rooftop garden
+45. luxury yacht deck on calm seas
+46. colorful coral cave illuminated by bioluminescence
+47. grand marble opera house lobby
+48. mystical ancient stone circle
+49. botanical rooftop garden café
+50. giant greenhouse filled with carnivorous plants
+51. fantasy wizard academy classroom
+52. moonlit rooftop overlooking old town
+53. hidden secret passage behind bookshelves
+54. old-fashioned photography darkroom
+55. artisan pottery workshop
+56. elegant perfume atelier
+57. giant flower garden with towering tulips
+58. Moroccan mosaic courtyard
+59. rustic countryside windmill interior
+60. cozy Scandinavian bakery kitchen
+61. luxury jewelry boutique display
+62. bamboo treehouse suspended in the jungle
+63. mysterious abandoned observatory
+64. colorful aquarium-themed children's room
+65. floating crystal palace above the clouds
+66. enchanted firefly meadow at dusk
+67. mountain hot spring resort
+68. futuristic magnetic levitation train cabin
+69. giant clock tower observation deck
+70. traditional Chinese lantern festival street
+71. fantasy elf village hidden among giant roots
+72. glowing bioluminescent cave lake
+73. luxury spa wellness lounge
+74. grand university lecture hall
+75. whimsical paper craft world
+76. cozy vinyl record listening room
+77. futuristic drone delivery hub
+78. colorful indoor roller skating rink
+79. charming seaside lighthouse interior
+80. giant indoor waterfall atrium
+81. enchanted stained-glass cathedral
+82. medieval castle kitchen
+83. elegant tea house overlooking a koi pond
+84. bustling fish market at dawn
+85. dreamy cloud kingdom palace
+86. neon retro bowling alley
+87. giant LEGO-inspired cityscape
+88. luxury train dining carriage
+89. cozy snow-covered glass igloo
+90. fantasy phoenix sanctuary
+91. underground gemstone mining tunnel
+92. modern architecture exhibition gallery
+93. whimsical sewing workshop filled with fabrics
+94. hidden pirate treasure cave
+95. giant terrarium jungle dome
+96. colorful kite festival hilltop
+97. enchanted butterfly conservatory
+98. futuristic virtual reality gaming arena
+99. peaceful riverside picnic meadow
+100. magical celestial library floating among the stars

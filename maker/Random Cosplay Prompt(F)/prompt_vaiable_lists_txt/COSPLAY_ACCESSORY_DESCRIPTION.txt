@@ -1,53 +1,84 @@
 ﻿COSPLAY_ACCESSORY_DESCRIPTION
 =============================
 
-01. heart-shaped wand accessory
-02. prop sword
-03. oversized magic staff
-04. ribbon hairpiece
-05. lace choker
-06. tiny crown
-07. silver tiara
-08. cat-ear headband
-09. rabbit-ear headband
-10. angel wings
-11. black demon horns
-12. glowing halo
-13. fingerless gloves
-14. themed thigh-high stockings
-15. character wig
-16. prop shield
-17. crystal necklace
-18. large bow accessory
-19. rose hairpin
-20. mechanical goggles
-21. steampunk hat
-22. cyber visor
-23. holographic earrings
-24. magic spell book
-25. mini shoulder cape
-26. long satin gloves
-27. decorative belt
-28. lace parasol
-29. fantasy dagger prop
-30. idol microphone
-31. small plush mascot
-32. chain accessory
-33. metal armor shoulder piece
-34. gemstone brooch
-35. oversized ribbon tie
-36. school bag prop
-37. star-shaped hair clips
-38. butterfly hair ornament
-39. flower crown
-40. silver arm cuffs
-41. golden bracelet
-42. moon-shaped pendant
-43. transparent fairy wings
-44. decorative mask
-45. luxury feather fan
-46. waist pouch prop
-47. magic potion bottle
-48. glowing orb prop
-49. themed boots
-50. character-specific badge
+1. small pearl earrings
+2. a thin silver necklace
+3. round glasses
+4. a delicate hairpin
+5. a silk ribbon
+6. a small ivory handbag
+7. a black mini crossbody bag
+8. gold hoop earrings
+9. a simple wristwatch
+10. a soft knit scarf
+11. a beret
+12. a straw hat
+13. a white flower hair accessory
+14. a minimal bracelet
+15. a leather shoulder bag
+16. a pearl hair clip
+17. a tiny heart necklace
+18. transparent frame glasses
+19. a satin choker
+20. a pastel ribbon bow
+21. a silver ring
+22. a small tote bag
+23. a hair scrunchie
+24. a lace headband
+25. a luxury clutch
+26. a flower corsage
+27. a simple black belt
+28. a vintage camera strap
+29. a soft wool muffler
+30. no visible accessories
+31. heart-shaped wand accessory
+32. prop sword
+33. oversized magic staff
+34. ribbon hairpiece
+35. lace choker
+36. tiny crown
+37. silver tiara
+38. cat-ear headband
+39. rabbit-ear headband
+40. angel wings
+41. black demon horns
+42. glowing halo
+43. fingerless gloves
+44. themed thigh-high stockings
+45. character wig
+46. prop shield
+47. crystal necklace
+48. large bow accessory
+49. rose hairpin
+50. mechanical goggles
+51. steampunk hat
+52. cyber visor
+53. holographic earrings
+54. magic spell book
+55. mini shoulder cape
+56. long satin gloves
+57. decorative belt
+58. lace parasol
+59. fantasy dagger prop
+60. idol microphone
+61. small plush mascot
+62. chain accessory
+63. metal armor shoulder piece
+64. gemstone brooch
+65. oversized ribbon tie
+66. school bag prop
+67. star-shaped hair clips
+68. butterfly hair ornament
+69. flower crown
+70. silver arm cuffs
+71. golden bracelet
+72. moon-shaped pendant
+73. transparent fairy wings
+74. decorative mask
+75. luxury feather fan
+76. waist pouch prop
+77. magic potion bottle
+78. glowing orb prop
+79. themed boot-cover accessories
+80. character-specific badge
+81.

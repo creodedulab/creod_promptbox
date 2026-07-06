@@ -2,51 +2,102 @@
 
 1. classic black beret
 2. oversized gaming headphones with cat ears
-3. vintage round wire-rimmed glasses
-4. futuristic glowing cyber-goggles
-5. elegant silver four-pointed star necklace
-6. chic black velvet choker with a cross charm
-7. punk-style leather spiked bracelet
-8. chunky colorful acrylic rings
-9. miniature instant film camera hanging from the neck
-10. handheld retro gaming console
-11. cute animal-eared fuzzy beanie
-12. sleek transparent smart-watch
-13. leather messenger bag with tiny buckles
-14. fluffy cat-shaped plush backpack
-15. takeaway paper coffee cup with a sleeve
-16. miniature sketchbook with a tiny pencil
-17. glowing magical crystal staff
-18. small leather-bound spellbook
-19. steampunk mechanical pocket watch
-20. traditional patterned folding fan
-21. tiny bouquet of red roses
-22. star-shaped yellow balloon on a stick
-23. miniature skateboard under one arm
-24. modern wireless earbuds in ears
-25. elegant lace-trimmed parasol
-26. sporty hip-sack worn crossbody
-27. sparkly diamond stud earrings
-28. cute frog-designed sleep mask on the forehead
-29. golden crown with tiny embedded jewels
-30. angel-wing shaped white backpack
-31. miniature acoustic guitar held on the back
-32. sleek metallic roller skates
-33. classic red tartan scarf wrapped around the neck
-34. pair of cozy fluffy earmuffs
-35. transparent vinyl umbrella with raindrops
-36. detective-style magnifying glass
-37. tiny glowing lantern held in hand
-38. cute yellow raincoat and matching hood
-39. miniature soft soft-serve ice cream cone
-40. colorful beaded phone strap
-41. devil-horn shaped headband
-42. sleek black wireless microphone
-43. miniature violin and a tiny bow
-44. futuristic holographic wrist-screen
-45. cozy knitted fingerless gloves
-46. tiny green sprout hairpin on top of the head
-47. vintage aviator sunglasses tucked into the collar
-48. cute white rabbit plushie held in one arm
-49. pirate-style black eye patch
-50. miniature compass hanging from a belt loop
+3. cute animal-eared fuzzy beanie
+4. cute frog-designed sleep mask on the forehead
+5. golden crown with tiny embedded jewels
+6. pair of cozy fluffy earmuffs
+7. devil-horn shaped headband
+8. tiny green sprout hairpin on top of the head
+9. elegant pearl drop hairpin
+10. vintage velvet big ribbon hair tie
+11. mini butterfly claw clips set
+12. purple masquerade mask with feathers
+13. bohemian ethnic patterned headband
+14. romantic lace frill bonnet
+15. vintage round wire-rimmed glasses
+16. futuristic glowing cyber-goggles
+17. vintage aviator sunglasses tucked into the collar
+18. pirate-style black eye patch
+19. retro pink transparent frame sunglasses
+20. chic cat-eye black sunglasses
+21. trendy oval rimless glasses
+22. elegant silver four-pointed star necklace
+23. chic black velvet choker with a cross charm
+24. classic red tartan scarf wrapped around the neck
+25. layered silver butterfly pendant necklace
+26. glowing opal heart gemstone necklace
+27. minimalist gold chain link necklace
+28. antique cameo pendant choker
+29. bold streetwear chain necklace
+30. sparkly diamond stud earrings
+31. vintage antique silver drop earrings
+32. sleek silver hoop earrings set
+33. asymmetric moon and star earrings
+34. cute cherry-shaped acrylic earrings
+35. sparkly rhinestone ear cuff chain set
+36. punk-style leather spiked bracelet
+37. sleek transparent smart-watch
+38. futuristic holographic wrist-screen
+39. cozy knitted fingerless gloves
+40. rose gold layered bangle bracelets
+41. colorful pastel beaded bracelet
+42. elegant gothic lace hand warmers
+43. heavy metallic chain bracelet
+44. chunky colorful acrylic rings
+45. vintage engraved silver signet ring
+46. glowing moonstone statement ring
+47. minimalist silver stacking rings set
+48. cute gummy bear resin ring
+49. intricate butterfly open ring
+50. leather messenger bag with tiny buckles
+51. fluffy cat-shaped plush backpack
+52. sporty hip-sack worn crossbody
+53. angel-wing shaped white backpack
+54. glossy faux-leather baguette bag
+55. vintage floral embroidered canvas tote bag
+56. metallic silver mini heart chain bag
+57. ethnic mini suede fringed bag
+58. miniature compass hanging from a belt loop
+59. double-grommet faux-leather belt
+60. sparkly rhinestone waist body chain
+61. kitsch butterfly buckle chain belt
+62. sleek western cowboy leather belt
+63. punk leather thigh garter with a heart ring
+64. miniature instant film camera hanging from the neck
+65. handheld retro gaming console
+66. takeaway paper coffee cup with a sleeve
+67. miniature sketchbook with a tiny pencil
+68. glowing magical crystal staff
+69. small leather-bound spellbook
+70. steampunk mechanical pocket watch
+71. traditional patterned folding fan
+72. tiny bouquet of red roses
+73. star-shaped yellow balloon on a stick
+74. miniature skateboard under one arm
+75. modern wireless earbuds in ears
+76. elegant lace-trimmed parasol
+77. transparent vinyl umbrella with raindrops
+78. detective-style magnifying glass
+79. tiny glowing lantern held in hand
+80. miniature soft-serve ice cream cone
+81. colorful beaded phone strap
+82. sleek black wireless microphone
+83. miniature violin and a tiny bow
+84. cute white rabbit plushie held in one arm
+85. classic brown leather journal
+86. holographic resin heart shaker keyring
+87. glittery silver tumbler
+88. antique ornate hand mirror
+89. retro cassette tape player with foam headphones
+90. vintage miniature music box
+91. silver planet brooch for collars
+92. kitsch embroidered cat patch pin set
+93. cute acrylic badges for bags
+94. glowing glass-vial pendant pin
+95. sparkly butterfly shoe charms
+96. romantic satin ribbon clips for shoes
+97. punk metal safety pin brooch set
+98. lucky four-leaf clover metal keyring
+99. colorful silk twilly scarf for bag handles
+100. glittery rainbow enamel badge
+101.

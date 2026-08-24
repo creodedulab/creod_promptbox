@@ -827,12 +827,6 @@ body[data-theme="dark"] .maker-button-primary {
   gap: 12px;
 }
 
-.gallery-grid.sort-random {
-  display: block;
-  columns: 5 160px;
-  column-gap: 0;
-}
-
 .gallery-card {
   display: block;
   width: 100%;
@@ -843,12 +837,6 @@ body[data-theme="dark"] .maker-button-primary {
   margin: 0;
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
   cursor: pointer;
-}
-
-.sort-random .gallery-card {
-  display: inline-block;
-  box-shadow: none;
-  break-inside: avoid;
 }
 
 .image-frame {
@@ -881,18 +869,6 @@ body[data-theme="dark"] .maker-button-primary {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.sort-random .image-frame,
-.sort-random .image-frame.tall,
-.sort-random .image-frame.wide {
-  min-height: 0;
-  background: transparent;
-}
-
-.sort-random .image-frame img {
-  height: auto;
-  object-fit: contain;
 }
 
 .card-overlay {
@@ -940,27 +916,12 @@ body[data-theme="dark"] .maker-button-primary {
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
 }
 
-.sort-random .gallery-card {
-  display: inline-block;
-  min-height: 0;
-  box-shadow: none;
-}
-
 .view-list .image-frame,
 .view-list .image-frame.tall,
 .view-list .image-frame.wide {
   aspect-ratio: 1 / 1;
   min-height: 112px;
   height: 112px;
-}
-
-.sort-random .image-frame,
-.sort-random .image-frame.tall,
-.sort-random .image-frame.wide {
-  aspect-ratio: auto;
-  min-height: 0;
-  height: auto;
-  background: transparent;
 }
 
 .view-list .card-overlay {
@@ -972,10 +933,6 @@ body[data-theme="dark"] .maker-button-primary {
   min-width: 0;
   gap: 5px;
   padding: 14px 16px;
-}
-
-.sort-random .list-card-body {
-  display: none;
 }
 
 .list-card-title {
@@ -1825,12 +1782,6 @@ body[data-theme="dark"] .site-footer {
     gap: 10px;
   }
 
-  .gallery-grid.sort-random {
-    display: block;
-    columns: 2 140px;
-    column-gap: 0;
-  }
-
   .gallery-card {
     display: block;
     margin: 0;
@@ -1840,11 +1791,6 @@ body[data-theme="dark"] .site-footer {
     display: grid;
     grid-template-columns: 92px minmax(0, 1fr);
     min-height: 92px;
-  }
-
-  .sort-random .gallery-card {
-    display: inline-block;
-    min-height: 0;
   }
 
   .view-list .image-frame,
@@ -1859,13 +1805,6 @@ body[data-theme="dark"] .site-footer {
   .image-frame.wide {
     aspect-ratio: 1 / 1;
     min-height: 0;
-  }
-
-  .sort-random .image-frame,
-  .sort-random .image-frame.tall,
-  .sort-random .image-frame.wide {
-    aspect-ratio: auto;
-    height: auto;
   }
 
   .card-overlay {

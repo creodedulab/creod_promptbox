@@ -781,6 +781,10 @@ body[data-theme="dark"] .maker-button-primary {
   cursor: pointer;
 }
 
+.random-refresh-button[hidden] {
+  display: none;
+}
+
 .view-button:hover,
 .view-button:focus-visible {
   border-color: var(--accent);

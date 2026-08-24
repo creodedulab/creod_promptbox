@@ -46,6 +46,7 @@ let activeMainCategory = "all";
 let activeSubCategory = "all";
 let activeSortMode = "latest";
 let activeViewMode = "large";
+let randomOrder = new Map();
 let selectedPrompt = "";
 let selectedVariables = [];
 let variableValues = {};
@@ -191,6 +192,12 @@ function compareByName(a, b) {
 }
 
 function sortGalleryItems(items) {
+  if (activeSortMode === "random") {
+    return [...items].sort((a, b) => {
+      return (randomOrder.get(getItemRoute(a)) ?? 0) - (randomOrder.get(getItemRoute(b)) ?? 0);
+    });
+  }
+
   return [...items].sort((a, b) => {
     if (activeSortMode === "oldest") return a.sortTime - b.sortTime || compareByName(a, b);
     if (activeSortMode === "name-asc") return compareByName(b, a);
@@ -206,6 +213,21 @@ function setViewMode(viewMode) {
   viewModeButtons.forEach((button) => {
     button.classList.toggle("active", button.dataset.viewMode === viewMode);
   });
+}
+
+function shuffleItems(items) {
+  const shuffled = [...items];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+  }
+  return shuffled;
+}
+
+function refreshRandomOrder() {
+  randomOrder = new Map(
+    shuffleItems(galleryItems).map((item, index) => [getItemRoute(item), index]),
+  );
 }
 
 async function loadGalleryItems() {
@@ -290,6 +312,10 @@ function renderSubcategoryTabs() {
 
 function renderGallery() {
   const keyword = activeSearchKeyword;
+  if (activeSortMode === "random" && randomOrder.size !== galleryItems.length) {
+    refreshRandomOrder();
+  }
+  galleryGrid.classList.toggle("sort-random", activeSortMode === "random");
   const filtered = sortGalleryItems(galleryItems.filter((item) => {
     const matchesMain =
       activeMainCategory === "all" || item.mainCategory === activeMainCategory;
@@ -622,6 +648,7 @@ searchForm?.addEventListener("submit", (event) => {
 
 sortSelect?.addEventListener("change", () => {
   activeSortMode = sortSelect.value;
+  if (activeSortMode === "random") refreshRandomOrder();
   renderGallery();
 });
 

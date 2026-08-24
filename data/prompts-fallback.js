@@ -140,6 +140,20 @@ window.__PROMPT_FALLBACK_ITEMS__ = [
     "prompt": "Rendered in dreamlike fashion photography, a warm brown and cream palette beauty close-up portrait of a young Korean woman in a luxury hotel room during romantic twilight, with paper pages gently scattered. She is wearing a romantic chiffon dress and a pastel ribbon bow, with natural beauty with minimal makeup, medium layered hair, and a slim feminine figure with a fuller bust and balanced natural proportions, sitting on a chair gracefully with a natural candid smile. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with mirrorless camera portrait setup and portrait with foreground bokeh, featuring misty diffused light and silky flowing dress material, conveying a high-fashion, confident, stylish atmosphere and rendered in high dynamic range."
   },
   {
+    "title": "산뜻한 정원에서의 플라워드레스 산책",
+    "mainCategory": "image",
+    "mainCategoryLabel": "이미지",
+    "subCategory": "person",
+    "subCategoryLabel": "인물",
+    "route": "image/person/산뜻한-정원에서의-플라워드레스-산책",
+    "tool": "Image AI",
+    "size": "",
+    "updatedAt": "2026-08-24T16:34:08.452Z",
+    "image": "examples/image/person/산뜻한 정원에서의 플라워드레스 산책/산뜻한 정원에서의 플라워드레스 산책.png",
+    "description": "",
+    "prompt": "Rendered in modern fashion lookbook style, a cinematic teal-orange palette top-down portrait of a young korean woman in a blooming flower garden with soft sunlight during lazy summer afternoon, with sunlight filtering through leaves. She is wearing a floral summer dress and modern wireless earbuds in ears, with warm eyes and natural skin texture, long black wavy hair, and a slim feminine figure with a fuller bust and balanced natural proportions, turning around mid-step with a graceful gaze. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Captured with low-angle camera perspective and soft background separation, featuring cinematic blue-hour light and crisp cotton fabric, conveying a clear, gentle, refreshing atmosphere and rendered in realistic skin details. -ar 3:4."
+  },
+  {
     "title": "스튜디오에 스민 하얀 눈송이",
     "mainCategory": "image",
     "mainCategoryLabel": "이미지",
@@ -372,7 +386,7 @@ window.__PROMPT_FALLBACK_ITEMS__ = [
     "route": "image/avatar/어서와-천국은-처음이지-치비캐릭터",
     "tool": "Image AI",
     "size": "",
-    "updatedAt": "2026-08-24T16:16:49.139Z",
+    "updatedAt": "2026-08-24T16:34:13.300Z",
     "image": "examples/image/avatar/어서와 천국은 처음이지 치비캐릭터/어서와 천국은 처음이지 치비캐릭터.webp",
     "description": "",
     "prompt": "Use the uploaded user photo as the only face and hairstyle reference, but reinterpret it as a cute chibi-style SD 3D collectible figurine rather than a realistic portrait. Preserve the person’s recognizable facial impression, hairstyle silhouette, hair color, hair texture, and overall vibe, while simplifying the face into a soft toy-like chibi design with a large rounded head, soft cheeks, oversized expressive eyes, small simplified nose, tiny cute mouth, smooth doll-like skin, and compact SD proportions. Avoid realistic human facial proportions, detailed pores, mature facial structure, and overly lifelike rendering. Character details: dreamy and romantic facial impression, cute sunny expression, looking straight into the camera with an energetic bright gaze. Outfit details: classic houndstooth patterned skirt suit style, sleek neoprene scuba-style zip-up top, delicate scalloped edge guipure lace texture, lace-trimmed apricot velvet shorts, minimalist white slip-on sneakers, leather messenger bag with tiny buckles. Pose and action: sitting flat on the ground with both legs stretched straight out, both hands open wide and lifted slightly upward. Create a 4:5 vertical image. The figure must occupy about 60% of the frame. Use slightly elevated full-body shot with 50mm lens, crisp figure rendering. Place the figure in floating crystal palace above the clouds, during elegant platinum twilight with silver reflections, with clean three-point commercial studio lighting, cozy oatmeal cream and soft heather gray palette, and divine celestial angelic purity and holy glow. Include a small, elegant, semi-transparent watermark text \"@tting_ssam\" fixed at the bottom-right corner of the image, clearly readable yet unobtrusive and naturally integrated into the composition. Restrictions: no excessive retouching, avoid finger errors, avoid malformed hands, keep the anatomy clean and cute within the SD figure style."

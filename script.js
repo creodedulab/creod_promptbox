@@ -72,6 +72,7 @@ const emptyState = document.querySelector("#emptyState");
 const resultCount = document.querySelector("#resultCount");
 const sortSelect = document.querySelector("#sortSelect");
 const viewModeButtons = document.querySelectorAll("[data-view-mode]");
+const randomRefresh = document.querySelector("#randomRefresh");
 const toast = document.querySelector("#toast");
 let toastTimer;
 const promptModal = document.querySelector("#promptModal");
@@ -230,6 +231,11 @@ function refreshRandomOrder() {
   );
 }
 
+function updateRandomRefreshVisibility() {
+  if (!randomRefresh) return;
+  randomRefresh.hidden = activeSortMode !== "random";
+}
+
 async function loadGalleryItems() {
   const fallbackItems = window.__PROMPT_FALLBACK_ITEMS__;
 
@@ -316,6 +322,7 @@ function renderGallery() {
     refreshRandomOrder();
   }
   galleryGrid.classList.toggle("sort-random", activeSortMode === "random");
+  updateRandomRefreshVisibility();
   const filtered = sortGalleryItems(galleryItems.filter((item) => {
     const matchesMain =
       activeMainCategory === "all" || item.mainCategory === activeMainCategory;
@@ -649,6 +656,12 @@ searchForm?.addEventListener("submit", (event) => {
 sortSelect?.addEventListener("change", () => {
   activeSortMode = sortSelect.value;
   if (activeSortMode === "random") refreshRandomOrder();
+  renderGallery();
+});
+
+randomRefresh?.addEventListener("click", () => {
+  if (activeSortMode !== "random") return;
+  refreshRandomOrder();
   renderGallery();
 });
 

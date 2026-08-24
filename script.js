@@ -193,8 +193,8 @@ function compareByName(a, b) {
 function sortGalleryItems(items) {
   return [...items].sort((a, b) => {
     if (activeSortMode === "oldest") return a.sortTime - b.sortTime || compareByName(a, b);
-    if (activeSortMode === "name-asc") return compareByName(a, b);
-    if (activeSortMode === "name-desc") return compareByName(b, a);
+    if (activeSortMode === "name-asc") return compareByName(b, a);
+    if (activeSortMode === "name-desc") return compareByName(a, b);
     return b.sortTime - a.sortTime || compareByName(a, b);
   });
 }

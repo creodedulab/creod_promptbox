@@ -413,13 +413,16 @@ body[data-theme="dark"] .toolbar {
 
 body[data-theme="dark"] .tab,
 body[data-theme="dark"] .subtab,
-body[data-theme="dark"] .subtab-link {
+body[data-theme="dark"] .subtab-link,
+body[data-theme="dark"] .sort-control select,
+body[data-theme="dark"] .view-button {
   border-color: rgba(247, 247, 242, 0.24);
   color: var(--muted);
 }
 
 body[data-theme="dark"] .tab.active,
-body[data-theme="dark"] .subtab.active {
+body[data-theme="dark"] .subtab.active,
+body[data-theme="dark"] .view-button.active {
   border-color: var(--accent);
   background: var(--accent);
   color: #ffffff;
@@ -723,11 +726,80 @@ body[data-theme="dark"] .maker-button-primary {
 .section-head {
   display: flex;
   align-items: end;
-  justify-content: flex-end;
+  justify-content: space-between;
   gap: 20px;
   margin-bottom: 18px;
   border-bottom: 1px solid rgba(17, 17, 17, 0.16);
   padding-bottom: 10px;
+}
+
+.display-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.sort-control select {
+  min-height: 38px;
+  border: 1px solid rgba(17, 17, 17, 0.22);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  outline: none;
+  padding: 0 34px 0 12px;
+}
+
+.sort-control select:focus {
+  border-color: var(--accent);
+}
+
+.view-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.view-button {
+  display: inline-grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid rgba(17, 17, 17, 0.22);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.view-button:hover,
+.view-button:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.view-button.active:hover,
+.view-button.active:focus-visible {
+  color: #ffffff;
+}
+
+.view-button svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
 }
 
 #resultCount {
@@ -741,6 +813,20 @@ body[data-theme="dark"] .maker-button-primary {
   column-gap: 22px;
 }
 
+.gallery-grid.view-small {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 14px;
+  columns: auto;
+}
+
+.gallery-grid.view-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  columns: auto;
+}
+
 .gallery-card {
   display: inline-block;
   width: 100%;
@@ -752,6 +838,12 @@ body[data-theme="dark"] .maker-button-primary {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
   break-inside: avoid;
   cursor: pointer;
+}
+
+.view-small .gallery-card,
+.view-list .gallery-card {
+  display: block;
+  margin: 0;
 }
 
 .image-frame {
@@ -810,6 +902,58 @@ body[data-theme="dark"] .maker-button-primary {
   color: rgba(255, 255, 255, 0.78);
   font-size: 12px;
   font-weight: 400;
+}
+
+.list-card-body {
+  display: none;
+}
+
+.view-small .image-frame,
+.view-small .image-frame.tall,
+.view-small .image-frame.wide {
+  aspect-ratio: 1 / 1;
+  min-height: 0;
+}
+
+.view-list .gallery-card {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  align-items: center;
+  min-height: 112px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+}
+
+.view-list .image-frame,
+.view-list .image-frame.tall,
+.view-list .image-frame.wide {
+  aspect-ratio: 1 / 1;
+  min-height: 112px;
+  height: 112px;
+}
+
+.view-list .card-overlay {
+  display: none;
+}
+
+.view-list .list-card-body {
+  display: grid;
+  min-width: 0;
+  gap: 5px;
+  padding: 14px 16px;
+}
+
+.list-card-title {
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-card-body span:not(.list-card-title) {
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .placeholder {
@@ -1639,15 +1783,32 @@ body[data-theme="dark"] .site-footer {
   }
 
   .gallery-grid {
+    columns: auto;
+  }
+
+  .gallery-grid.view-large,
+  .gallery-grid.view-small {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
-    columns: auto;
   }
 
   .gallery-card {
     display: block;
     margin: 0;
+  }
+
+  .view-list .gallery-card {
+    display: grid;
+    grid-template-columns: 92px minmax(0, 1fr);
+    min-height: 92px;
+  }
+
+  .view-list .image-frame,
+  .view-list .image-frame.tall,
+  .view-list .image-frame.wide {
+    min-height: 92px;
+    height: 92px;
   }
 
   .image-frame,

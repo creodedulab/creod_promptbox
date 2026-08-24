@@ -109,6 +109,13 @@ function getWorkDirs(subcategoryDir) {
     .filter((filePath) => fs.statSync(filePath).isDirectory());
 }
 
+function getLatestModifiedAt(workDir) {
+  return fs
+    .readdirSync(workDir)
+    .map((fileName) => fs.statSync(path.join(workDir, fileName)).mtimeMs)
+    .reduce((latest, modifiedAt) => Math.max(latest, modifiedAt), fs.statSync(workDir).mtimeMs);
+}
+
 function buildItems() {
   const items = [];
 
@@ -129,6 +136,12 @@ function buildItems() {
           continue;
         }
 
+        const prompt = readTextFile(promptFile);
+        if (!prompt) {
+          console.warn(`Skipped: ${promptFile} is empty.`);
+          continue;
+        }
+
         const title = path.basename(workDir);
         const item = {
           title,
@@ -146,9 +159,10 @@ function buildItems() {
                   ? "NotebookLM"
                   : "Image AI",
           size: "",
+          updatedAt: new Date(getLatestModifiedAt(workDir)).toISOString(),
           image: imageFile ? toSitePath(imageFile) : "",
           description: getDescription(workDir),
-          prompt: readTextFile(promptFile),
+          prompt,
         };
 
         const link = getLink(workDir);

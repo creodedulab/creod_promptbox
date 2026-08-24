@@ -44,6 +44,8 @@ const categoryMap = {
 let galleryItems = [];
 let activeMainCategory = "all";
 let activeSubCategory = "all";
+let activeSortMode = "latest";
+let activeViewMode = "large";
 let selectedPrompt = "";
 let selectedVariables = [];
 let variableValues = {};
@@ -67,6 +69,8 @@ const searchForm = document.querySelector(".search-form");
 const searchInput = document.querySelector("#searchInput");
 const emptyState = document.querySelector("#emptyState");
 const resultCount = document.querySelector("#resultCount");
+const sortSelect = document.querySelector("#sortSelect");
+const viewModeButtons = document.querySelectorAll("[data-view-mode]");
 const toast = document.querySelector("#toast");
 let toastTimer;
 const promptModal = document.querySelector("#promptModal");
@@ -159,6 +163,7 @@ function openRouteFromHash() {
 function normalizeItem(item) {
   const mainCategory = item.mainCategory || item.category || "image";
   const subCategory = item.subCategory || item.category || "ad-poster";
+  const updatedAt = item.updatedAt || item.createdAt || "";
 
   return {
     title: item.title || "제목 없음",
@@ -168,12 +173,39 @@ function normalizeItem(item) {
     subCategoryLabel: item.subCategoryLabel || getSubCategoryLabel(mainCategory, subCategory),
     tool: item.tool || "Prompt",
     size: item.size || "",
+    updatedAt,
+    sortTime: Date.parse(updatedAt) || 0,
     route: item.route || `${mainCategory}/${subCategory}/${toRouteSlug(item.title || "제목 없음")}`,
     image: item.image || "",
     link: item.link || "",
     description: item.description || "",
     prompt: item.prompt || "",
   };
+}
+
+function compareByName(a, b) {
+  return a.title.localeCompare(b.title, "ko", {
+    numeric: true,
+    sensitivity: "base",
+  });
+}
+
+function sortGalleryItems(items) {
+  return [...items].sort((a, b) => {
+    if (activeSortMode === "oldest") return a.sortTime - b.sortTime || compareByName(a, b);
+    if (activeSortMode === "name-asc") return compareByName(a, b);
+    if (activeSortMode === "name-desc") return compareByName(b, a);
+    return b.sortTime - a.sortTime || compareByName(a, b);
+  });
+}
+
+function setViewMode(viewMode) {
+  activeViewMode = viewMode;
+  galleryGrid.classList.remove("view-large", "view-small", "view-list");
+  galleryGrid.classList.add(`view-${viewMode}`);
+  viewModeButtons.forEach((button) => {
+    button.classList.toggle("active", button.dataset.viewMode === viewMode);
+  });
 }
 
 async function loadGalleryItems() {
@@ -258,14 +290,14 @@ function renderSubcategoryTabs() {
 
 function renderGallery() {
   const keyword = activeSearchKeyword;
-  const filtered = galleryItems.filter((item) => {
+  const filtered = sortGalleryItems(galleryItems.filter((item) => {
     const matchesMain =
       activeMainCategory === "all" || item.mainCategory === activeMainCategory;
     const matchesSub =
       activeSubCategory === "all" || item.subCategory === activeSubCategory;
     const targetText = `${item.title} ${item.mainCategoryLabel} ${item.subCategoryLabel} ${item.description} ${item.prompt}`.toLowerCase();
     return matchesMain && matchesSub && targetText.includes(keyword);
-  });
+  }));
 
   galleryGrid.innerHTML = filtered
     .map(
@@ -281,6 +313,10 @@ function renderGallery() {
               <span class="card-title">${escapeHTML(item.title)}</span>
               <span>${escapeHTML(item.mainCategoryLabel)} / ${escapeHTML(item.subCategoryLabel)}</span>
             </div>
+          </div>
+          <div class="list-card-body">
+            <span class="list-card-title">${escapeHTML(item.title)}</span>
+            <span>${escapeHTML(item.mainCategoryLabel)} / ${escapeHTML(item.subCategoryLabel)}</span>
           </div>
         </article>
       `,
@@ -556,6 +592,7 @@ async function copyPrompt(text) {
 }
 
 loadGalleryItems();
+setViewMode(activeViewMode);
 
 mainCategoryTabs.forEach((tab) => {
   tab.addEventListener("click", () => {
@@ -581,6 +618,17 @@ searchForm?.addEventListener("submit", (event) => {
   event.preventDefault();
   activeSearchKeyword = searchInput.value.trim().toLowerCase();
   renderGallery();
+});
+
+sortSelect?.addEventListener("change", () => {
+  activeSortMode = sortSelect.value;
+  renderGallery();
+});
+
+viewModeButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    setViewMode(button.dataset.viewMode);
+  });
 });
 imageZoom?.addEventListener("input", updateImageZoom);
 modalImage?.addEventListener("wheel", (event) => {
